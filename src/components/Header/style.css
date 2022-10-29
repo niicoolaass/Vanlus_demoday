@@ -11,10 +11,11 @@
 }
 
 .header .logo img {
-    width: 31%;
-    margin-left: 15%;
-    height: 100%;
-
+    width: 26%;
+    margin-left: 20%;
+    height: 90%;
+    margin-top: 1%;
+    cursor: pointer;
 }
 
 .header .menu {
@@ -31,4 +32,9 @@
     color: #003566;
     cursor: pointer;
     padding-top: 4%;
+}
+
+.header .menu p:hover {
+    font-weight: 400;
+    color: #00519d;
 }

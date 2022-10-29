@@ -15,7 +15,7 @@ export function PrimeiroConteudo () {
 
                         <h1>Segurança no trajeto</h1>
 
-                        <h2>Lorem Ipsum is simply dummy text of. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to</h2>
+                        <h2>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to</h2>
                         
                     <div className='butoes'>
 

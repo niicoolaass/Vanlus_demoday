@@ -2,7 +2,7 @@
 
 import './style.css'
 
-import LogoVanlus from './imgs/LogoVanlus.jpeg'
+import LogoVanlus from './imgs/Logo_2.png'
 
 export function Header () {
     return(
@@ -20,10 +20,10 @@ export function Header () {
 
             <div className='menu'>
 
-            <p>INÍCIO</p>
-            <p>SOBRE NÓS</p>
-            <p>FUNCIONALIDADES</p>
-            <p>CONTATO</p>
+            <p><b>INÍCIO</b></p>
+            <p><b>SOBRE NÓS</b></p>
+            <p><b>FUNCIONALIDADES</b></p>
+            <p><b>CONTATO</b></p>
 
             </div>
 

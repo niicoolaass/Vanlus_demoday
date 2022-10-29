@@ -1,12 +1,10 @@
 /* parte gráfica e visual do first-content */
 
 .ConteudoPrincipal {
-   
     width: 100vw;
     height: 70vh;
     display: flex;
     column-gap: 2%;
-
 }
 
 .ConteudoPrincipal .PrimeiroConteudo {
@@ -17,6 +15,8 @@
     padding-left: 17%;
     padding-top: 5%;
     width: 100%;
+    margin-top: 5%;
+
 }
 
 .ConteudoPrincipal .PrimeiroConteudo h1{
@@ -44,6 +44,7 @@
     width: 35%;
     height: 40px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .ConteudoPrincipal .PrimeiroConteudo div #Login {
@@ -52,12 +53,23 @@
     font-size: medium;
 }
 
+.ConteudoPrincipal .PrimeiroConteudo div #Login:hover {
+    background-color: #ffd857;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
 .ConteudoPrincipal .PrimeiroConteudo div #Cadastrar {
     border: 1px solid #FFC300;
     color: #FFC300;
     background-color: white;
     margin-left: 5%;
     font-size: medium;
+}
+
+.ConteudoPrincipal .PrimeiroConteudo div #Cadastrar:hover {
+    transition: 0.5s;
+    font-size: 17px;
 }
 
 /*Imagem */
@@ -72,5 +84,6 @@
     height: 100%;
     margin-top: 5%;
     object-fit: cover;
+    border-radius: 25%;
 }
 

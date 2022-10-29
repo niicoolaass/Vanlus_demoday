@@ -4,4 +4,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Hitmo2.0';
+}
+
+@font-face {
+    font-family:'Hitmo2.0' ;
+    src: url('Hitmo2.0-Regular.ttf') format('truetype');
+    
+}
+
+@font-face {
+    font-family: 'Titulo';
+    src: url('Hitmo2.0-Bold.ttf') format('truetype');
+    
 }

@@ -21,8 +21,9 @@
 
 .ConteudoPrincipal .PrimeiroConteudo h1{
     color: #003566;
-    font-family: 'Inter';
+    font-family:'Hitmo2.0';
     padding-left: 15%;
+    
 }
 
 .ConteudoPrincipal .PrimeiroConteudo h2{
@@ -30,7 +31,7 @@
     padding-left: 15%;
     width: 80%;
     font-weight: 400;
-    font-family: 'Inter';
+    font-family: 'Hitmo2.0';
 }
 .ConteudoPrincipal .PrimeiroConteudo button {
     margin-top: 5% ;

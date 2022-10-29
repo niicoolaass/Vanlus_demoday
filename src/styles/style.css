@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 2fr auto;
+}
+
+header {
+    padding: 1rem;
+}
+
+footer {
+    padding: 2rem;
+    text-align: center;
+    background: blue;
+}

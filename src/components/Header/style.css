@@ -3,7 +3,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    height: 14checkoutvh;
+    height: 14%;
     width: 100%;
 }
 
@@ -15,7 +15,11 @@
 }
 
 .header .logo img {
-    object-fit: fill;
+    width: 26%;
+    margin-left: 20%;
+    height: 90%;
+    margin-top: 1%;
+    cursor: pointer;
 }
 
 .header .menu {
@@ -32,5 +36,10 @@
     font-size: clamp(0.3em, 0.5em + 0.5vw, 1em);;
     color: #003566;
     cursor: pointer;
-    text-align: center;
+    padding-top: 4%;
+}
+
+.header .menu p:hover {
+    font-weight: 400;
+    color: #00519d;
 }

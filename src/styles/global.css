@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
     font-family: 'Hitmo2.0';
     border: none;
     border-bottom: none;
@@ -19,6 +20,11 @@
     font-family: 'Titulo';
     src: url('Hitmo2.0-Bold.ttf') format('truetype');
     
+}
+
+@font-face {
+    font-family: 'sub-titulo';
+    src: url('Hitmo2.0-Light.ttf') format('truetype');
 }
 
 html, body, #root {

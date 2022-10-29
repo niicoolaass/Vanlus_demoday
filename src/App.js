@@ -1,5 +1,6 @@
 import { PrimeiroConteudo } from "./components/First-content";
 import { Header } from "./components/Header";
+import { SegundoConteudo } from "./components/Second-content";
 import "./styles/style.css";
 
 function App() {
@@ -10,9 +11,7 @@ function App() {
       </header>
       <main>
         <PrimeiroConteudo />
-        <PrimeiroConteudo />
-        <PrimeiroConteudo />
-        <PrimeiroConteudo />
+        <SegundoConteudo />
       </main>
       <footer>
         <p>akjshkjahskajhskjahs</p>

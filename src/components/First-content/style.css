@@ -10,7 +10,7 @@
 }
 
 .ConteudoPrincipal .PrimeiroConteudo {
-    width: 40vw;  
+    width: 45vw;  
 }
 
 .ConteudoPrincipal .PrimeiroConteudo div{
@@ -33,19 +33,44 @@
     font-weight: 400;
     font-family: 'Hitmo2.0';
 }
-.ConteudoPrincipal .PrimeiroConteudo button {
-    margin-top: 5% ;
-    margin-left: 15%;
+
+.ConteudoPrincipal .PrimeiroConteudo div .butoes{
+    margin-top: 0% ;
+    margin-left: -2%;
 }
 
+.ConteudoPrincipal .PrimeiroConteudo div .butoes button {
+    border: none;
+    width: 35%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.ConteudoPrincipal .PrimeiroConteudo div #Login {
+    background-color: #FFC300;
+    color: white;
+    font-size: medium;
+}
+
+.ConteudoPrincipal .PrimeiroConteudo div #Cadastrar {
+    border: 1px solid #FFC300;
+    color: #FFC300;
+    background-color: white;
+    margin-left: 5%;
+    font-size: medium;
+}
+
+/*Imagem */
+
 .ConteudoPrincipal .SegundoConteudo {
-    width: 60vw;
+    width: 55vw;
     height: 100%;
 }
 
 .ConteudoPrincipal .SegundoConteudo img{
-    width: 70%;
+    width: 90%;
     height: 100%;
-
+    margin-top: 5%;
+    object-fit: cover;
 }
 

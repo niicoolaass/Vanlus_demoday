@@ -1,5 +1,5 @@
 // criação da estrutura do componente first-content
-import Vanescolar from './imgs/vanescolar.png'
+import Vanescolar from './imgs/Bus.png'
 
 import './style.css'
 
@@ -15,12 +15,15 @@ export function PrimeiroConteudo () {
 
                         <h1>Segurança no trajeto</h1>
 
-                        <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to</h2>
+                        <h2>Lorem Ipsum is simply dummy text of. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to</h2>
                         
-                        <button>CADASTRAR</button>
+                    <div className='butoes'>
 
-                        <button>LOGIN</button>
+                        <button id='Login'><b>LOGIN</b></button>
 
+                        <button id='Cadastrar'><b>CADASTRE-SE</b></button>
+
+                    </div>
 
 
                     </div>

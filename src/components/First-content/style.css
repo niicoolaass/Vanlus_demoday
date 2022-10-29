@@ -1,1 +1,50 @@
 /* parte gráfica e visual do first-content */
+
+.ConteudoPrincipal {
+   
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    column-gap: 2%;
+
+}
+
+.ConteudoPrincipal .PrimeiroConteudo {
+    width: 40vw;  
+}
+
+.ConteudoPrincipal .PrimeiroConteudo div{
+    padding-left: 17%;
+    padding-top: 5%;
+    width: 100%;
+}
+
+.ConteudoPrincipal .PrimeiroConteudo h1{
+    color: #003566;
+    font-family: 'Inter';
+    padding-left: 15%;
+}
+
+.ConteudoPrincipal .PrimeiroConteudo h2{
+    padding-top: 2%;
+    padding-left: 15%;
+    width: 80%;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+.ConteudoPrincipal .PrimeiroConteudo button {
+    margin-top: 5% ;
+    margin-left: 15%;
+}
+
+.ConteudoPrincipal .SegundoConteudo {
+    width: 60vw;
+    height: 100%;
+}
+
+.ConteudoPrincipal .SegundoConteudo img{
+    width: 70%;
+    height: 100%;
+
+}
+

@@ -1,1 +1,36 @@
 /* parte gráfica e visual do header */
+
+.header {
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+}
+
+.header .logo {
+    width: 50vw;
+}
+
+.header .logo img {
+    width: 31%;
+    margin-left: 15%;
+    height: 100%;
+
+}
+
+.header .menu {
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+    margin-right: 5%;
+
+}
+
+.header .menu p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(0.3em, 0.5em + 0.5vw, 1em);;
+    color: #003566;
+    cursor: pointer;
+    padding-top: 4%;
+}

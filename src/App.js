@@ -13,9 +13,6 @@ function App() {
         <PrimeiroConteudo />
         <SegundoConteudo />
       </main>
-      <footer>
-        <p>akjshkjahskajhskjahs</p>
-      </footer> 
     </> 
   );
 }

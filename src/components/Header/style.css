@@ -3,22 +3,21 @@
 .header {
     display: flex;
     justify-content: space-between;
-    height: 14%;
+    height: 14vh;
     width: 100%;
+    padding: 1px;
+    border: 1px solid rgb(240, 234, 234);
+    margin-bottom: 10px;
 }
 
 .header .logo {
     display: flex;
     width: 15%;
     height: 100%;
-    margin-left: 10%;
+    padding-left: 8%;
 }
 
 .header .logo img {
-    width: 26%;
-    margin-left: 20%;
-    height: 90%;
-    margin-top: 1%;
     cursor: pointer;
 }
 
@@ -33,13 +32,13 @@
 
 .header .menu p {
     font-family: 'Hitmo2.0';
-    font-size: clamp(0.3em, 0.5em + 0.5vw, 1em);;
+    font-size: clamp(0.3em, 0.5em + 0.5vw, 1em);
     color: #003566;
     cursor: pointer;
-    padding-top: 4%;
+    transition: all 1s;
 }
 
 .header .menu p:hover {
-    font-weight: 400;
+    font-size: 17px;
     color: #00519d;
 }

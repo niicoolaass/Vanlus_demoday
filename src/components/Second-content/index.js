@@ -7,7 +7,7 @@ export function SegundoConteudo () {
 
         <>
 
-            <section>
+            <div id='SegundoConteudo'>
         
                 <div className='parteAzul'>
 
@@ -68,7 +68,7 @@ export function SegundoConteudo () {
 
                     <div id='tio'>
 
-                        <img src={TioRubens} alt=''/>
+                        <img src={TioRubens} alt='Tio de Van Escolar'/>
 
                     </div>
 
@@ -80,9 +80,9 @@ export function SegundoConteudo () {
                         
                         </span>
 
-                    </div>  
+                </div>  
         
-            </section>
+            </div>
         </>
 
     )

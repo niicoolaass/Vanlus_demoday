@@ -35,7 +35,7 @@
     font-size: clamp(0.3em, 0.5em + 0.5vw, 1em);
     color: #003566;
     cursor: pointer;
-    transition: all 1s;
+    transition:all 1s;
 }
 
 .header .menu p:hover {

@@ -1,18 +1,15 @@
 import { PrimeiroConteudo } from "./components/First-content";
 import { Header } from "./components/Header";
 import { SegundoConteudo } from "./components/Second-content";
-import "./styles/style.css";
+import { SobreNós } from "./components/Sobre-nos";
 
 function App() {
   return (
     <>
-      <header>
         <Header /> 
-      </header>
-      <main>
         <PrimeiroConteudo />
         <SegundoConteudo />
-      </main>
+        <SobreNós />
     </> 
   );
 }

@@ -1,8 +1,9 @@
 /* parte gráfica e visual do second-content */
 
-section{
+#SegundoConteudo{
     width: 100vw;
     height: 700px;
+    margin-bottom: 25%;
 }
 
 .parteAzul {
@@ -60,7 +61,7 @@ section{
     width: 100%;
     height: 50%;
     display: flex;
-    margin-top: 4%;
+    margin-top: 1%;
 }
 
 .paraCondutor #tio {

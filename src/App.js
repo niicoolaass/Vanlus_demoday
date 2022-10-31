@@ -1,4 +1,5 @@
 import { PrimeiroConteudo } from "./components/First-content";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { SegundoConteudo } from "./components/Second-content";
 import { SobreNós } from "./components/Sobre-nos";
@@ -10,6 +11,7 @@ function App() {
         <PrimeiroConteudo />
         <SegundoConteudo />
         <SobreNós />
+        <Footer />
     </> 
   );
 }

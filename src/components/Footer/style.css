@@ -1,0 +1,42 @@
+#footer{
+    background-color: #0C0C0C;
+    width: 100vw;
+    height: 50vh;
+    margin-top: 265px;
+    display: flex;
+} 
+
+#footer .footer {
+    padding-left: 13%;
+    width: 25%;
+}
+
+#footer .footer img{
+    width: 55%;
+    object-fit: cover;
+    padding-top: 12%;
+}
+
+#footer .footer p, #footer .footer h2  {
+    color: white;
+    padding-top: 2%;
+}
+
+#footer .footer p{
+    padding-top: 12%;
+    cursor: pointer;
+    
+}
+
+#footer #links {
+    padding-top: 8%;
+}
+
+#footer #redesSociais {
+    padding-top: 8%;
+}
+
+#footer #redesSociais h2 {
+    padding-top: 5%;
+    cursor: pointer;
+}

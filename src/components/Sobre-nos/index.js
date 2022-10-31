@@ -42,52 +42,60 @@ export function SobreNós () {
                         <div>
 
                             <img src={Lucao} alt=''/>
-                            <p>descrição de cada um</p>
+                            <h1>Lucas Migliorini</h1>
+                            <p>P.O. e responsável pelo Banco de Dados</p>
                         
                         </div>
 
                         <div>
 
-                            <img src={Mi} alt=''/>
-                            <p>descrição de cada um</p>
+                            <img src={Fe} alt=''/>
+                            <h1>Fernanda Honorato</h1>
+                            <p>Scrum Master e responsável pelo Banco de Dados</p>
 
-                        </div>    
-                    
+                        </div>
+
                         <div>
 
                             <img src={Cris} alt=''/>
-                            <p>descrição de cada um</p>
+                            <h1>Cristhian</h1>
+                            <p>Design e Desenvolvedor Front-End</p>
 
-                        </div>        
+                        </div>
+
+                        <div>
+
+                            <img src={Mi} alt=''/>
+                            <h1>Mirella</h1>
+                            <p>Desenvolvedora Front-End</p>
+
+                        </div>                            
+
+                        <div>
+
+                            <img src={Nick} alt=''/>
+                            <h1>Nicolas</h1>
+                            <p>Desenvolvedor Front-End</p>
+                        
+                        </div>         
                         
                         <div>
 
                             <img src={Gabz} alt=''/>
-                            <p>descrição de cada um</p>
+                            <h1>Gabriel Romão</h1>
+                            <p>Desenvolvedor Back-End</p>
 
                         </div>
 
                         <div>
 
                             <img src={Emissu} alt=''/>
-                            <p>descrição de cada um</p>
+                            <h1>Emerson Sebastião</h1>
+                            <p>Desenvolvedor Back-End</p>
 
                         </div>    
                     
-                        <div>
-
-                            <img src={Fe} alt=''/>
-                            <p>descrição de cada um</p>
-
-                        </div>
-
-                        <div>
-
-                            <img src={Nick} alt=''/>
-                            <p>descrição de cada um</p>
-                        
-                        </div> 
-                
+                    
                     </div>
 
             </section>

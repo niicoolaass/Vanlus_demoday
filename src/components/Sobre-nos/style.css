@@ -61,10 +61,14 @@
 #membros div img{
     object-fit: cover;
     cursor: pointer;
-    width: 80%;
+    width: 60%;
 }
 
-#membros div img:hover {
+/* #membros div img:hover {
     width: 130px;
     transition: 1s;
+} */
+
+#membros div p {
+    padding-top: 2%;
 }

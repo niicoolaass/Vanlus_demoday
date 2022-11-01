@@ -1,7 +1,7 @@
 /* parte gráfica e visual do first-content */
 
 .ConteudoPrincipal {
-    width: 100vw;
+    width: 100%;
     height: 70vh;
     display: flex;
     column-gap: 2%;

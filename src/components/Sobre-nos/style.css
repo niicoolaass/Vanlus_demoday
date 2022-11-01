@@ -1,74 +1,110 @@
 #sobreNos{
-    height: 60vh;
-    width: 100vw;
-    padding-top: 2%;
-    background-color: #FFC300;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 95vh;
+    width: 100%;
+    padding: 4% 2%;
+    background-color: var(--amarelo-forte-vanlus);
+    gap: 0 7%;
 }
 
 #sobreNos .SubTitulo {
-    width: 50%;
+    width: 100%;
     height: 25%;
     padding-left: 15%;
+    text-align: start;
 
 }
 
 #sobreNos .SubTitulo p {
     padding-top: 1%;
+    width: 40%;
 }
 
 /*carrosel*/
 
 #carrossel {
     height: 50%;
-    width: 86%;
+    width: 76%;
     display: flex;
-    margin-top: 3%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
-#carrossel #imgDeAlgumaCoisa {
-    background-color: #D9D9D9;
-    width: 60%;
-    height: 80%;
+
+#carrossel .item {
+    display: flex;
+    flex: none;
+    height: 100%;
+    width: 100%;
+    gap: 0 6%;
+}
+
+#carrossel .item .img_sobre {
+    
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-around;
+    width: 25%;
+    height: 70%;
+    
+}
+
+#carrossel .item .img_sobre .imagem-sobre {
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-    margin-left: 8%;
+    object-fit: cover;
 }
 
-#carrossel span {
-    margin-left: 5%;
-
+#carrosel .item, .info_sobre {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 
-#carrossel span p{
-    margin-top: 2%;
-}
 
-/*A gente*/
-
-#membros {
+#carrosel .item, .info_sobre .descricao_sobre {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 80%;
-    background-color: #FFC300;
+    margin-top: 10px;
+    line-height: 1.5rem;
+}
+
+#carrosel .item, .info_sobre .descricao_sobre p {
     display: flex;
-    gap: 1%;
-    padding-left: 10%;
-    padding-top: 3%;
+    flex-wrap: wrap;
+    font-size: 18px;
+    text-align: start;
 }
 
-#membros div {
-    width: 12%;
+#carrosel .item, .botao_esquerda {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 5%;
+    
 }
 
-#membros div img{
-    object-fit: cover;
+#carrosel .item, .botao_esquerda button {
     cursor: pointer;
-    width: 60%;
+    background: none;
 }
 
-/* #membros div img:hover {
-    width: 130px;
-    transition: 1s;
-} */
 
-#membros div p {
-    padding-top: 2%;
+#carrosel, .botao_direita {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 5%;
+}
+
+#carrosel .item, .botao_direita button {
+    cursor: pointer;
+    background: none;
 }

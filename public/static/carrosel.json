@@ -1,0 +1,45 @@
+[
+    {
+      "id": "94313731",
+      "name": "Lucas Migliorini" ,
+      "sobre": "Eu sou um cara divertido e musculoso tlgd né pois sabe como é um dia da caça e outro do caçador",
+      "image": ".././static/image/Lucao.png"
+    },
+    {
+      "id": "94313762",
+      "name": "Fernanda Honorato",
+      "sobre": 249.99,
+      "image": ".././static/image/Fe.png"
+    },
+    
+    { 
+      "id": "943137XQ",
+      "name": "Emerson Sebastião",
+      "sobre": 249.99,
+      "image": ".././static/image/Emissu.png"
+    },
+    {
+      "id": "95077714",
+      "name": "Gabriel Romão",
+      "sobre": 199.99,
+      "image": ".././static/image/Gabz.png"
+    },
+    {
+      "id": "9507779N",
+      "name": "Nicolas Vieira",
+      "sobre": 199.99,
+      "image": ".././static/image/Nick.png"
+    },
+    {
+      "id": "92601102",
+      "name": "Mirella Alves",
+      "sobre": 449.99,
+      "image": ".././static/image/Mirelinha.png"
+    },
+    {
+      "id": "9465450R",
+      "name": "Cristhian de Souza",
+      "sobre": 279.99,
+      "image": ".././static/image/Cris.png"
+    }
+  ]

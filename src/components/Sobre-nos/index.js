@@ -6,7 +6,6 @@ import { useEffect, useState, useRef } from 'react'
 
 
 export function SobreNós () {
-//olá
     const [data, setData] = useState([])
     const carrossel = useRef(null);
 
@@ -32,13 +31,13 @@ export function SobreNós () {
         carrossel.current.scrollLeft += carrossel.current.offsetWidth;
     }
 
-    if(!data || !data.length) return null;//olá
+    if(!data || !data.length) return null;
     return(
 
         <>
             <div id='sobreNos'>  
 
-                    <div className='SubTitulo'>//olá
+                    <div className='SubTitulo'>
 
                         <h2>Sobre nós</h2>
                         <p>O que somos? Quem somos? O que fazemos? Conheça nossa história e descobrirá.</p>

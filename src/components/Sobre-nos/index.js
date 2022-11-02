@@ -21,6 +21,9 @@ export function SobreNós () {
         e.preventDefault();
 
         carrossel.current.scrollLeft -= carrossel.current.offsetWidth;
+
+
+        
     }
 
     const handleRigthClick = (e) => {

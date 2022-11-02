@@ -6,8 +6,19 @@ import Emissu from './imgs/Emissu.png'
 import Nick from './imgs/Nick.png'
 import Gabz from './imgs/Gabz.png'
 import Cris from './imgs/Cris.png'
+import { motion } from 'framer-motion'
+import { useState, useEffect, useRef } from 'react'
 
 export function SobreNós () {
+
+    const carrossel = useRef();
+    const [width, setWidth] = useState (0)
+
+    useEffect (() => {
+        console.log (carrossel.current?.scrollWidth, carrossel.current?.offsetWidth)
+        setWidth(carrossel.current?.scrollWidth - carrossel.current?.offsetWidth)
+    }, [])
+
     return(
 
         <>
@@ -20,7 +31,9 @@ export function SobreNós () {
 
                     </div>
 
-                    <div id='carrossel'>
+                    <motion.div ref={carrossel} id='carrossel' whileTap={{ cursor: "grabbing"}}>
+                        
+                        <motion.div className='itemCarrossel' drag="x" dragConstraints={{ right: 0, left: -width}}>
 
                         <div id='imgDeAlgumaCoisa'>
 
@@ -34,8 +47,11 @@ export function SobreNós () {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus, lacus et posuere varius, turpis lorem tempor tortor, vel molestie arcu ex id mi. Nullam eu nisi tellus. Donec aliquet lacus in neque hendrerit sagittis. Maecenas et tempor ex. Maecenas ac velit vitae quam pretium euismod ut eu libero. Cras vestibulum, leo a accumsan mattis, quam elit consectetur justo, sed luctus dolor nisi vitae urna. Ut egestas ornare sapien, condimentum eleifend enim tincidunt sit amet.</p>
                     
                         </span>
+                        
 
-                    </div>
+                        </motion.div>
+
+                    </motion.div>
 
                     <div id='membros'>
                     

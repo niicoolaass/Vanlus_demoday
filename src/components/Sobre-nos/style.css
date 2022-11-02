@@ -1,6 +1,7 @@
 #sobreNos{
     height: 60vh;
-    width: 100vw;
+    width: 100%;
+    
     padding-top: 2%;
     background-color: #FFC300;
 }
@@ -23,11 +24,19 @@
     width: 86%;
     display: flex;
     margin-top: 3%;
+    cursor: grab;
+    overflow: hidden;
+}
+
+.itemCarrossel{
+    display: flex;
+    max-width: 1427px;
+    width: 100%;
 }
 
 #carrossel #imgDeAlgumaCoisa {
     background-color: #D9D9D9;
-    width: 60%;
+    width:60%;
     height: 80%;
     border-radius: 50%;
     margin-left: 8%;

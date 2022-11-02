@@ -72,9 +72,7 @@ export function SobreNós () {
                                 <p>{sobre}</p>                           
                                 </div>
                             </div>
-                            
-                           
-                            
+       
                         </div>
                             );
                         })}

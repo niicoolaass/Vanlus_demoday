@@ -72,6 +72,10 @@
     font-size: medium;
 }
 
+.ConteudoPrincipal .PrimeiroConteudo div #Cadastrar b {
+    color: var(--amarelo-forte-vanlus);
+}
+
 .ConteudoPrincipal .PrimeiroConteudo div #Cadastrar:hover {
     transition: 0.5s;
     font-size: 17px;

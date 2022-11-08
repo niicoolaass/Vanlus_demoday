@@ -47,7 +47,7 @@
     transition: all 400ms;
 }
 
-input:hover{
+#formulario-login input:hover{
     background-color: rgb(226, 226, 226);
 }
 

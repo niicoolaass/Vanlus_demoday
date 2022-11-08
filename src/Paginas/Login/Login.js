@@ -1,7 +1,6 @@
 import './Login.css'
 import icon from '../../styles/imgs/Logo 3.png'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
-import { AiOutlineMail } from 'react-icons/ai'
 
 
 function Login () {
@@ -16,12 +15,10 @@ function Login () {
                 
             <form id='formulario-login'>
                 <label className='email'> 
-                    {/* { <AiOutlineMail />} */}
                     <input type="email" name="email" placeholder= 'Email*'/>
                 </label>
 
                 <label className='senha'>
-                    {/* <GiPadlock /> */}
                 <input type="password" name="password" placeholder='Senha*' />
                 </label>
 

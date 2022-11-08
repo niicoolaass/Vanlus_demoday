@@ -2,13 +2,12 @@ import Logo from '../../../../styles/imgs/Logo 3.png'
 import './DadosCondutor.css'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 
-export function DadosCondutor () {
+export function DadosCondutor1 () {
     return (
 
         <>
-            <section>
                 
-                <div id="LadoEsquerdo">
+                <div className="LadoEsquerdo">
 
                     <div className="containerEsquerdo">
 
@@ -18,15 +17,19 @@ export function DadosCondutor () {
 
                         </div>
 
+                        <h2>Cadastre-se</h2>
+
                         <div className='DadosBasicos'>
+            
+                            <form id='cadastro-condutor1'>
 
-                            <h2>Cadastre-se</h2>
+                                <input type="email" name="email" placeholder= '*Informe um email'/>
 
-                            <input type="email" name="email" placeholder= '*Informe um email'/>
+                                <input type="text" name="Nome Completo" placeholder= "*Seu nome completo"/>
 
-                            <input type="text" name="Nome Completo" placeholder= "*Informe seu nome completo"/>
+                                <input type="password" name="senha" placeholder= "*Informe uma senha"/> 
 
-                            <input type="password" name="senha" placeholder= "*Informe uma senha"/> 
+                            </form>
 
                         </div>
 
@@ -39,11 +42,7 @@ export function DadosCondutor () {
 
                     </div>
 
-
-
                 </div>
-        
-            </section>
         </>
 
     )

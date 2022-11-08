@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: rgb(245, 245, 245);
+}
+
+.login-logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 165px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.container{
+    background: white;
+    margin-top: 15vh;
+    margin-left: 10%;
+    width: 450px;
+    height: 650px;
+    border-radius: 10px;
+    box-shadow: 8px 13px 15px 5px #FFD60A;
+}
+
+.t-login{
+    font-size: 10px;
+    margin-left: 40px;
+    cursor: default;
+}
+
+input{
+    background-color: #d6d6d6;
+    width: 80%;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 5px;
+    transition: all 400ms;
+}
+
+input:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+input:focus{
+    outline: 0;
+    font-size: 16px;
+}
+
+.esqueceu-senha{
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.esqueceu-senha a{
+    color: #003566;
+    transition: all 400ms;
+}
+
+.esqueceu-senha a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.enviar{
+    color: #FFD60A;
+    background: black;
+    width: 0px;
+    margin-top: 150px;
+    margin-left: 180px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    color: #FFC300;
+}

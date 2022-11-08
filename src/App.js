@@ -1,6 +1,6 @@
 import {Routes,Route} from 'react-router-dom'
 import Home from './Paginas/Home/Home.js'
-import Login from './Paginas/page2/Login.js';
+import Login from './Paginas/LoginResp/Login.js';
 
 function App () {
 
@@ -8,7 +8,7 @@ function App () {
         <>
             <Routes>
                 <Route path='/' element={<Home />}/>
-                <Route path='/page2' element={<Login />}/>
+                <Route path='/Login' element={<Login />}/>
             </Routes>
         </>
     )

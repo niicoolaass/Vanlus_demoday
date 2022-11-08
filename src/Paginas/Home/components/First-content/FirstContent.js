@@ -1,8 +1,9 @@
 // criação da estrutura do componente first-content
 import Vanescolar from './imgs/Bus.png'
 import { motion } from 'framer-motion'
-
-import './style.css'
+import Login from '../../../page2/Login.js'
+import { Link } from 'react-router-dom'
+import './FirstContent.css'
 
 export function PrimeiroConteudo () {
     return (
@@ -20,7 +21,7 @@ export function PrimeiroConteudo () {
                         
                     <div className='botoes'>
 
-                        <button id='Login'><b>LOGIN</b></button>
+                        <button id='Login'><Link to='/page2' elements={Login}><b>LOGIN</b></Link></button> 
 
                         <button id='Cadastrar'><b>CADASTRE-SE</b></button>
 

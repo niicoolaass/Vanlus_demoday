@@ -1,4 +1,4 @@
-import './style.css'
+import './SobreNos.css'
 import { IconContext } from 'react-icons/lib'
 import { AiOutlineDoubleLeft, AiOutlineDoubleRight } from 'react-icons/ai'
 import { useEffect, useState, useRef } from 'react'
@@ -6,6 +6,7 @@ import { useEffect, useState, useRef } from 'react'
 
 
 export function SobreNós () {
+
     const [data, setData] = useState([])
     const carrossel = useRef(null);
 

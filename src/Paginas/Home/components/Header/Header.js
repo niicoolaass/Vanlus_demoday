@@ -1,6 +1,6 @@
 // criação da estrutura do componente header
 
-import './style.css'
+import './Header.css'
 
 import LogoVanlus from './imgs/Logo_2.png'
 

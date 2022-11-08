@@ -1,19 +1,20 @@
-import { PrimeiroConteudo } from "./components/First-content";
-import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
-import { SegundoConteudo } from "./components/Second-content";
-import { SobreNós } from "./components/Sobre-nos";
+import {Routes,Route,Link} from 'react-router-dom'
+import Home from './Paginas/Home/Home.js'
+import Login from './Paginas/page2/Login.js';
 
-function App() {
-  return (
-    <>
-        <Header /> 
-        <PrimeiroConteudo />
-        <SegundoConteudo />
-        <SobreNós />
-        <Footer />
-    </> 
-  );
+function App () {
+    return(
+
+        <>
+            
+            <Routes>
+                <Route path='/Home' element={<Home />}/>
+                <Route path='/page2' element={<Login />}/>
+            </Routes>
+
+        </>
+
+    )
 }
 
-export default App;
+export default App;         

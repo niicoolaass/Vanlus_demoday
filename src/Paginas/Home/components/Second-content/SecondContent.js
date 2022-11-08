@@ -1,5 +1,5 @@
 // criação da estrutura do componente second-content 'O que ofereceomos?'
-import './style.css'
+import './SecondContent.css'
 import TioRubens from './imgs/TioRubens.jpeg'
 
 export function SegundoConteudo () {

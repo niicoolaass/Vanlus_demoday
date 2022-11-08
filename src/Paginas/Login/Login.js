@@ -1,11 +1,12 @@
-import './Login.css';
+import './Login.css'
 import icon from '../../styles/imgs/Logo 3.png'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
+import { AiOutlineMail } from 'react-icons/ai'
 
 
 function Login () {
     return (
-        <div className="Login">
+        <div id="container-login">
             <div className='container'>
                 <img className='login-logo' src={icon} alt='Vanlus'/>
             
@@ -13,9 +14,9 @@ function Login () {
                 <h1>LOGIN</h1>
             </div>
                 
-            <form>
+            <form id='formulario-login'>
                 <label className='email'> 
-                    {/* <AiOutlineMail />                    */}
+                    {/* { <AiOutlineMail />} */}
                     <input type="email" name="email" placeholder= 'Email*'/>
                 </label>
 
@@ -28,9 +29,9 @@ function Login () {
                     <a href='/#'>Esqueceu a senha?</a>
                 </div>
 
-                <div className='enviar'>
+                <section className='enviar'>
                     <BsFillArrowRightCircleFill size={65}/>
-                </div>                
+                </section>                
             </form>
 
             </div>

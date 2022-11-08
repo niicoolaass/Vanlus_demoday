@@ -1,7 +1,7 @@
 // criação da estrutura do componente first-content
 import Vanescolar from './imgs/Bus.png'
 import { motion } from 'framer-motion'
-import Login from '../../../LoginResp/Login.js'
+import Login from '../../../Login/Login.js'
 import { Link } from 'react-router-dom'
 import './FirstContent.css'
 

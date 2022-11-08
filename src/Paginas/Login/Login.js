@@ -1,11 +1,15 @@
 import './Login.css'
 import icon from '../../styles/imgs/Logo 3.png'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
-import { AiOutlineMail } from 'react-icons/ai'
+import pintada from './imgs/mao_pintada.png'
 
 
 function Login () {
     return (
+        <>
+        <div className='imagem-fundo'>
+                <img src= {pintada} alt="foto-fundo" />
+        </div>
         <div id="container-login">
             <div className='container'>
                 <img className='login-logo' src={icon} alt='Vanlus'/>
@@ -14,14 +18,14 @@ function Login () {
                 <h1>LOGIN</h1>
             </div>
                 
-            <form id='formulario-login'>
+            <form id="formulario-login">
                 <label className='email'> 
-                    {/* { <AiOutlineMail />} */}
+                    
                     <input type="email" name="email" placeholder= 'Email*'/>
                 </label>
 
                 <label className='senha'>
-                    {/* <GiPadlock /> */}
+                  
                 <input type="password" name="password" placeholder='Senha*' />
                 </label>
 
@@ -36,6 +40,7 @@ function Login () {
 
             </div>
         </div>
+        </>
     );
 }
 

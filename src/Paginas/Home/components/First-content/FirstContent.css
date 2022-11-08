@@ -51,6 +51,11 @@
     background-color: #FFC300;
     color: white;
     font-size: medium;
+    text-decoration: none;
+}
+
+.ConteudoPrincipal .PrimeiroConteudo div #Login b {
+    color: white;
 }
 
 .ConteudoPrincipal .PrimeiroConteudo div #Login:hover {

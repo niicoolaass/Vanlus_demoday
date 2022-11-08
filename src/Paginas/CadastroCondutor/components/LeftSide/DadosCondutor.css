@@ -1,0 +1,77 @@
+
+.LadoEsquerdo {             /*Pai de todos*/
+    width: 45%;
+    height: 100%;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.LadoEsquerdo .containerEsquerdo {  /*Lado Esquerdo*/
+    width: 70%;
+    height: 94%;
+    border-radius: 10px;
+    box-shadow: 30px 20px 50px #FFD60A;
+}
+
+.LadoEsquerdo .containerEsquerdo .cabeçalho {
+    width: 100%;
+    height: 20%;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.LadoEsquerdo .containerEsquerdo .cabeçalho img {
+    height: 80%;
+    padding-top: 5%;
+}
+
+.LadoEsquerdo h2{
+    padding-left: 30%;
+    padding-top: 5%;
+}
+
+                                /*Dados necessários*/
+
+
+.LadoEsquerdo .DadosBasicos{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#cadastro-condutor1 input{
+    background-color: #d6d6d6;
+    border: none;
+    width: 80%;
+    height: 45px;
+    margin-left: 11%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-left: 5%;
+}
+
+.LadoEsquerdo .DadosBasicos #cadastro-condutor1 input:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+.LadoEsquerdo .progressao{
+    
+    width: 100%;
+}
+
+.LadoEsquerdo .progressao .enviar {
+    cursor: pointer;
+    transition: all 400ms;
+    color: #FFD60A;
+}
+
+
+.LadoEsquerdo .progressao .enviar:hover {
+    color: #FFC300;
+}
+

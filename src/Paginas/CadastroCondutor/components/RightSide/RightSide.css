@@ -1,0 +1,10 @@
+.LadoDireito {
+    width: 55%;
+    height: 100%;
+    display: flex;
+}
+
+.LadoDireito img {
+    width: 100%;
+    object-fit: cover;
+}

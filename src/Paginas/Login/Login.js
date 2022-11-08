@@ -20,12 +20,10 @@ function Login () {
                 
             <form id="formulario-login">
                 <label className='email'> 
-                    
                     <input type="email" name="email" placeholder= 'Email*'/>
                 </label>
 
                 <label className='senha'>
-                  
                 <input type="password" name="password" placeholder='Senha*' />
                 </label>
 

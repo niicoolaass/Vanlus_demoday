@@ -25,11 +25,21 @@ export function DadosCondutor () {
             
                             <form id='cadastro-condutor1'>
 
-                                <input type="email" name="email" placeholder= '*Informe um email'/>
+                                <input type="email" name="email" placeholder= '*Informe um email'
+                                {...register("email")}
+                                />
 
                                 <input type="text" name="Nome Completo" placeholder= "*Seu nome completo"/>
+                                {...register("nome")}
+                                <input type="password" name="senha" placeholder= "*Crie uma senha"/> 
+                                
+                                <input type="password" name="senha" placeholder= "*Confirme sua senha"/>
 
-                                <input type="password" name="senha" placeholder= "*Informe uma senha"/> 
+                                <section className='proximo'>
+
+                                    <BsFillArrowRightCircleFill size={65} id='next1' />
+
+                                </section>
 
                             </form>
 

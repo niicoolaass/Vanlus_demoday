@@ -1,6 +1,6 @@
 import Logo from '../../../../styles/imgs/Logo 3.png'
 import './DadosCondutor.css'
-import Crianca from '../RightSide/imgs/crianca.png'
+import Crianca from './imgs/crianca.png'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 export function DadosCondutor1 () {
@@ -61,4 +61,17 @@ export function DadosCondutor1 () {
         </>
 
     )
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

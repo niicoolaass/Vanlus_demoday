@@ -7,6 +7,11 @@
     display: flex;
 }
 
+
+
+
+
+
 .LadoEsquerdo .containerEsquerdo {  /*Lado Esquerdo*/
     display: flex;
     flex-direction: column;

@@ -1,14 +1,12 @@
-import {DadosCondutor1} from "./components/LeftSide/DadosCondutor"
-import './CadastroCondutor.css'
+import { DadosCondutor } from "./components/LeftSide/DadosCondutor";
+
 
 function CadastroCondutor () {
 
     return(
 
         <>  
-            <div id="CadastroCondutor">
-                <DadosCondutor1 />   
-            </div>
+                <DadosCondutor/>
         </>
 
 

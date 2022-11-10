@@ -1,112 +1,103 @@
-
-.LadoEsquerdo {             /*Pai de todos*/
-    width: 30%;
-    height: 100%;
-    margin-left: 10%;
-    margin-top: 5vh;
+section { /*Pai de todos*/
     display: flex;
+}
+
+.LadoEsquerdo {             
+    width: 45vw;
+    height: 100vh;
+    padding-left: 8%;
+    padding-top: 3%;
+    z-index: 10;
 }
 
 .LadoEsquerdo .containerEsquerdo {  /*Lado Esquerdo*/
-    display: flex;
-    flex-direction: column;
-    background: white;
+    width: 85%;
+    height: 94%;
+    border-radius: 10px;
+    box-shadow: 30px 20px 50px #FFD60A;
+}
+
+.LadoEsquerdo .containerEsquerdo .cabeçalho {
     width: 100%;
-    height: 100%;
-    border-radius: 10px; 
-    box-shadow: 8px 13px 15px 5px var(--amarelo-fraco-vanlus);
-    z-index: 10;
-    padding: 10px;
+    height: 20%;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
-.cadastro-logo {
-    width: 100px;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    margin-bottom: 15px; 
+.LadoEsquerdo .containerEsquerdo .cabeçalho img {
+    height: 80%;
+    padding-top: 5%;
 }
 
-.h2-cadastro{
-    margin-left: 10%;
-
+.LadoEsquerdo h2{
+    padding-left: 34%;
+    padding-top: 3%;
 }
 
                                 /*Dados necessários*/
 
-#cadastro-condutor1 input{
-    background-color: var(--prata-vanlus);
-    width: 80%;
-    height: 40px;
-    font-size: 15px;
-    padding-left: 10px;
-    margin-top: 20px;
-    margin-left: 10%;
-    border: none;
-    border-radius: 5px;
-    transition: all 400ms;
+
+.LadoEsquerdo .DadosBasicos{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#cadastro-condutor1 input:hover {
+
+#cadastro-condutor1 input{
+    background-color: #d6d6d6;
+    border: none;
+    width: 80%;
+    height: 45px;
+    margin-left: 11%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-left: 5%;
+}
+
+.LadoEsquerdo .DadosBasicos #cadastro-condutor1 input:hover {
     background-color: rgb(226, 226, 226);
 }
 
-#cadastro-condutor1 input:focus {
-    outline: 0;
-    font-size: 16px;
+.LadoEsquerdo .DadosBasicos #cadastro-condutor1 input:focus {
+    font-size: medium;
+    transition: all 400ms;
+    outline: none;
 }
 
-
-.LadoEsquerdo .proximo {
-    display: flex;
-    justify-content: center;
+.LadoEsquerdo .progressao{
     width: 100%;
-    margin-top: 18%;
-    margin-bottom: 2%;
+}
+
+.LadoEsquerdo .progressao .enviar {
     cursor: pointer;
     transition: all 400ms;
-    color: var(--amarelo-fraco-vanlus);
+    color: #FFD60A;
 }
 
 
-.LadoEsquerdo .proximo .enviar:hover {
-    color: var(--amarelo-forte-vanlus);
+.LadoEsquerdo .progressao .enviar:hover {
+    color: #FFC300;
 }
 
-.linha-progressao {
-    display: flex;
-    width: 100%;
-    height: 10px;
-    align-items: center;
-    margin: 0 auto;
-    position: relative;
-    background: var(--prata-vanlus);
-    border-radius: 10px;
-}
+/**/
 
-.nivel {
-    color: var(--amarelo-fraco-vanlus);
-    width: 15%;
-    text-align: center;
-    position: relative; 
-}
-
-#progressao {
-    position: absolute;
+.img-fundo-cadastro-condutor {
+    width: 55vw;
     height: 100%;
-    width: 15%;
-    background: var(--amarelo-fraco-vanlus);
-    border-radius: 10px;
+    margin-top: -8%;
 }
 
-#progressao::after {
-    content: '';
-    height: 0;
-    width: 0;
+.img-fundo-cadastro-condutor img {
+    width: 50%;
+    padding-right: 0%;
     position: absolute;
-    top: 0;
-    border-left: 20px solid #ffad06;
-
+    right: 0;
+    bottom: 0;
+    z-index: 1;
 }
 

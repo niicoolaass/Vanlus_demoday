@@ -1,6 +1,6 @@
 import Logo from '../../../../styles/imgs/Logo 3.png'
 import './DadosCondutor.css'
-import Crianca from '../RightSide/imgs/crianca.png'
+import Crianca from './imgs/crianca.png'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 export function DadosCondutor1 () {
@@ -30,12 +30,10 @@ export function DadosCondutor1 () {
             
                             <form id='cadastro-condutor1'>
 
-                                <input type="email" name="email" placeholder= '*Informe um email'
-                                {...register("email")}
-                                />
+                                <input type="email" name="email" placeholder= '*Informe um email'/>
 
                                 <input type="text" name="Nome Completo" placeholder= "*Seu nome completo"/>
-                                {...register("nome")}
+
                                 <input type="password" name="senha" placeholder= "*Crie uma senha"/> 
                                 
                                 <input type="password" name="senha" placeholder= "*Confirme sua senha"/>

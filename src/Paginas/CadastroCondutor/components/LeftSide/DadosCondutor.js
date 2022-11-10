@@ -35,7 +35,7 @@ export function DadosCondutor1 () {
                                 <input type="text" name="Nome Completo" placeholder= "*Seu nome completo"/>
 
                                 <input type="password" name="senha" placeholder= "*Crie uma senha"/> 
-
+                                
                                 <input type="password" name="senha" placeholder= "*Confirme sua senha"/>
 
                                 <section className='proximo'>

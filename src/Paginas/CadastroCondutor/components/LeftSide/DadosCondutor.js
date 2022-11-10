@@ -30,12 +30,14 @@ export function DadosCondutor1 () {
             
                             <form id='cadastro-condutor1'>
 
-                                <input type="email" name="email" placeholder= '*Informe um email'/>
+                                <input type="email" name="email" placeholder= '*Informe um email'
+                                {...register("email")}
+                                />
 
                                 <input type="text" name="Nome Completo" placeholder= "*Seu nome completo"/>
-
+                                {...register("nome")}
                                 <input type="password" name="senha" placeholder= "*Crie uma senha"/> 
-
+                                
                                 <input type="password" name="senha" placeholder= "*Confirme sua senha"/>
 
                                 <section className='proximo'>

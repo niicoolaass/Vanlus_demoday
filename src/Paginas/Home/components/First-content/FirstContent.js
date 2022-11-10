@@ -27,7 +27,7 @@ export function PrimeiroConteudo () {
 
                         <button id='Login'><Link to='/Login' elements={Login}><b>LOGIN</b></Link></button> 
 
-                        <button id='Cadastrar'><Link to='/CadastroCondutor'><b>CADASTRE-SE</b></Link></button>
+                        <button id='Cadastrar'><Link to='/Cadastro'><b>CADASTRE-SE</b></Link></button>
 
                     </div>
 

@@ -1,0 +1,26 @@
+#containerCadastro {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#containerCadastro #left {
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+#containerCadastro #left #logo {
+    width: 10%;
+    position: fixed;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#containerCadastro #left #CadastroPais{
+    height: 80%;
+}

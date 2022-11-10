@@ -1,13 +1,17 @@
+section { /*Pai de todos*/
+    display: flex;
+}
 
-.LadoEsquerdo {             /*Pai de todos*/
-    width: 45%;
-    height: 100%;
-    padding-left: 10%;
+.LadoEsquerdo {             
+    width: 45vw;
+    height: 100vh;
+    padding-left: 8%;
     padding-top: 3%;
+    z-index: 10;
 }
 
 .LadoEsquerdo .containerEsquerdo {  /*Lado Esquerdo*/
-    width: 70%;
+    width: 85%;
     height: 94%;
     border-radius: 10px;
     box-shadow: 30px 20px 50px #FFD60A;
@@ -28,8 +32,8 @@
 }
 
 .LadoEsquerdo h2{
-    padding-left: 30%;
-    padding-top: 5%;
+    padding-left: 34%;
+    padding-top: 3%;
 }
 
                                 /*Dados necessários*/
@@ -37,7 +41,7 @@
 
 .LadoEsquerdo .DadosBasicos{
     width: 100%;
-    height: 40%;
+    height: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,8 +63,13 @@
     background-color: rgb(226, 226, 226);
 }
 
+.LadoEsquerdo .DadosBasicos #cadastro-condutor1 input:focus {
+    font-size: medium;
+    transition: all 400ms;
+    outline: none;
+}
+
 .LadoEsquerdo .progressao{
-    
     width: 100%;
 }
 
@@ -73,5 +82,22 @@
 
 .LadoEsquerdo .progressao .enviar:hover {
     color: #FFC300;
+}
+
+/**/
+
+.img-fundo-cadastro-condutor {
+    width: 55vw;
+    height: 100%;
+    margin-top: -8%;
+}
+
+.img-fundo-cadastro-condutor img {
+    width: 50%;
+    padding-right: 0%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
 }
 

@@ -1,12 +1,14 @@
 import Logo from '../../../../styles/imgs/Logo 3.png'
 import './DadosCondutor.css'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
+import Crianca from './imgs/crianca.png'
 
-export function DadosCondutor1 () {
+export function DadosCondutor () {
     return (
 
         <>
-                
+            <section>    
+
                 <div className="LadoEsquerdo">
 
                     <div className="containerEsquerdo">
@@ -39,10 +41,17 @@ export function DadosCondutor1 () {
 
                         </div>
 
-
                     </div>
 
                 </div>
+
+                <div className="img-fundo-cadastro-condutor">
+
+                    <img src={Crianca} alt='Criança Feliz'/>
+
+                </div>
+
+            </section>
         </>
 
     )

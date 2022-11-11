@@ -1,9 +1,6 @@
 // criação da estrutura do componente first-content
 import Vanescolar from './imgs/Bus.png'
 import './FirstContent.css'
-import Login from '../../../Login/Login.js'
-import CadastroCondutor from '../../../CadastroCondutor/CadastroCondutor.js'
-import  DadosCondutor1  from "../../../CadastroCondutor/components/Cadastro1/DadosCondutor1" 
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
@@ -26,9 +23,9 @@ export function PrimeiroConteudo () {
                         
                     <div className='botoes'>
 
-                        <button id='Login'><Link to='/Login' elements={Login}><b>LOGIN</b></Link></button> 
+                        <button id='Login'><Link to='/Login'><b>LOGIN</b></Link></button> 
 
-                        <button id='Cadastrar'><Link to='CadastroConduto' elements={CadastroCondutor}><b>CADASTRE-SE</b></Link></button>
+                        <button id='Cadastrar'><Link to='./cadastro1'><b>CADASTRE-SE</b></Link></button>
 
                     </div>
 

@@ -9,6 +9,7 @@ export function DadosCondutor1 () {
     return (
 
         <>
+            <div id='container-geral'>
                  <div className="imagem-fundo">
 
                     <img src={Crianca} alt='Criança Feliz'/>
@@ -31,7 +32,7 @@ export function DadosCondutor1 () {
                                 <input type="password" name="senha" placeholder= "*Crie uma senha"/>                                
                                 <input type="password" name="senha" placeholder= "*Confirme sua senha"/>
                                     <div className='proximo'>
-                                    <Link to='./cadastro2' elements={ DadosCondutor2 }><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
+                                    <Link to='/cadastro2'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
                                     </div>
                             </form>
                             
@@ -48,6 +49,7 @@ export function DadosCondutor1 () {
                         </div>
                                                 
                     </div>
+                </div>
         </>
 
     )

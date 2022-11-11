@@ -11,17 +11,6 @@ function Login () {
                 <img src= {pintada} alt="foto-fundo" />
         </div>
 
-
-
-
-
-
-
-
-
-        
-
-
         <div id="container-login">
             <div className='container'>
                 <img className='login-logo' src={icon} alt='Vanlus'/>

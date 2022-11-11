@@ -1,6 +1,7 @@
 import './Login.css'
 import icon from '../../styles/imgs/Logo 3.png'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
+import pintada from './imgs/mao_pintada.png'
 
 
 function Login () {

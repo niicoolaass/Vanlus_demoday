@@ -5,6 +5,7 @@ import { SegundoConteudo } from "./components/Second-content/SecondContent.js";
 import { SobreNós } from "./components/Sobre-nos/SobreNos.js";
 
 
+
 function Home() {
   return (
     <>
@@ -12,7 +13,7 @@ function Home() {
         <PrimeiroConteudo />
         <SegundoConteudo />
         <SobreNós />
-        <Footer />
+        <Footer /> 
     </> 
   );
 }

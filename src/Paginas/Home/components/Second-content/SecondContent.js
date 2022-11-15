@@ -20,12 +20,12 @@ export function SegundoConteudo () {
 
                     <div>
                         <div className='funcionalidades'>
-                        função 1
+                        Geolocalização
                         </div>
 
-                        <h1>Função</h1>
+                        <h1>Geolocalização</h1>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut s </p>
+                        <p>Usando tecnologias de localização, você poderá saber, em tempo real, onde seu filho está.</p>
 
                     </div>
 
@@ -34,9 +34,9 @@ export function SegundoConteudo () {
                         função 2
                         </div>
 
-                        <h1>Função</h1>
+                        <h1>Preço justo</h1>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut s </p>
+                        <p>Negociar o melhor preço para você com seu condutor é uma possbilidade dentro da Vanlus.</p>
 
                     </div>
 
@@ -45,9 +45,9 @@ export function SegundoConteudo () {
                         função 3
                         </div>
 
-                        <h1>Função</h1>
+                        <h1>Condutores qualificados</h1>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut s </p>
+                        <p>Encontre os melhores condutores perto da sua casa e os mais qualificados do mercado.</p>
 
                     </div>
 

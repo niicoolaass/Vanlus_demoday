@@ -3,6 +3,7 @@ import './DadosCondutor.css'
 import Crianca from './imgs/crianca.png'
 import { Link } from 'react-router-dom'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
+import { motion } from 'framer-motion'
 
 export function DadosCondutor6 () {
     return (
@@ -16,7 +17,7 @@ export function DadosCondutor6 () {
                 </div>
                 <div className='espaco'></div>
 
-                <div className="LadoEsquerdo">
+                <motion.div animate={{x: 30}} className="LadoEsquerdo">
 
                     <div className="containerEsquerdo">
                         <img className='cadastro-logo' src={Logo} alt="Vanlus"/>                       
@@ -35,19 +36,19 @@ export function DadosCondutor6 () {
                                     </div>
                             </form>
                             
-                            <div className='linha-progressao'>
-                                <div id='progressao'></div>
-                                  <div className='nivel'><small>1</small></div>
-                                  <div className='nivel'><small>2</small></div> 
-                                  <div className='nivel'><small>3</small></div> 
-                                  <div className='nivel'><small>4</small></div> 
-                                  <div className='nivel'><small>5</small></div> 
-                                  <div className='nivel'><small>6</small></div>
+                            <div className='linha-progressao6'>
+                                <div id='progressao6'></div>
+                                  <div className='nivel'><small></small></div>
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div>
                             </div>
 
                         </div>
                                                 
-                    </div>
+                    </motion.div>
             </div>
         </>
 

@@ -3,6 +3,7 @@ import './DadosCondutor2.css'
 import Crianca from './imgs/crianca.png'
 import { Link } from 'react-router-dom'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
+import { motion } from 'framer-motion'
 
 export function DadosCondutor2 () {
     return (
@@ -15,41 +16,41 @@ export function DadosCondutor2 () {
 
                 </div>
                 <div className='espaco2'></div>
-
-                <div className="LadoEsquerdo">
+                <motion.div animate={{ x: 30}} className="LadoEsquerdo2">
 
                     <div className="containerEsquerdo">
                         <img className='cadastro-logo' src={Logo} alt="Vanlus"/>                       
                             
-                            <form id='cadastro-condutor1'>
+                            <form id='cadastro-condutor2'>
                             <div className='h2-cadastro'>
-                                <h2>Cadastre-se</h2>
+                                <h2>Informações Pessoais</h2>
                             </div>
 
-                                <input type="email" name="email" placeholder= '*Informe um email'/>
-                                <input type="text" name="Nome Completo" placeholder= "*Seu nome completo"/>
-                                <input type="password" name="senha" placeholder= "*Crie uma senha"/>                                
-                                <input type="password" name="senha" placeholder= "*Confirme sua senha"/>
-                                <input type="password" name="senha" placeholder= "*Confirme sua senha"/>
+                                <input type="text" name="cpf"
+                                  placeholder= '*CPF'
+                                  pattern="\d{3}\.\d{3}\.-\d{2}"/>
+                                <input type="text" name="Nome Completo" placeholder= "*RG"/>
+                                <input type="text" name="endereço" placeholder= "*Endereço"/>                                
+                                <input type="text" name="cep" placeholder= "*CEP"/>
+                                <input type="tel" name="Celular" placeholder= "*Celular"/>
                                     <div className='proximo'>
                                     <Link to='/cadastro3'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
                                     </div>
                             </form>
                             
-                            <div className='linha-progressao'>
-                                <div id='progressao'></div>
-                                  <div className='nivel'><small>1</small></div>
-                                  <div className='nivel'><small>2</small></div> 
-                                  <div className='nivel'><small>3</small></div> 
-                                  <div className='nivel'><small>4</small></div> 
-                                  <div className='nivel'><small>5</small></div> 
-                                  <div className='nivel'><small>6</small></div>
+                            <div className='linha-progressao2'>
+                                <div id='progressao2'></div>
+                                  <div className='nivel'><small></small></div>
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div>
                             </div>
 
-                        </div>
-                                                
-                    </div>
-                </div>
+                    </div>                                               
+                </motion.div>
+            </div>
         </>
 
     )

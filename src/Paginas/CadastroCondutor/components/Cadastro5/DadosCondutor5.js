@@ -3,6 +3,7 @@ import './DadosCondutor.css'
 import Crianca from './imgs/crianca.png'
 import { Link } from 'react-router-dom'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
+import { motion } from 'framer-motion'
 
 export function DadosCondutor5 () {
     return (
@@ -16,38 +17,35 @@ export function DadosCondutor5 () {
                 </div>
                 <div className='espaco'></div>
 
-                <div className="LadoEsquerdo">
+                <motion.div animate={{ x: 30}} className="LadoEsquerdo">
 
                     <div className="containerEsquerdo">
-                        <img className='cadastro-logo' src={Logo} alt="Vanlus"/>                       
+                        <img className='cadastro-logo5' src={Logo} alt="Vanlus"/>                       
                             
-                            <form id='cadastro-condutor1'>
-                            <div className='h2-cadastro'>
-                                <h2>Cadastre-se</h2>
+                            <form id='cadastro-condutor5'>
+                            <div className='h2-cadastro5'>
+                                <h2>Região</h2>
                             </div>
-
-                                <input type="email" name="email" placeholder= '*Informe um email'/>
-                                <input type="text" name="Nome Completo" placeholder= "*Seu nome completo"/>
-                                <input type="password" name="senha" placeholder= "*Crie uma senha"/>                                
-                                <input type="password" name="senha" placeholder= "*Confirme sua senha"/>
-                                    <div className='proximo'>
+                                <input type="text" name="escola" placeholder= '*Escola'/>
+                                <input type="time" name="hora" placeholder= "*Horário"/>
+                                    <div className='proximo5'>
                                     <Link to='/cadastro6'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
                                     </div>
                             </form>
                             
-                            <div className='linha-progressao'>
-                                <div id='progressao'></div>
-                                  <div className='nivel'><small>1</small></div>
-                                  <div className='nivel'><small>2</small></div> 
-                                  <div className='nivel'><small>3</small></div> 
-                                  <div className='nivel'><small>4</small></div> 
-                                  <div className='nivel'><small>5</small></div> 
-                                  <div className='nivel'><small>6</small></div>
+                            <div className='linha-progressao5'>
+                                <div id='progressao5'></div>
+                                  <div className='nivel'><small></small></div>
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div>
                             </div>
 
                         </div>
                                                 
-                    </div>
+                    </motion.div>
             </div>
         </>
 

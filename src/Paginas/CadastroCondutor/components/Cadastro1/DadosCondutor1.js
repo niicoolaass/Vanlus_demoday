@@ -2,8 +2,8 @@ import Logo from '../../../../styles/imgs/Logo 3.png'
 import './DadosCondutor.css'
 import Crianca from './imgs/crianca.png'
 import { Link } from 'react-router-dom'
-import  DadosCondutor2  from "../Cadastro2/DadosCondutor2.js";
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
+import { motion } from 'framer-motion'
 
 export function DadosCondutor1 () {
     return (
@@ -37,17 +37,15 @@ export function DadosCondutor1 () {
                             </form>
                             
                             <div className='linha-progressao'>
-                                <div id='progressao'></div>
-                                  <div className='nivel'><small>1</small></div>
-                                  <div className='nivel'><small>2</small></div> 
-                                  <div className='nivel'><small>3</small></div> 
-                                  <div className='nivel'><small>4</small></div> 
-                                  <div className='nivel'><small>5</small></div> 
-                                  <div className='nivel'><small>6</small></div>
+                                <motion.div animate={{ x: 0}} id='progressao'></motion.div>
+                                  <div className='nivel'><small></small></div>
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div> 
+                                  <div className='nivel'><small></small></div>
                             </div>
-
-                        </div>
-                                                
+                        </div>                           
                     </div>
                 </div>
         </>

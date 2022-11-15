@@ -1,10 +1,16 @@
 import './Login.css'
 import icon from '../../styles/imgs/Logo 3.png'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
+import pintada from './imgs/mao_pintada.png'
 
 
 function Login () {
     return (
+        <>
+        <div className='imagem-fundo'>
+                <img src= {pintada} alt="foto-fundo" />
+        </div>
+
         <div id="container-login">
             <div className='container'>
                 <img className='login-logo' src={icon} alt='Vanlus'/>
@@ -33,7 +39,8 @@ function Login () {
 
             </div>
         </div>
-    );
+        </>
+    )  
 }
-
+    
 export default Login;

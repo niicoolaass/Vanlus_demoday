@@ -25,11 +25,7 @@ export function PrimeiroConteudo () {
 
                         <button id='Login'><Link to='/Login'><b>LOGIN</b></Link></button> 
 
-<<<<<<< HEAD
                         <button id='Cadastrar'><Link to='/Cadastro'><b>CADASTRE-SE</b></Link></button>
-=======
-                        <button id='Cadastrar'><Link to='./cadastro1'><b>CADASTRE-SE</b></Link></button>
->>>>>>> 04e54e98668d2a5ca7ece3474340273f944cacaf
 
                     </div>
 

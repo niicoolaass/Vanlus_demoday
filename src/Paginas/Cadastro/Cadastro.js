@@ -1,7 +1,7 @@
 import './Cadastro.css'
 import Logo from '../../styles/imgs/Logo 3.png'
 import CadastroPais from './imgs/CadastroPais.png'
-import CadastroCondutor from './imgs/CadastroCondutor.png'
+import CadastroCondutor from './imgs/CadastroPais.png'
 import { Link } from 'react-router-dom'
 
 export function Cadastro () {

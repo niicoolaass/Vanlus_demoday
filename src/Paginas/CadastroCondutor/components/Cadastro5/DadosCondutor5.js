@@ -28,11 +28,6 @@ export function DadosCondutor5 () {
                             </div>
                                 <input type="text" name="escola" placeholder= '*Escola'/>
                                 <input type="time" name="hora" placeholder= "*Horário"/>
-<<<<<<< HEAD
-                                    <div className='proximo5'>
-                                    <Link to='/Cadastro/Condutor/6'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
-                                    </div>
-=======
                             <section>
                                 <input type="text" name="escola" placeholder= '*Escola'/>
                                 <input type="time" name="hora" placeholder= "*Horário"/>
@@ -40,7 +35,6 @@ export function DadosCondutor5 () {
                                 <div className='proximo5'>
                                     <Link to='/cadastro6'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
                                 </div>
->>>>>>> 772c28124e28e691f995700ec712655c7916c72f
                             </form>
                             
                             <div className='linha-progressao5'>

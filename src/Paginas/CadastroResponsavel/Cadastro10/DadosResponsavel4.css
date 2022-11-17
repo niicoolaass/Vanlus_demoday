@@ -1,0 +1,16 @@
+#progressao4-r {
+    position: absolute;
+    height: 100%;
+    width: 66.4%;
+    background: var(--azul-vanlus);
+    border-radius: 10px;
+    z-index: 15;
+}
+
+.cadastro-foto{
+    border-radius: 100%;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 7vw;
+}

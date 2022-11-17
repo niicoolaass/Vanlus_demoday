@@ -1,6 +1,8 @@
 // criação da estrutura do componente second-content 'O que ofereceomos?'
 import './SecondContent.css'
-import Van from './van.png';
+import ImagemLocal from './imgs/local.png';
+import ImagemMoedinha from './imgs/moeda.png';
+import ImagemVan from './imgs/van.png';
 
 export function SegundoConteudo () {
     return(
@@ -20,7 +22,7 @@ export function SegundoConteudo () {
 
                     <div>
                         <div className='funcionalidades'>
-                            <img alt="função" style={{borderRadius:"30px"}} width="100%" height="100%" src="https://cdn.discordapp.com/attachments/1026674509954166837/1042568399336783882/localpng.png"/>
+                            <img alt="função" style={{borderRadius:"30px"}} width="100%" height="100%" src={ImagemLocal}/>
                         </div>
 
                         <h1>Geolocalizção</h1>
@@ -31,7 +33,7 @@ export function SegundoConteudo () {
 
                     <div>
                         <div className='funcionalidades'>
-                        <img width="150px" height="150px" src="https://cdn.discordapp.com/attachments/1026674509954166837/1042569510626001008/moeda.png"/>
+                        <img width="150px" height="150px" src={ImagemMoedinha}/>
                         </div>
 
                         <h1>Preço Justo</h1>
@@ -42,7 +44,7 @@ export function SegundoConteudo () {
 
                     <div>
                         <div className='funcionalidades'>
-                        <img alt="função" style={{borderRadius:"30px"}} width="100%" height="100%" src="https://cdn.discordapp.com/attachments/1026674509954166837/1042572011416850482/van.png"/>
+                        <img alt="função" style={{borderRadius:"30px"}} width="100%" height="100%" src={ImagemVan}/>
                         </div>
 
                         <h1>Condutores qualificados</h1>

@@ -10,13 +10,13 @@ export function Cadastro () {
         
             <section id='containerCadastro'>
 
-                    <img id='logo' src={Logo} alt='Vanlus'/>
+                    <Link to='/'><img id='logo' src={Logo} alt='Vanlus'/></Link>
                 
                 <div id='left'>
                     
                     <div className='left'> 
 
-                        <Link><img id='CadastroPais' src={CadastroPais} alt='Cadastro Pais' /> </Link>
+                        <Link to="/"><img id='CadastroPais' src={CadastroPais} alt='Cadastro Pais' /> </Link>
                     
                     </div>
 
@@ -28,7 +28,7 @@ export function Cadastro () {
 
                     <div className='right'> 
 
-                        <Link to='/CadastroCondutor'><img id='CadastroCondutor' src={CadastroCondutor} alt='Cadastro Condutor' />  </Link>
+                        <Link to='/Cadastro/Condutor/1'><img id='CadastroCondutor' src={CadastroCondutor} alt='Cadastro Condutor' />  </Link>
 
                     </div>
 

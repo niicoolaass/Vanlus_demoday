@@ -1,0 +1,16 @@
+/* parte gráfica e visual do second-content */
+
+.parteAmarela {
+    background-color: var(--amarelo-fraco-vanlus);
+    width: 100%;
+    height: 80%;
+    margin-top: 2%;
+}
+
+.parteAmarela h2 {
+    color: black;
+    padding-left: 10%;
+    padding-top: 5%;
+    font-family: 'sub-titulo';
+    font-weight: bold;
+}

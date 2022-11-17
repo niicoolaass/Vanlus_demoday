@@ -33,54 +33,6 @@
     font-weight: 400;
     font-family: 'Hitmo2.0';
 }
-
-.ConteudoPrincipal .PrimeiroConteudo div .botoes{
-    margin-top: 0% ;
-    margin-left: -2%;
-}
-
-.ConteudoPrincipal .PrimeiroConteudo div .botoes button {
-    border: none;
-    width: 35%;
-    height: 40px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.ConteudoPrincipal .PrimeiroConteudo div #Login {
-    background-color: #FFC300;
-    color: white;
-    font-size: medium;
-    text-decoration: none;
-}
-
-.ConteudoPrincipal .PrimeiroConteudo div #Login b {
-    color: white;
-}
-
-.ConteudoPrincipal .PrimeiroConteudo div #Login:hover {
-    background-color: #ffd857;
-    font-size: 17px;
-    transition: 0.5s;
-}
-
-.ConteudoPrincipal .PrimeiroConteudo div #Cadastrar {
-    border: 1px solid #FFC300;
-    color: #FFC300;
-    background-color: white;
-    margin-left: 5%;
-    font-size: medium;
-}
-
-.ConteudoPrincipal .PrimeiroConteudo div #Cadastrar b {
-    color: var(--amarelo-forte-vanlus);
-}
-
-.ConteudoPrincipal .PrimeiroConteudo div #Cadastrar:hover {
-    transition: 0.5s;
-    font-size: 17px;
-}
-
 /*Imagem */
 
 .ConteudoPrincipal .SegundoConteudo {

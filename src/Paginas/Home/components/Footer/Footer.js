@@ -1,5 +1,6 @@
 import './Footer.css'
 import Logo from './imgs/Logotipo.png'
+import { SiLinkedin, SiInstagram,SiGithub, SiGmail } from "react-icons/si";
 
 export function Footer () {
     return (
@@ -35,13 +36,13 @@ export function Footer () {
 
                 <div id='redesSociais' className='footer'>
                 
-                    <h2>LinkedIn</h2>
+                    <h2><a href="" target="_blank"><SiLinkedin size={40}/></a></h2>
 
-                    <h2>Facebook</h2>
+                    <h2><a href="" target="_blank"><SiGmail size={40}/></a></h2>
 
-                    <h2>Instagram</h2>
+                    <h2><a href="https://github.com/grupo18proa" target="_blank"><SiGithub size={40}/></a></h2>
 
-                    <h2>GitHub</h2>
+                    <h2><a href="https://www.instagram.com/vanlus18/" target="_blank"><SiInstagram size={40}/></a></h2>
                     
                 </div>
 

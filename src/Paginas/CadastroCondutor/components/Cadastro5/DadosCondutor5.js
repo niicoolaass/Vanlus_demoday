@@ -29,7 +29,7 @@ export function DadosCondutor5 () {
                                 <input type="text" name="escola" placeholder= '*Escola'/>
                                 <input type="time" name="hora" placeholder= "*Horário"/>
                                     <div className='proximo5'>
-                                    <Link to='/cadastro6'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
+                                    <Link to='/Cadastro/Condutor/6'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
                                     </div>
                             </form>
                             

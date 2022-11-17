@@ -1,6 +1,6 @@
 // criação da estrutura do componente second-content 'O que ofereceomos?'
 import './SecondContent.css'
-import TioRubens from './imgs/TioRubens.jpeg'
+import Van from './van.png';
 
 export function SegundoConteudo () {
     return(
@@ -20,67 +20,38 @@ export function SegundoConteudo () {
 
                     <div>
                         <div className='funcionalidades'>
-                        função 1
+                            <img alt="função" style={{borderRadius:"30px"}} width="100%" height="100%" src="https://cdn.discordapp.com/attachments/1026674509954166837/1042568399336783882/localpng.png"/>
                         </div>
 
-                        <h1>Função</h1>
+                        <h1>Geolocalizção</h1>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut s </p>
+                        <p>Usando tecnologias de localização, você poderá saber, em tempo real, onde seu filho está.</p>
 
                     </div>
 
                     <div>
                         <div className='funcionalidades'>
-                        função 2
+                        <img width="150px" height="150px" src="https://cdn.discordapp.com/attachments/1026674509954166837/1042569510626001008/moeda.png"/>
                         </div>
 
-                        <h1>Função</h1>
+                        <h1>Preço Justo</h1>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut s </p>
+                        <p>Negociar o melhor preço para você com seu condutor é uma possbilidade dentro da Vanlus.</p>
 
                     </div>
 
                     <div>
                         <div className='funcionalidades'>
-                        função 3
+                        <img alt="função" style={{borderRadius:"30px"}} width="100%" height="100%" src="https://cdn.discordapp.com/attachments/1026674509954166837/1042572011416850482/van.png"/>
                         </div>
 
-                        <h1>Função</h1>
+                        <h1>Condutores qualificados</h1>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut s </p>
+                        <p>Encontre os melhores condutores perto da sua casa e os mais qualificados do mercado.</p>
 
-                    </div>
-
-                    <div>
-                        <div className='funcionalidades'>
-                        função 4
-                        </div>
-
-                        <h1>Função</h1>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut s </p>
-                        
                     </div>
 
                 </div>
-
-                <div className='paraCondutor'>
-
-                    <div id='tio'>
-
-                        <img src={TioRubens} alt='Tio de Van Escolar'/>
-
-                    </div>
-
-                        <span> 
-                        
-                        <h1>Para os Condutores:</h1>
-                        
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut s </p>
-                        
-                        </span>
-
-                </div>  
         
             </div>
         </>

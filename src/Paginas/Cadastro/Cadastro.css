@@ -2,12 +2,14 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    background-image: url(./imgs/menino1.png);
+    background-size: cover;
+    background-position: center;
 }
 
 #containerCadastro #left {
     width: 50%;
-    height: 100%;;
-    
+    height: 100%;
 }
 
 #containerCadastro #left .left Link{
@@ -37,10 +39,7 @@
 }
 
 #containerCadastro #left #CadastroPais:hover{
-    margin-top: 5.5%;
-    margin-left: 34%;
-    transition: all 400ms;
-    box-shadow: 20px 20px 40px #002950;
+    box-shadow: 0 0 0 transparent;
 }
 
 /*Lado Direito*/
@@ -68,8 +67,5 @@
 }
 
 #containerCadastro #right #CadastroCondutor:hover{
-    margin-top: 5.5%;
-    margin-left: 12%;
-    transition: all 400ms;
-    box-shadow: 20px 20px 40px #c4a508;
+    box-shadow: 0 0 0 transparent;
 }

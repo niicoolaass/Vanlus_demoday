@@ -72,11 +72,11 @@
     margin-left: 5%;
 }
 
-#cadastro-condutor1 input:hover {
+#cadastro-condutor2 input:hover {
     background-color: rgb(226, 226, 226);
 }
 
-#cadastro-condutor1 input:focus {
+#cadastro-condutor2 input:focus {
     outline: 0;
     font-size: 16px;
 }

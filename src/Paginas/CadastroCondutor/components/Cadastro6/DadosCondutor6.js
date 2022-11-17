@@ -2,7 +2,7 @@ import Logo from '../../../../styles/imgs/Logo 3.png'
 import './DadosCondutor.css'
 import Crianca from './imgs/crianca.png'
 import { Link } from 'react-router-dom'
-import { BsFillArrowRightCircleFill } from 'react-icons/bs'
+import { FaCheckCircle } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 
 export function DadosCondutor6 () {
@@ -19,32 +19,30 @@ export function DadosCondutor6 () {
 
                 <motion.div animate={{x: 30}} className="LadoEsquerdo">
 
-                    <div className="containerEsquerdo">
+                    <div className="containerEsquerdo6">
                         <img className='cadastro-logo' src={Logo} alt="Vanlus"/>                       
                             
-                            <form id='cadastro-condutor1'>
-                            <div className='h2-cadastro'>
-                                <h2>Cadastre-se</h2>
+                            <div id='cadastro-condutor6'>
+                                <div className='h2-cadastro6'>
+                                    <h2>Cadastre-se</h2>
+                                </div>
+                                <section className='termino'>
+                                    <p>
+                                    Bem-vindo(a) à Vanlus<br/>
+                                    Em breve você receberá um email de confirmação
+                                    </p>
+                                </section>  
+                                <div className='proximo6'>
+                                    <Link to='/cadastro6'><FaCheckCircle size={120} id='next2' /></Link>
+                                </div>
+                                <section id='botao-login'>                                   
+                                    <label className='capa-login'>
+                                        <button><Link to='/Login'><p>LOGIN</p></Link></button>
+                                    </label>                                       
+                                </section>
                             </div>
-
-                                <input type="email" name="email" placeholder= '*Informe um email'/>
-                                <input type="text" name="Nome Completo" placeholder= "*Seu nome completo"/>
-                                <input type="password" name="senha" placeholder= "*Crie uma senha"/>                                
-                                <input type="password" name="senha" placeholder= "*Confirme sua senha"/>
-                                    <div className='proximo'>
-                                    <Link to='/cadastro6'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
-                                    </div>
-                            </form>
                             
-                            <div className='linha-progressao6'>
-                                <div id='progressao6'></div>
-                                  <div className='nivel'><small></small></div>
-                                  <div className='nivel'><small></small></div> 
-                                  <div className='nivel'><small></small></div> 
-                                  <div className='nivel'><small></small></div> 
-                                  <div className='nivel'><small></small></div> 
-                                  <div className='nivel'><small></small></div>
-                            </div>
+                            
 
                         </div>
                                                 

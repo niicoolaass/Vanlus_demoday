@@ -28,7 +28,7 @@ export function DadosCondutor2 () {
 
                                 <input type="text" name="cpf"
                                   placeholder= '*CPF'
-                                  pattern="\d{3}\.\d{3}\.-\d{2}"/>
+                                  pattern= "\d{3}\.\d{3}\.-\d{2}"/>
                                 <input type="text" name="Nome Completo" placeholder= "*RG"/>
                                 <input type="text" name="endereço" placeholder= "*Endereço"/>                                
                                 <input type="text" name="cep" placeholder= "*CEP"/>

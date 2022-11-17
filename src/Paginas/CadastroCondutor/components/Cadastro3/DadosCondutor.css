@@ -7,7 +7,8 @@
     
 }
 
-.LadoEsquerdo {  /*Lado Esquerdo*/
+
+.LadoEsquerdo3 {  /*Lado Esquerdo*/
     width: clamp(30%, 360px, 100vw);
     height: min(100%, 360px, 100vh);
     margin-top: min(5vh,360px);
@@ -15,7 +16,7 @@
     z-index: 5;
 }
 
-.LadoEsquerdo .containerEsquerdo {
+.LadoEsquerdo3 .containerEsquerdo3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -30,14 +31,12 @@
 }
 
 
-.cadastro-logo {
+.cadastro-logo3 {
     width: 100px;
     height: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 37%;
     margin-top: 15px;
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px;  
 }
 
 .h2-cadastro {
@@ -47,31 +46,47 @@
 
                                 /*Dados necessários*/
 
+#cadastro-condutor3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
-#cadastro-condutor1 input{
+
+#cadastro-condutor3 #avatarc-fake{
+    display: flex;
+    align-items: center;
     background-color: var(--prata-vanlus);
-    width: 80%;
-    height: 40px;
+    width: 60%;
+    height: 215px;
     font-size: 15px;
-    padding-left: 10px;
     margin-top: 20px;
-    margin-left: 10%;
+    align-self: center; 
     border: none;
-    border-radius: 5px;
+    border-radius: 100%;
     transition: all 400ms;
     z-index: 10;
 }
 
-#cadastro-condutor1 input:hover {
+#avatarc-fake .cam {
+    margin: auto;
+    color: gray;
+}
+
+#avatarc-fake #avatarc {
+    display: none;
+}
+
+#cadastro-condutor3 input:hover {
     background-color: rgb(226, 226, 226);
 }
 
-#cadastro-condutor1 input:focus {
+#cadastro-condutor3 input:focus {
     outline: 0;
     font-size: 16px;
 }
 
-.LadoEsquerdo .proximo {
+.LadoEsquerdo3 .proximo {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -86,7 +101,7 @@
     cursor: pointer;
 }
 
-.LadoEsquerdo .proximo .enviar:hover {
+.LadoEsquerdo3 .proximo .enviar:hover {
     color: var(--amarelo-forte-vanlus);
 }
 

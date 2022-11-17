@@ -1,0 +1,16 @@
+.proximo #Login2 {
+    background-color: #FFC300;
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.proximo #Login2 {
+    color: white;
+}
+
+.proximo #Login2:hover {
+    background-color: #ffd857;
+    font-size: 17px;
+    transition: 0.5s;
+}

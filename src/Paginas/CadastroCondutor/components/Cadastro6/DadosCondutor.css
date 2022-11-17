@@ -86,9 +86,10 @@
     cursor: pointer;
 }
 
-.LadoEsquerdo .proximo .enviar:hover {
+.LadoEsquerdo .proximo #next1:hover {
     color: var(--amarelo-forte-vanlus);
 }
+
 
 /**/
 

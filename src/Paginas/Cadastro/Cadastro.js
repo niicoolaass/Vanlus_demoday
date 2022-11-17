@@ -16,19 +16,17 @@ export function Cadastro () {
                     
                     <div className='left'> 
 
-                        <Link><img id='CadastroPais' src={CadastroPais} alt='Cadastro Pais' /> </Link>
+                        <Link to='/CadastroResponsavel'><img id='CadastroPais' src={CadastroPais} alt='Cadastro Pais' /></Link>
                     
                     </div>
 
                 </div>
 
-
-
                 <div id='right'>
 
                     <div className='right'> 
 
-                        <Link to='/CadastroCondutor'><img id='CadastroCondutor' src={CadastroCondutor} alt='Cadastro Condutor' />  </Link>
+                        <Link to='/CadastroCondutor'><img id='CadastroCondutor' src={CadastroCondutor} alt='Cadastro Condutor' /></Link>
 
                     </div>
 

@@ -29,7 +29,7 @@ function Login () {
                 </label>
 
                 <div className='esqueceu-senha'>
-                    <a href='/#'>Esqueceu a senha?</a>
+                    <a href='/Login'>Esqueceu a senha?</a>
                 </div>
 
                 <section className='enviar'>

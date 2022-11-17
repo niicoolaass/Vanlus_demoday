@@ -15,7 +15,7 @@
     z-index: 5;
 }
 
-.LadoEsquerdo .containerEsquerdo {
+.LadoEsquerdo .containerEsquerdo6 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -27,98 +27,89 @@
     z-index: 10;
     padding: 10px;
     transition: all 0.5s;
+    text-align: center;
+    align-items: center;
+}
+
+#cadastro-condutor6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#cadastro-condutor6 .termino {
+    width: 80%;
+    margin-top: 2%;
+    align-self: center;
+}
+
+#cadastro-condutor6 .termino p {
+    color: var(--azul-vanlus);
+    font-family: 'titulo';
 }
 
 
 .cadastro-logo {
     width: 100px;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    
+    height: 100px;    
 }
 
-.h2-cadastro {
-    margin-left: 10%;
+.h2-cadastro6 {
     z-index: 10;
+    color: var(--azul-vanlus);
 }
 
                                 /*Dados necessários*/
 
-
-#cadastro-condutor1 input{
-    background-color: var(--prata-vanlus);
-    width: 80%;
-    height: 40px;
-    font-size: 15px;
-    padding-left: 10px;
-    margin-top: 20px;
-    margin-left: 10%;
-    border: none;
-    border-radius: 5px;
-    transition: all 400ms;
-    z-index: 10;
-}
-
-#cadastro-condutor1 input:hover {
-    background-color: rgb(226, 226, 226);
-}
-
-#cadastro-condutor1 input:focus {
-    outline: 0;
-    font-size: 16px;
-}
-
-.LadoEsquerdo .proximo {
+.LadoEsquerdo .proximo6 {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 18%;
+    margin-top: 5%;
     margin-bottom: 2%;
     transition: all 400ms;
     color: var(--amarelo-fraco-vanlus);
     z-index: 15;
+    margin-top: 15%;
+    margin-bottom: 25%;
 }
 
-#next1{
+#next2{
+    color: var(--amarelo-forte-vanlus);
+    border-radius: 100%;
     cursor: pointer;
 }
 
-.LadoEsquerdo .proximo .enviar:hover {
-    color: var(--amarelo-forte-vanlus);
-}
-
-/**/
-
-.linha-progressao6 {
+#cadastro-condutor6 #botao-login {
     display: flex;
     width: 100%;
-    height: 10px;
-    align-items: center;
-    margin: 0 auto;
-    position: relative;
-    background: var(--prata-vanlus);
-    border-radius: 10px;
-    z-index: 10;
 }
 
-.nivel {
-    color: var(--amarelo-fraco-vanlus);
-    width: 15%;
-    text-align: center;
-    position: relative; 
-    z-index: 10;
+#botao-login .capa-login {
+    width: 70%;
+    height: 40px;
+    border-radius: 8px;
+    margin: auto;
+    background: var(--amarelo-forte-vanlus);
 }
 
-#progressao6 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
+#botao-login .capa-login:hover{
     background: var(--amarelo-fraco-vanlus);
-    border-radius: 10px;
-    z-index: 15;
 }
+
+#botao-login .capa-login button {
+    color: transparent;
+    background: none;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+#botao-login .capa-login button p {
+    color: rgba(0, 0, 0, 0.719);
+    font-family: 'Titulo';
+    font-size: large;
+}
+
 
 

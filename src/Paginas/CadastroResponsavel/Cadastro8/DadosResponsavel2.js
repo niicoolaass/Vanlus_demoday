@@ -1,11 +1,11 @@
-import Logo from '../../../../styles/imgs/Logo 3.png'
-import './DadosCondutor2.css'
+import Logo from '../../../styles/imgs/Logo 3.png'
+import './DadosResponsavel2.css'
 import Crianca from './imgs/crianca.png'
 import { Link } from 'react-router-dom'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 import { motion } from 'framer-motion'
 
-export function DadosCondutor2 () {
+export function DadosResponsavel2 () {
     return (
 
         <>
@@ -16,7 +16,7 @@ export function DadosCondutor2 () {
 
                 </div>
                 <div className='espaco2'></div>
-                <motion.div animate={{ x: 30}} className="LadoEsquerdo2">
+                <motion.div animate={{ x: 30}} className="LadoEsquerdo2-r">
 
                     <div className="containerEsquerdo">
                         <img className='cadastro-logo' src={Logo} alt="Vanlus"/>                       
@@ -28,18 +28,18 @@ export function DadosCondutor2 () {
 
                                 <input type="text" name="cpf"
                                   placeholder= '*CPF'
-                                  pattern= "\d{3}\.\d{3}\.-\d{2}"/>
+                                  pattern="\d{3}\.\d{3}\.-\d{2}"/>
                                 <input type="text" name="Nome Completo" placeholder= "*RG"/>
                                 <input type="text" name="endereço" placeholder= "*Endereço"/>                                
                                 <input type="text" name="cep" placeholder= "*CEP"/>
                                 <input type="tel" name="Celular" placeholder= "*Celular"/>
                                     <div className='proximo'>
-                                    <Link to='/Cadastro/Condutor/3'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
+                                    <Link to='/cadastro9'><BsFillArrowRightCircleFill size={65} id='next2' /></Link>
                                     </div>
                             </form>
                             
                             <div className='linha-progressao2'>
-                                <div id='progressao2'></div>
+                                <div id='progressao2-r'></div>
                                   <div className='nivel'><small></small></div>
                                   <div className='nivel'><small></small></div> 
                                   <div className='nivel'><small></small></div> 
@@ -58,4 +58,4 @@ export function DadosCondutor2 () {
 
 }
 
-export default DadosCondutor2;
+export default DadosResponsavel2;

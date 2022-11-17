@@ -2,44 +2,72 @@
     {
       "id": "94313731",
       "name": "Lucas Migliorini" ,
+<<<<<<< HEAD
       "sobre": "Product owner e Gestor de projetos, responsável pela organização da equipe e pelo gerenciamento do banco de dados da Vanlus.",
+=======
+      "sobre": "Product owner e responsável pelo banco de dados.",
+>>>>>>> 772c28124e28e691f995700ec712655c7916c72f
       "image": ".././static/image/Lucao.png"
     },
     {
       "id": "94313762",
       "name": "Fernanda Honorato",
+<<<<<<< HEAD
       "sobre": "Scrum master e Administratora, responsável pela comunicação da equipe e pelo gerenciamento do banco de dados da Vanlus.",
+=======
+      "sobre": "Scrum master e responsável pelo banco de dados.",
+>>>>>>> 772c28124e28e691f995700ec712655c7916c72f
       "image": ".././static/image/Fe.png"
     },
     
     { 
       "id": "943137XQ",
       "name": "Emerson Sebastião",
+<<<<<<< HEAD
       "sobre": "Desenvolvedor Back-end, responsável pela criação da API de localização da Vanlus.",
+=======
+      "sobre": "Olá a todos, sou O Emerson, fiz parte do back-end da plataforma Vanlus e tenho muito orgulho de fazer parte desse projeto 🙂",
+>>>>>>> 772c28124e28e691f995700ec712655c7916c72f
       "image": ".././static/image/Emissu.png"
     },
     {
       "id": "95077714",
       "name": "Gabriel Romão",
+<<<<<<< HEAD
       "sobre": "Desenvolvedor Back-end, responsável pela criação da API de localização da Vanlus.",
+=======
+      "sobre": "Responsável pelo desenvolvimento back end da VANLUS.",
+>>>>>>> 772c28124e28e691f995700ec712655c7916c72f
       "image": ".././static/image/Gabz.png"
     },
     {
       "id": "9507779N",
       "name": "Nicolas Vieira",
+<<<<<<< HEAD
       "sobre": "Responsável pelo Front-end e pelo aspecto visual da Vanlus",
+=======
+      "sobre": "Responsável pelo desenvolvimento Front end da VANLUS.",
+>>>>>>> 772c28124e28e691f995700ec712655c7916c72f
       "image": ".././static/image/Nick.png"
     },
     {
       "id": "92601102",
       "name": "Mirella Alves",
+<<<<<<< HEAD
       "sobre": "Responsável pelo design e marketing digital da Vanlus e desenvolvedora Front-end.",
+=======
+      "sobre": "Responsável pelo desenvolvimento Front end da VANLUS.",
+>>>>>>> 772c28124e28e691f995700ec712655c7916c72f
       "image": ".././static/image/Mirelinha.png"
     },
     {
       "id": "9465450R",
       "name": "Cristhian de Souza",
+<<<<<<< HEAD
       "sobre": "Responsável pelo design da Vanlus e desenvolvedor Front-end",
+=======
+      "sobre": "Responsável por todo o design da VANLUS e desenvolvedor front end da plataforma.",
+>>>>>>> 772c28124e28e691f995700ec712655c7916c72f
       "image": ".././static/image/Cris.png"
     }
   ]

@@ -14,6 +14,7 @@ import DadosResponsavel3 from './Paginas/CadastroResponsavel/Cadastro9/DadosResp
 import DadosResponsavel4 from './Paginas/CadastroResponsavel/Cadastro10/DadosResponsavel4';
 import DadosResponsavel5 from './Paginas/CadastroResponsavel/Cadastro11/DadosResponsavel5';
 import DadosResponsavel6 from './Paginas/CadastroResponsavel/Cadastro12/DadosResponsavel6';
+import HomeResponsavel from './Paginas/HomeResponsavel/HomeResponsavel.js';
 
 
 function App () {
@@ -25,6 +26,7 @@ function App () {
                 <Route path='/' element={<Home />}/>
                 <Route path='/Login' element={<Login />}/>
                 <Route path='/Cadastro' element={<Cadastro />}/>
+                <Route path='/CadastroCondutor' element={<DadosCondutor1/>}/>
                 <Route  path='/cadastro2' exact element={<DadosCondutor2 />}/>    
                 <Route  path='/cadastro3' exact element={<DadosCondutor3 />}/>                   
                 <Route  path='/cadastro4' exact element={<DadosCondutor4 />}/>                   
@@ -37,6 +39,7 @@ function App () {
                 <Route path='/cadastro10' exact element={<DadosResponsavel4 />} />
                 <Route path='/cadastro11' exact element={<DadosResponsavel5 />} />
                 <Route path='/cadastro12' exact element={<DadosResponsavel6 />} />
+                <Route path='/home/responsavel' element={<HomeResponsavel/>}/>
             </Routes>
 
         </>

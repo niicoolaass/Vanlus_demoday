@@ -32,7 +32,7 @@ export function DadosCondutor1 () {
                                 <input type="password" name="senha" placeholder= "*Crie uma senha"/>                                
                                 <input type="password" name="senha" placeholder= "*Confirme sua senha"/>
                                     <div className='proximo'>
-                                    <Link to='/Cadastro/Condutor/2'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
+                                    <Link to='/cadastro2'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
                                     </div>
                             </form>
                             

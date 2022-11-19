@@ -32,7 +32,7 @@ export function DadosCondutor3 () {
                                     <input type="file" id="avatarc" name="avatar" accept="image/png, image/jpeg"/>
                                 </label>
                                     <div className='proximo'>
-                                    <Link to='/Cadastro/Condutor/4'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
+                                    <Link to='/cadastro4'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
                                     </div>
                             </form>
                             

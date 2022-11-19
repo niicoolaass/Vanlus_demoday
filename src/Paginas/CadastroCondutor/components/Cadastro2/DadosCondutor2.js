@@ -34,7 +34,7 @@ export function DadosCondutor2 () {
                                 <input type="text" name="cep" placeholder= "*CEP"/>
                                 <input type="tel" name="Celular" placeholder= "*Celular"/>
                                     <div className='proximo'>
-                                    <Link to='/Cadastro/Condutor/3'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
+                                    <Link to='/cadastro3'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
                                     </div>
                             </form>
                             

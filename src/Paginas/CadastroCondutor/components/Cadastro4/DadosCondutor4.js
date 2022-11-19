@@ -30,7 +30,7 @@ export function DadosCondutor4 () {
                                 <input type="text" name="CNH" placeholder= "*CNH"/>
                                 <input type="text" name="CRVL" placeholder= "*CRVL"/>                                
                                     <div className='proximo4'>
-                                    <Link to='/Cadastro/Condutor/5'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
+                                    <Link to='/cadastro5'><BsFillArrowRightCircleFill size={65} id='next1' /></Link>
                                     </div>
                             </form>
                             

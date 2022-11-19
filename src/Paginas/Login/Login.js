@@ -2,6 +2,7 @@ import './Login.css'
 import icon from '../../styles/imgs/Logo 3.png'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 import pintada from './imgs/mao_pintada.png'
+import { Link } from 'react-router-dom'
 
 
 function Login () {
@@ -33,7 +34,7 @@ function Login () {
                 </div>
 
                 <section className='enviar'>
-                    <BsFillArrowRightCircleFill size={65}/>
+                  <Link to='/home/responsavel'><BsFillArrowRightCircleFill size={65}/></Link>  
                 </section>                
             </form>
 

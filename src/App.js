@@ -15,6 +15,7 @@ import DadosResponsavel4 from './Paginas/CadastroResponsavel/Cadastro10/DadosRes
 import DadosResponsavel5 from './Paginas/CadastroResponsavel/Cadastro11/DadosResponsavel5';
 import DadosResponsavel6 from './Paginas/CadastroResponsavel/Cadastro12/DadosResponsavel6';
 import HomeResponsavel from './Paginas/HomeResponsavel/HomeResponsavel.js';
+import Erro from './Paginas/Erro/Erro';
 
 
 function App () {
@@ -40,6 +41,7 @@ function App () {
                 <Route path='/cadastro11' exact element={<DadosResponsavel5 />} />
                 <Route path='/cadastro12' exact element={<DadosResponsavel6 />} />
                 <Route path='/home/responsavel' element={<HomeResponsavel/>}/>
+                <Route path='*' element={<Erro/>}/>
             </Routes>
 
         </>

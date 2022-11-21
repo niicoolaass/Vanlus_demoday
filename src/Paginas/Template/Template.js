@@ -9,7 +9,7 @@ function Template(props) {
         <div className="homeR">
             <Sidebar />
             <div>
-                <Header />
+                <Header cor={props.cor} />
                 <div style={{ display: "flex" }}>
                     {props.element}
                     <Extra />

@@ -6,6 +6,10 @@
     align-items: center;
     justify-content: flex-end;
     padding:25px;
+    z-index: 5;
+    position: fixed;
+    right: 0;
+    background: var(--background-main);
 }
 
 .notifications{

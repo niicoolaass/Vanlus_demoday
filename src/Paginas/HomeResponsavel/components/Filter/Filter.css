@@ -1,5 +1,127 @@
-.filter{
-    width:60vw;
-    height: 90vh;
-    background-color: purple;
+.suggestions {
+    width: 60vw;
+    margin-left: 50%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
 }
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    grid-gap: 40px;
+    padding: 0px 0px 30px;
+    position: fixed;
+    top: 100px;
+    z-index: 5;
+    background: var(--background-main);
+    width: max-content;
+}
+
+.filter .topics {
+    display: flex;
+    gap: 8px;
+}
+
+.filter .topics p {
+    cursor: pointer;
+
+}
+
+.space_filter {
+    height: 50px;
+    width: 100vh;
+    position: fixed;
+    background: var(--background-main);
+    z-index: 5;
+    top: 50px;
+}
+
+/*Condutores*/
+.space_first {
+    padding: 80px;
+}
+
+.space {
+    padding: 15px;
+}
+
+
+.conductor {
+    background: var(--prata-vanlus);
+    height: 260px;
+    width: 650px;
+    border-radius: 3%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 15px;
+    z-index: 1;
+}
+
+.conductor .first {
+    display: flex;
+    width: 250px;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.messages {
+    margin-left: 10vw;
+}
+
+.conductor .first .img_conductor {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.conductor .first h1 {
+    width: 250px;
+}
+
+.conductor .first p {
+    width: 250px;
+}
+
+.conductor .middle {
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+.conductor .middle .descrition strong {
+    font-size: 19px;
+}
+
+.conductor .middle .descrition p {
+    font-size: 18px;
+
+}
+
+.conductor .last {
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.conductor .last .price strong {
+    font-size: 35px;
+}
+
+.conductor .last .review {
+    align-items: center;
+
+}
+
+
+
+
+

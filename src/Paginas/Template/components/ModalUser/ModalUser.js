@@ -26,7 +26,7 @@ function ModalUser(props) {
                 <Link to="/Login"><button>Sair</button></Link>
             </div>
             {accountVisible ?
-                (<> <div onClick={() => { setAccountVisible(false) }} style={{ backgroundColor: "rgba(0, 0, 0, 0.199)", left: "0", width: "100vw", height: "190vh", position: "absolute", zIndex: "99" }}></div>
+                (<> <div onClick={() => { setAccountVisible(false) }} style={{ backgroundColor: "rgba(0, 0, 0, 0.199)", left: "0",top:"0", width: "100vw", height: "190vh", position: "fixed", zIndex: "99" }}></div>
                     {Account().accountResposavel()}</>) :
                 null}
         </>

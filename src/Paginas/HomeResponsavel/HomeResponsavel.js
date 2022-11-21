@@ -9,7 +9,7 @@ function HomeResponsavel() {
     return (
         <>
         <Template cor="modal-user blue" element={<Filter/>}/>
-        <img alt="sidebar-img" src={Boy} height="45%" style={{position:"absolute", bottom:"0", left:"0", zIndex:"-1"}}/>
+        <img alt="sidebar-img" src={Boy} height="45%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-1"}}/>
         </>
         
 

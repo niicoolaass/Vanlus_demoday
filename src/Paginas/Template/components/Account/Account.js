@@ -137,14 +137,15 @@ export default function Account(props) {
             </div>
         </div>)
         },
-        accountCondutores() {
+        accountCondutores(src, nome_condutor,apelido, description) {
             return (<div className="account acR acCS">
                 <div className="info-pessoal">
                     <div className="header-ac">
-                        <img alt="userPhoto" src={User} width="100px" height="100px" style={{ borderRadius: "50%", marginRight: "25px" }} />
+                        <img alt="userPhoto" src={src} width="100px" height="100px" style={{ borderRadius: "50%", marginRight: "25px" }} />
                     </div>
-                    <span className="name">Rubens Migliorini</span>
-                    <span className="tio-name">Tio Rubens</span>
+                    <span className="name">{nome_condutor}</span>
+                    <span className="tio-name">{apelido}</span>
+                    <span className="description">{description}</span>
                     <span className="time"><p>Com a Vanlus desde:</p><p>22/11/2022</p></span>
                     <div className='icones'>
                         <FaEnvelope color="var(--azul-claro-vanlus)" size={50} />

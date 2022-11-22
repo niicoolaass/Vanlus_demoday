@@ -1,6 +1,5 @@
 import './Sidebar.css';
 import LogoMarca from '../../../../styles/imgs/Logo_2.png';
-import Boy from './img/boy.jpg';
 import { AiFillHome } from "react-icons/ai";
 import { TbBus } from "react-icons/tb";
 import { BsFillPeopleFill } from "react-icons/bs";
@@ -24,7 +23,6 @@ function Sidebar(){
                     <a><BsFillPeopleFill size={35}/>PARCEIROS</a>
                 </li>
             </ul>
-            <img src={Boy} height="45%" style={{position:"absolute", bottom:"0", left:"0", zIndex:"-1"}}/>
         </div>
     )
 }

@@ -2,12 +2,13 @@ import './Template.css';
 import Sidebar from './components/Sidebar/Sidebar';
 import Header from './components/Header/Header';
 import Extra from './components/Extra/Extra';
+import ChatOverlay from './components/Chat_Overlay/ChatOverlay';
 
 function Template(props) {
 
     return (
         <div className="homeR">
-            <Sidebar />
+            {props.sidebar}
             <div>
                 <Header cor={props.cor} />
                 <div style={{ display: "flex" }}>
@@ -15,7 +16,7 @@ function Template(props) {
                     <Extra />
                 </div>
             </div>
-
+            <ChatOverlay/>
         </div>
 
     )

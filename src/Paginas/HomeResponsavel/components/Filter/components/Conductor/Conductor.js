@@ -3,9 +3,12 @@ import {useState} from 'react';
 import {  BsStarFill, BsStarHalf } from 'react-icons/bs'
 import { MdEmail } from 'react-icons/md'
 import Account from '../../../../../Template/components/Account/Account'
+import Chat from '../../../../../Template/components/Chat/Chat';
 
 function Conductor(props){
     const [accountVisible, setAccountVisible] = useState(false);
+    const [chatVisible, setChatVisible] = useState(false);
+
     return(
     <> <div className='conductor' onClick={()=>{setAccountVisible(true)}}>
     <div className='first'>
@@ -16,7 +19,7 @@ function Conductor(props){
             <p>{props.local}</p>
         </div>
     
-        <div className='messages'>
+        <div  onClick={() => { setChatVisible(true) }} className='messages'>
             <MdEmail size={40} color='#003566' />
         </div>
     
@@ -44,8 +47,17 @@ function Conductor(props){
     
    
     </div> {accountVisible ?
-    (<> <div onClick={() => { setAccountVisible(false) }} style={{ backgroundColor: "rgba(0, 0, 0, 0.199)", left: "0",top:"0", width: "100vw", height: "190vh", position: "fixed", zIndex: "99" }}></div>
+    (<> <div onClick={() => { setAccountVisible(false) }} style={{ backgroundColor: "rgba(0, 0, 0, 0.199)", left: "0",top:"0", width: "100vw", height: "190vh", position: "fixed", zIndex: "10" }}></div>
     {Account().accountCondutores(props.src, props.nome, props.apelido, props.description)}</>) : null}
+    {chatVisible
+                ? (
+                    <>
+                        <div onClick={() => { setChatVisible(false) }} style={{top: "0", left: "0", width: "100vw", height: "190vh", position: "fixed", zIndex: "99" }}></div>
+                        <Chat src={props.src} apelido={props.apelido}/>
+                    </>
+                )
+                : null
+            }
     <div className='space'></div></>
    )
 }

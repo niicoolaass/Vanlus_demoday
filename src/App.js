@@ -15,6 +15,7 @@ import DadosResponsavel4 from './Paginas/CadastroResponsavel/Cadastro10/DadosRes
 import DadosResponsavel5 from './Paginas/CadastroResponsavel/Cadastro11/DadosResponsavel5';
 import DadosResponsavel6 from './Paginas/CadastroResponsavel/Cadastro12/DadosResponsavel6';
 import HomeResponsavel from './Paginas/HomeResponsavel/HomeResponsavel.js';
+import SeuCondutor from './Paginas/SeuCondutor/SeuCondutor.js';
 import Erro from './Paginas/Erro/Erro';
 
 
@@ -40,7 +41,8 @@ function App () {
                 <Route path='/cadastro10' exact element={<DadosResponsavel4 />} />
                 <Route path='/cadastro11' exact element={<DadosResponsavel5 />} />
                 <Route path='/cadastro12' exact element={<DadosResponsavel6 />} />
-                <Route path='/home/responsavel' element={<HomeResponsavel/>}/>
+                <Route path='/responsavel/home' element={<HomeResponsavel/>}/>
+                <Route path='/responsavel/condutor' element={<SeuCondutor/>}/>
                 <Route path='*' element={<Erro/>}/>
             </Routes>
 

@@ -12,10 +12,10 @@ export default function Account(props) {
     return {
         accountResposavel() {
             return (
-                <div className="account acR">
+                <div className="account acR acima">
                     <div className="info-pessoal">
                         <div className="header-ac">
-                            <img alt="userPhoto" src={User} width="100px" height="100px" style={{ borderRadius: "50%", marginRight: "25px" }} />
+                            <img alt="userPhoto" src={User} width="100px" height="100px" style={{ borderRadius: "50%"}} />
                         </div>
                         <form>
                             <span>Nome:</span>
@@ -56,7 +56,7 @@ export default function Account(props) {
             return (<div className="account acC">
                 <div className="info-pessoal">
                     <div className="header-ac">
-                        <img alt="userPhoto" src={User} width="100px" height="100px" style={{ borderRadius: "50%", marginRight: "25px" }} />
+                        <img alt="userPhoto" src={User} width="100px" height="100px" style={{ borderRadius: "50%"}} />
                     </div>
                     <form>
                         <span>Nome:</span>
@@ -95,7 +95,7 @@ export default function Account(props) {
             return (<div className="account acR acCS">
             <div className="info-pessoal">
                 <div className="header-ac">
-                    <img alt="userPhoto" src={User} width="100px" height="100px" style={{ borderRadius: "50%", marginRight: "25px" }} />
+                    <img alt="userPhoto" src={User} width="100px" height="100px" style={{ borderRadius: "50%" }} />
                 </div>
                 <span className="name">Rubens Migliorini</span>
                 <span className="tio-name">Tio Rubens</span>
@@ -140,9 +140,9 @@ export default function Account(props) {
         accountCondutores(src, nome_condutor,apelido, description) {
             return (<div className="account acR acCS">
                 <div className="info-pessoal">
-                    <div className="header-ac">
-                        <img alt="userPhoto" src={src} width="100px" height="100px" style={{ borderRadius: "50%", marginRight: "25px" }} />
-                    </div>
+                    
+                        <img alt="userPhoto" src={src} width="100px" height="100px" style={{ borderRadius: "50%"}} />
+                   
                     <span className="name">{nome_condutor}</span>
                     <span className="tio-name">{apelido}</span>
                     <span className="description">{description}</span>
@@ -176,6 +176,19 @@ export default function Account(props) {
                         divulgar meu trabalho.</div>
                 </div>
             </div>)
+        },
+        accountPresenseList(){
+            return(
+                <div className="account">
+                    <div className="info-pessoal">
+                        <div className="header-ac">
+                        </div>
+                    </div>
+                    <div className="info-add">
+                        
+                    </div>
+                </div>
+            )
         }
     }
 }

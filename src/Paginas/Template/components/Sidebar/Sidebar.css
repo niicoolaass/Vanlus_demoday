@@ -50,3 +50,7 @@
 .homeR .sidebar ul li a svg{
     margin-right: 10px;
  }
+
+.sidebar .amarelo {
+    background-color: var(--amarelo-fraco-vanlus);
+}

@@ -3,13 +3,14 @@
     width: 60vw;
     height:85vh;
     background-color:var(--background-main);
-    z-index:100;
     left:24vw;
     top:10vh;
     position: fixed;
     border-radius: 20px;
     display: flex;
     animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    box-shadow: 2px 4px 6px 0px rgba(173, 173, 173, 0.418);
+
 }
 
 .account .info-pessoal{
@@ -80,6 +81,10 @@ display: flex;
 flex-direction: column;
 }
 
+.account.acima{
+    z-index: 102;
+}
+
 /* Div condutores */
 .account.acC .info-pessoal{
     background-color: var(--amarelo-fraco-vanlus);
@@ -101,6 +106,10 @@ flex-direction: column;
     padding: 15px 5px;
 }
 
+.account.acCS{
+    z-index: 11;
+}
+
 .account.acCS .info-pessoal{
     position: relative;
     height: 80%;
@@ -108,7 +117,7 @@ flex-direction: column;
     flex-direction: column;
     align-items: center;
     color:rgb(255, 255, 255);
-    z-index: 101;
+    z-index: 10;
 }
 
 .account.acCS .info-pessoal .name{
@@ -146,7 +155,7 @@ flex-direction: column;
     height:30%;
     display:flex;
     bottom: 0;
-    z-index: 100;
+    z-index: 9;
     border-radius: 20px;
     align-items: flex-end;
     padding: 30px 10px;

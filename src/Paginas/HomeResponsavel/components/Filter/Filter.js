@@ -20,7 +20,7 @@ function Filter() {
 
             <div className='space_filter'></div>
 
-            <div class="filter" >
+            <div className="filter" >
                 <div className='topics' onClick={() => { setFilter("nenhum") }}>
                     <BiLike color='#41B3F4' size={20} /> <p>RECOMENDADOS</p>
                 </div>

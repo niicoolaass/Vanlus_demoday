@@ -17,8 +17,8 @@ function ChatCard(props) {
             {chatVisible
                 ? (
                     <>
-                        <div onClick={() => { setChatVisible(false) }} style={{top: "0", left: "0", width: "100vw", height: "190vh", position: "fixed", zIndex: "99" }}></div>
-                        <Chat src={props.src} apelido={props.apelido}/>
+                        <div onClick={() => { setChatVisible(false) }} style={{top: "0", left: "0", width: "100vw", height: "190vh", position: "fixed" }}></div>
+                        <Chat src={props.src} apelido={props.apelido} mensagem={props.mensagem}/>
                     </>
                 )
                 : null

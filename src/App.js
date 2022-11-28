@@ -17,6 +17,9 @@ import DadosResponsavel6 from './Paginas/CadastroResponsavel/Cadastro12/DadosRes
 import HomeResponsavel from './Paginas/HomeResponsavel/HomeResponsavel.js';
 import SeuCondutor from './Paginas/SeuCondutor/SeuCondutor.js';
 import Erro from './Paginas/Erro/Erro';
+import HomeCondutor from './Paginas/HomeCondutor/HomeCondutor.js';
+import Acompanhamento from './Paginas/Acompanhamento/Acompanhamento.js';
+import Parceiro from './Paginas/Parceiros/Parceiro.js';
 
 
 function App () {
@@ -42,7 +45,10 @@ function App () {
                 <Route path='/cadastro11' exact element={<DadosResponsavel5 />} />
                 <Route path='/cadastro12' exact element={<DadosResponsavel6 />} />
                 <Route path='/responsavel/home' element={<HomeResponsavel/>}/>
+                <Route path='/responsavel/acompanhamento' element={<Acompanhamento/>}/>
                 <Route path='/responsavel/condutor' element={<SeuCondutor/>}/>
+                <Route path='/responsavel/parceiro' element={<Parceiro/>}/>
+                <Route path='condutor/home' element={<HomeCondutor/>}/>
                 <Route path='*' element={<Erro/>}/>
             </Routes>
 

@@ -2,41 +2,49 @@ import './clients.css';
 import { useState } from 'react';
 import Conductor from '../../HomeResponsavel/components/Filter/components/Conductor/Conductor';
 import Mirella from './imgs/mirella3x4.jpg'
+import { AiOutlineUsergroupAdd } from 'react-icons/ai';
 
 
 function Clients() {
     const [filter, setFilter] = useState("nenhum");
 
     return (
-        <div className='suggestions'>
+        <div className='clients'>
 
             <div className='space_filter'></div>
 
-            <div class="filter" >
-                    <p>Novos</p>
+            <div class="new_contract" >
+                <div className='contract_plus'>
+                    <AiOutlineUsergroupAdd size={50}/>
+                </div>
+                
+                <div className='text_contract'>
+                    <p>NOVOS CONTRATOS</p>
+                </div>
             </div>
         
 
             <div className='space_first'></div>
-            {filter ==="nenhum" ?
+            
+            {filter === "nenhum" ?
                 (<>
                     <Conductor
                         src={Mirella}
-                        nome="Rubens Migliorini"
-                        apelido="Tio Rubens"
-                        local="Atende em Colégio Freire Castro/ Tic Tac"
+                        nome="Margarida dos Anjos Alves Santos"
+                        apelido="Margarida"
+                        local="Responsável por Mirella Alves"
                         description="Olá, sou o tio Rubens. Trabalho como condutor de van escolar desde 2010..."
-                        price="R$ 130,00"
+
                     />
 
 
                     <Conductor
                         src={Mirella}
-                        nome="Mércia Domingues"
-                        apelido="Tia Márcia"
-                        local="Atende em Escola Dr. Edmundo de Carvalho"
+                        nome="Erica de Souza"
+                        apelido="Erica"
+                        local="Responsável por Cristhian de Souza"
                         description="Olá, sou a tia Marcia. Sou uma condutora dedicada que amo meus anjinhos... "
-                        price="R$ 135,00"
+
                     />
 
                     <Conductor
@@ -45,7 +53,7 @@ function Clients() {
                         apelido="Tio Marcos"
                         local="Atende em Colégio Bellatrix"
                         description="Eae rapaziada, sou o tio Marcos ao seu favor. Desde 2007, trabalho em escolas..."
-                        price="R$ 150,00"
+
                     />
 
                     <Conductor
@@ -54,7 +62,7 @@ function Clients() {
                         apelido="Tio Edson"
                         local="Atende em Colégio Vila Romana"
                         description="Olá, tudo bem? Eu sou o Edson, tenho 32 anos e trabalho como condutor faz 3 anos..."
-                        price="R$ 125,00"
+
                     />
 
                     <Conductor
@@ -80,7 +88,7 @@ function Clients() {
                         apelido="Tio Rubens"
                         local="Atende em Colégio Freire Castro/ Tic Tac"
                         description="Olá, sou o tio Rubens. Trabalho como condutor de van escolar desde 2010..."
-                        price="R$ 130,00"
+
                     /></>)
                     : filter === "local" ? (
                         <>
@@ -90,7 +98,7 @@ function Clients() {
                                 apelido="Tio Rubens"
                                 local="Atende em Colégio Freire Castro/ Tic Tac"
                                 description="Olá, sou o tio Rubens. Trabalho como condutor de van escolar desde 2010..."
-                                price="R$ 130,00"
+
                             />
                         </>
                     ) : null}

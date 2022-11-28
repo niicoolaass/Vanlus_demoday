@@ -12,36 +12,77 @@ function Sidebar(){
             return(<div className="sidebar">
             <img height="15%"  src={LogoMarca} alt="Logo"/>
             <ul>
-                <li className="selected">
+                <li className='selected'>
                     <a><Link to='/responsavel/home'><AiFillHome size={35}/>HOME</Link></a>
                 </li>
                 <li>
-                    <a><HiOutlineMap size={35}/>ACOMPANHAMENTO</a>
+                    <a><Link to='/responsavel/acompanhamento'><HiOutlineMap size={35}/>ACOMPANHAMENTO</Link></a>
                 </li>
                 <li>
                     <a><Link to='/responsavel/condutor'><TbBus size={35}/>SEU CONDUTOR</Link></a>
                 </li>
                 <li className='parceiros'>
-                    <a><BsFillPeopleFill size={35}/>PARCEIROS</a>
+                <a><Link to='/responsavel/parceiro'><BsFillPeopleFill size={35}/>PARCEIROS</Link></a>
                 </li>
             </ul>
         </div>)
+        },
+
+        acompanhamento_responsavel() {
+            return(
+            <div className="sidebar">
+                <img height="15%"  src={LogoMarca} alt="Logo"/>
+                <ul>
+                    <li>
+                        <a><Link to='/responsavel/home'><AiFillHome size={35}/>HOME</Link></a>
+                    </li>
+                    <li className='selected'>
+                        <a><Link to='/responsavel/acompanhamento'><HiOutlineMap size={35}/>ACOMPANHAMENTO</Link></a>
+                    </li>
+                    <li>
+                        <a><Link to='/responsavel/condutor'><TbBus size={35}/>SEU CONDUTOR</Link></a>
+                    </li>
+                    <li className='parceiros'>
+                        <a><Link to='/responsavel/parceiro'><BsFillPeopleFill size={35}/>PARCEIROS</Link></a>
+                    </li>
+                </ul>
+            </div>)
         },
         seuCondutor(){
             return(<div className="sidebar">
             <img height="15%"  src={LogoMarca} alt="Logo"/>
             <ul>
                 <li >
-                <a><Link to='/responsavel/home'><AiFillHome size={35}/>HOME</Link></a>
+                    <a><Link to='/responsavel/home'><AiFillHome size={35}/>HOME</Link></a>
                 </li>
                 <li>
-                    <a><HiOutlineMap size={35}/>ACOMPANHAMENTO</a>
+                    <a><Link to='/responsavel/acompanhamento'><HiOutlineMap size={35}/>ACOMPANHAMENTO</Link></a>
                 </li>
                 <li className="selected">
-                <a><Link to='/responsavel/condutor'><TbBus size={35}/>SEU CONDUTOR</Link></a>
+                    <a><Link to='/responsavel/condutor'><TbBus size={35}/>SEU CONDUTOR</Link></a>
                 </li>
                 <li className='parceiros'>
-                    <a><BsFillPeopleFill size={35}/>PARCEIROS</a>
+                <a><Link to='/responsavel/parceiro'><BsFillPeopleFill size={35}/>PARCEIROS</Link></a>
+                </li>
+            </ul>
+        </div>)
+        },
+
+        parceria() {
+            return(<div className="sidebar">
+            <img height="15%"  src={LogoMarca} alt="Logo"/>
+            <ul>
+                <li >
+                    <a><Link to='/responsavel/home'><AiFillHome size={35}/>HOME</Link></a>
+                </li>
+                <li>
+                    <a><Link to='/responsavel/acompanhamento'><HiOutlineMap size={35}/>ACOMPANHAMENTO</Link></a>
+                </li>
+                <li>
+                    <a><Link to='/responsavel/condutor'><TbBus size={35}/>SEU CONDUTOR</Link></a>
+                </li>
+                <li className='parceiros'>
+                    <a><Link to='/responsavel/parceiro'><BsFillPeopleFill size={35}/>PARCEIROS</Link></a>
                 </li>
             </ul>
         </div>)
@@ -51,21 +92,21 @@ function Sidebar(){
             return(<div className="sidebar">
             <img height="15%"  src={LogoMarca} alt="Logo"/>
             <ul>
-                <li className="amarelo">
-                    <a><Link to='/responsavel/home'><AiFillHome size={35}/>HOME</Link></a>
+                <li className='conductor_yellow'>
+                    <a><Link to='/condutor/home'><AiFillHome size={35}/>HOME</Link></a>
                 </li>
                 <li>
-                    <a><HiOutlineMap size={35}/>ACOMPANHAMENTO</a>
+                    <a><HiOutlineMap size={35}/>ROTAS</a>
                 </li>
                 <li>
-                    <a><Link to='/responsavel/condutor'><TbBus size={35}/>SEU CONDUTOR</Link></a>
+                    <a><Link to='/responsavel/condutor'><TbBus size={35}/>LISTA DE PRESENÇA</Link></a>
                 </li>
-                <li className='parceiros'>
-                    <a><BsFillPeopleFill size={35}/>PARCEIROS</a>
+                <li className='renda_extra'>
+                    <a><BsFillPeopleFill size={35}/>RENDA EXTRA?</a>
                 </li>
             </ul>
         </div>)
-        }
+        },
     }
 }
 

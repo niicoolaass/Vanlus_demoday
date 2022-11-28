@@ -4,7 +4,6 @@ import Sidebar from '../Template/components/Sidebar/Sidebar';
 import Filter from './components/Filter/Filter';
 import  Boy from './img/boy.jpg'
 
-
 function HomeResponsavel() {
 
     return (

@@ -10,7 +10,7 @@ function HomeCondutor() {
     return (
         <>
         <Template sidebar={Sidebar().homeCondutor()} cor="modal-user blue" element={<Clients/>}/>
-        <img alt="sidebar-img" src={BoySearch} height="45%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-1"}}/>
+        <img alt="sidebar-img" src={BoySearch} height="35%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-1"}}/>
         </>
         
 

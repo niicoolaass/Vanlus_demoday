@@ -20,6 +20,7 @@ import Erro from './Paginas/Erro/Erro';
 import HomeCondutor from './Paginas/HomeCondutor/HomeCondutor.js';
 import Acompanhamento from './Paginas/Acompanhamento/Acompanhamento.js';
 import Parceiro from './Paginas/Parceiros/Parceiro.js';
+import ListaPresenca from './Paginas/Template/components/ListaPresenca/ListaPresenca.js';
 
 
 function App () {
@@ -49,6 +50,7 @@ function App () {
                 <Route path='/responsavel/condutor' element={<SeuCondutor/>}/>
                 <Route path='/responsavel/parceiro' element={<Parceiro/>}/>
                 <Route path='condutor/home' element={<HomeCondutor/>}/>
+                <Route path='condutor/listadepresenca' element={<ListaPresenca/>}/>
                 <Route path='*' element={<Erro/>}/>
             </Routes>
 

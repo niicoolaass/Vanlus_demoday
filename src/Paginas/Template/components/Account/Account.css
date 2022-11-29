@@ -244,4 +244,26 @@
 /* lista de presença */
 .container-a.lista-presenca .container-b{
     background-color:var(--amarelo-fraco-vanlus);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-b .children h2 {
+    font-size: 30px;
+}
+
+.container-b .contact h3 {
+    font-size: 30px;
+}
+
+.container-b .contact .square_white {
+    margin-left: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
 }

@@ -257,13 +257,59 @@
     font-size: 30px;
 }
 
+.container-b .contact p {
+    font-size: 18px;
+}
+
 .container-b .contact .square_white {
-    margin-left: 20%;
+    margin-left: 15%;
     align-items: center;
     display: flex;
     justify-content: center;
-    width: 250px;
+    width: 300px;
     height: 50px;
     background-color: white;
     border-radius: 10px;
+}
+
+.container-b .presence {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container-c .list_children {
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 28vw;
+    height: 40px;
+    background-color: var(--prata-vanlus);
+    border-radius: 10px;
+}
+
+/*Lado direito - lista de presença*/
+
+.container-c .list_children_selected {
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 28vw;
+    height: 40px;
+    background-color: var(--amarelo-fraco-vanlus);
+    border-radius: 10px;
+}
+
+.container-c .all_list .space_list {
+    padding: 6px;
+}
+
+.container-c .list_children p {
+    font-size: 20px;
+}
+
+.container-c .list_children_selected p {
+    font-size: 20px;
 }

@@ -2,6 +2,7 @@ import './clients.css';
 import { useState } from 'react';
 import Conductor from '../../HomeResponsavel/components/Filter/components/Conductor/Conductor';
 import Mirella from './imgs/mirella3x4.jpg'
+import GirlStar from './imgs/girlstar.png'
 import { AiOutlineUsergroupAdd } from 'react-icons/ai';
 
 
@@ -21,6 +22,10 @@ function Clients() {
                 <div className='text_contract'>
                     <p>NOVOS CONTRATOS</p>
                 </div>
+            </div>
+
+            <div className='right_img_girl'>
+                <img src={GirlStar}/>
             </div>
         
 

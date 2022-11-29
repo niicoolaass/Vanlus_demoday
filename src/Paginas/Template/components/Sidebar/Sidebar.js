@@ -87,11 +87,13 @@ function Sidebar(){
             </ul>
         </div>)
         },
+
+/*Sidebar do Condutor*/
         
         homeCondutor() {
             return(<div className="sidebar">
             <img height="15%"  src={LogoMarca} alt="Logo"/>
-            <ul>
+            <ul className='sidebar_conductor'>
                 <li className='conductor_yellow'>
                     <a><Link to='/condutor/home'><AiFillHome size={35}/>HOME</Link></a>
                 </li>
@@ -99,14 +101,56 @@ function Sidebar(){
                     <a><HiOutlineMap size={35}/>ROTAS</a>
                 </li>
                 <li>
-                    <a><Link to='/responsavel/condutor'><TbBus size={35}/>LISTA DE PRESENÇA</Link></a>
+                    <a><Link to='/condutor/listadepresenca'><TbBus size={35}/>LISTA DE PRESENÇA</Link></a>
                 </li>
                 <li className='renda_extra'>
-                    <a><BsFillPeopleFill size={35}/>RENDA EXTRA?</a>
+                    <a style={{color:"var(--azul-claro-vanlus"}}><BsFillPeopleFill size={35}/>RENDA EXTRA?</a>
                 </li>
             </ul>
         </div>)
         },
+
+       rotaCondutor() {
+            return(<div className="sidebar">
+            <img height="15%"  src={LogoMarca} alt="Logo"/>
+            <ul className='sidebar_conductor'>
+                <li className='conductor_yellow'>
+                    <a><Link to='/condutor/home'><AiFillHome size={35}/>HOME</Link></a>
+                </li>
+                <li>
+                    <a><HiOutlineMap size={35}/>ROTAS</a>
+                </li>
+                <li>
+                    <a><Link to='/condutor/listadepresenca'><TbBus size={35}/>LISTA DE PRESENÇA</Link></a>
+                </li>
+                <li className='renda_extra'>
+                    <a style={{color:"var(--azul-claro-vanlus"}}><BsFillPeopleFill size={35}/>RENDA EXTRA?</a>
+                </li>
+            </ul>
+        </div>)
+        },
+
+        listaP() {
+            return(<div className="sidebar">
+            <img height="15%"  src={LogoMarca} alt="Logo"/>
+            <ul className='sidebar_conductor'>
+                <li className='conductor_yellow'>
+                    <a><Link to='/condutor/home'><AiFillHome size={35}/>HOME</Link></a>
+                </li>
+                <li>
+                    <a><HiOutlineMap size={35}/>ROTAS</a>
+                </li>
+                <li>
+                    <a><Link to='/condutor/listadepresenca'><TbBus size={35}/>LISTA DE PRESENÇA</Link></a>
+                </li>
+                <li className='renda_extra'>
+                    <a style={{color:"var(--azul-claro-vanlus"}}><BsFillPeopleFill size={35}/>RENDA EXTRA?</a>
+                </li>
+            </ul>
+        </div>)
+        }
+
+        
     }
 }
 

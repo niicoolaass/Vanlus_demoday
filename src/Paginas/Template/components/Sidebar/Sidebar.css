@@ -51,18 +51,22 @@
     margin-right: 10px;
  }
 
-
+/*Condutor*/
 
  .homeR .sidebar .conductor_yellow {
     background-color: var(--amarelo-fraco-vanlus);
  }
 
+ .homeR .sidebar .sidebar_conductor li a{
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #73620C;
+}
+
  .homeR .sidebar ul .renda_extra {
     background-color: var(--azul-vanlus);
- }
-
- .homeR .sidebar ul .renda_extra a {
-    background-color: #A2D6F9;
  }
 
  .homeR .sidebar ul li a svg{

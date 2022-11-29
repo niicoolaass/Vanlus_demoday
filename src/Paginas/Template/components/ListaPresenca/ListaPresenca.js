@@ -1,5 +1,6 @@
 import '../Account/Account.css';
 import { AiOutlineCheckSquare, AiOutlineCloseSquare } from 'react-icons/ai'
+import { BiSquare } from 'react-icons/bi'
 
 function ListaPresenca() {
     return (
@@ -33,12 +34,99 @@ function ListaPresenca() {
                             <p className='square_white'>(11) 12345-6789</p>
                     </div>
 
+<div className='space'></div>
+
                     <div className='presence'>
-                        <AiOutlineCheckSquare/>
-                        <AiOutlineCloseSquare/>
+
+                        <div className='check'>
+                            <AiOutlineCheckSquare size={60}/>
+                        </div>
+
+                        <div className='close'>
+                        <AiOutlineCloseSquare size={60}/>
+                        </div>
+
                     </div>
+
                 </div>
                 <div className='container-c'>
+                    <h1>Lista de presença:</h1>
+
+<div className='space'></div>
+
+                <div className='all_list'>
+
+                    <div className='list_children_selected'>
+                            <p>Mirella Parravano de Neves</p>
+                            <BiSquare size={35}/>
+                    </div>
+
+<div className='space_list'></div>
+
+                    <div className='list_children'>
+                        <p>Mirella Parravano de Neves</p>
+                        <BiSquare size={35}/>
+                    </div>
+
+<div className='space_list'></div>
+
+                    <div className='list_children'>
+                        <p>Mirella Parravano de Neves</p>
+                        <BiSquare size={35}/>
+                    </div>
+
+<div className='space_list'></div>
+
+                    <div className='list_children'>
+                        <p>Mirella Parravano de Neves</p>
+                        <BiSquare size={35}/>
+                    </div>
+
+<div className='space_list'></div>
+
+                    <div className='list_children'>
+                        <p>Mirella Parravano de Neves</p>
+                        <BiSquare size={35}/>
+                    </div>
+
+<div className='space_list'></div>
+
+                    <div className='list_children'>
+                        <p>Mirella Parravano de Neves</p>
+                        <BiSquare size={35}/>
+                    </div>
+
+<div className='space_list'></div>
+
+                    <div className='list_children'>
+                        <p>Mirella Parravano de Neves</p>
+                        <BiSquare size={35}/>
+                    </div>
+
+<div className='space_list'></div>
+                     
+                    <div className='list_children'>
+                        <p>Mirella Parravano de Neves</p>
+                        <BiSquare size={35}/>
+                    </div>
+
+<div className='space_list'></div>
+
+                    <div className='list_children'>
+                        <p>Mirella Parravano de Neves</p>
+                        <BiSquare size={35}/>
+                    </div>
+    
+<div className='space_list'></div>
+
+                    <div className='list_children'>
+                        <p>Mirella Parravano de Neves</p>
+                        <BiSquare size={35}/>
+                    </div>
+
+<div className='space_list'></div>
+
+                </div>    
 
                 </div>
             </div>

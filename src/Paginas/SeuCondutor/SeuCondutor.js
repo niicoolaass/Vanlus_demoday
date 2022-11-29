@@ -1,6 +1,7 @@
 import './SeuCondutor.css';
 import Sidebar from '../Template/components/Sidebar/Sidebar';
-import  Boy from '../HomeResponsavel/img/boy.jpg';
+import GirlSleep from './img/girlsleep.png';
+import GirlRead from './img/girlread.png'
 import ContaSeuCondutor from '../Template/components/Account/ContaSeuCondutor';
 import ChatOverlay from '../Template/components/Chat_Overlay/ChatOverlay';
 import Header from '../Template/components/Header/Header';
@@ -20,7 +21,8 @@ function SeuCondutor() {
             </div>
             <ChatOverlay/>
         </div>
-        <img alt="sidebar-img" src={Boy} height="45%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-1"}}/>
+        <img alt="sidebar-img" src={GirlSleep} height="40%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-1"}}/>
+
         </>
     )
 }

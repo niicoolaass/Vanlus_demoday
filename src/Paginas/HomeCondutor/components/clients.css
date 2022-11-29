@@ -34,3 +34,10 @@
     font-size: 30px;
 }
 
+.right_img_girl {
+    display: flex;
+    flex-direction: column;
+    top: 190px;
+    position: fixed;
+    right: 0;
+}

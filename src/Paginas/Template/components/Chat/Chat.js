@@ -5,8 +5,24 @@ import { BiSearch } from "react-icons/bi";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { HiOutlinePaperAirplane } from "react-icons/hi";
 import { BiCheckDouble } from "react-icons/bi";
+import {useState} from 'react';
 
 function Chat(props) {
+    const date = new Date();
+
+    const [mensagem, setMensagem] = useState("");
+
+    const [newMensagem, setNewMensagem] = useState("")
+
+    const enviarMensagem = (texto) => {
+        setNewMensagem(<>{newMensagem}<div className="message responsavel">
+        <span>{texto}</span>
+        <div>
+            {date.getHours()}:{date.getMinutes()}
+            <BiCheckDouble size={20}/>
+        </div>
+    </div></>);
+    }
     return (
         <div className="chat-janela">
             <div className="chat-janela-header">
@@ -34,10 +50,14 @@ function Chat(props) {
                         <BiCheckDouble size={20}/>
                     </div>
                 </div>
+                {newMensagem}
             </div>
             <div className="send-message">
-                <input type="text" placeholder='Mensagem'></input>
-                <div>
+                <input 
+                type="text" 
+                placeholder='Mensagem'
+                onChange={(e) => { setMensagem(e.target.value) }}></input>
+                <div onClick={() => { enviarMensagem(mensagem) }}>
                     <HiOutlinePaperAirplane color="var(--azul-vanlus)" size={20} />
                 </div>
             </div>

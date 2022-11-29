@@ -3,12 +3,26 @@ import { FaEnvelope } from "react-icons/fa";
 import { AiOutlineStar, AiFillStar } from "react-icons/ai";
 import { BsCash } from "react-icons/bs";
 import { HiOutlinePaperAirplane } from "react-icons/hi";
-import {useState} from 'react';
+import { useState } from 'react';
 import User from '../../../HomeResponsavel/components/Filter/imgs/tiorubens.jpg';
 import Chat from '../Chat/Chat';
 
 function ContaSeuCondutor() {
-    const [chatVisible, setChatVisibility]=useState(false)
+    const [chatVisible, setChatVisibility] = useState(false);
+    const [mensagem, setMensagem] = useState("");
+
+    const [comentarios, setComentarios] = useState(
+        <><div className="commit">Muito obrigado dona Maria, suas opiniões
+            ajudam evoluir as minhas habilidades e
+            divulgar meu trabalho.</div>
+            <div className="commit">Muito obrigado dona Maria, suas opiniões
+                ajudam evoluir as minhas habilidades e
+                divulgar meu trabalho.</div></>)
+
+    const addCommit = (mensagem) => {
+        setComentarios(<>{comentarios}<div className="commit">{mensagem}</div></>);
+    }
+
     return (
         <>
             <div className="container-a container-seu-condutor">
@@ -21,7 +35,7 @@ function ContaSeuCondutor() {
                         <span className='span2'>Tio Rubens</span>
                         <span className='span3'><p>Com a Vanlus desde:</p><p>22/11/2022</p></span>
                         <div className='icones'>
-                        <div onClick={()=>{setChatVisibility(true)}}> <FaEnvelope color="var(--azul-claro-vanlus)" size={50} /></div>
+                            <div onClick={() => { setChatVisibility(true) }}> <FaEnvelope color="var(--azul-claro-vanlus)" size={50} /></div>
                             <BsCash color="var(--azul-claro-vanlus)" size={50} />
                             <AiOutlineStar color="var(--azul-claro-vanlus)" size={50} />
                         </div>
@@ -43,15 +57,14 @@ function ContaSeuCondutor() {
                 </div>
                 <div className='container-c'>
                     <h2>Últimas avaliações</h2>
-                    <div className="commit">Muito obrigado dona Maria, suas opiniões
-                        ajudam evoluir as minhas habilidades e
-                        divulgar meu trabalho.</div>
-                    <div className="commit">Muito obrigado dona Maria, suas opiniões
-                        ajudam evoluir as minhas habilidades e
-                        divulgar meu trabalho.</div>
+                    {comentarios}
                     <div className='comentario'>
-                        <input type="text" placeholder='Comente sobre seu condutor'></input>
-                        <div>
+                        <input
+                            type="text"
+                            placeholder='Comente sobre seu condutor'
+                            onChange={(e) => { setMensagem(e.target.value) }}
+                        ></input>
+                        <div onClick={() => { addCommit(mensagem) }}>
                             <HiOutlinePaperAirplane color="var(--azul-vanlus)" size={20} />
                         </div>
                     </div>
@@ -61,8 +74,8 @@ function ContaSeuCondutor() {
             {chatVisible
                 ? (
                     <>
-                        <div onClick={() => { setChatVisibility(false) }} style={{top: "0", left: "0", width: "100vw", height: "190vh", position: "fixed", zIndex: "99" }}></div>
-                        <Chat src={User} apelido="Tio Rubens" mensagem="Muito obrigado dona Adrianna, suas opiniões ajudam evoluir as minhas habilidades e divulgar meu trabalho."/>
+                        <div onClick={() => { setChatVisibility(false) }} style={{ top: "0", left: "0", width: "100vw", height: "190vh", position: "fixed", zIndex: "99" }}></div>
+                        <Chat src={User} apelido="Tio Rubens" mensagem="Muito obrigado dona Adrianna, suas opiniões ajudam evoluir as minhas habilidades e divulgar meu trabalho." />
                     </>
                 )
                 : null

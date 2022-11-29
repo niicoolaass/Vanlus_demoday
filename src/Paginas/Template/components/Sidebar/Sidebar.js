@@ -98,7 +98,7 @@ function Sidebar(){
                     <a><Link to='/condutor/home'><AiFillHome size={35}/>HOME</Link></a>
                 </li>
                 <li>
-                    <a><HiOutlineMap size={35}/>ROTAS</a>
+                    <a><Link to='/condutor/rotas'><AiFillHome size={35}/>ROTAS</Link></a>
                 </li>
                 <li>
                     <a><Link to='/condutor/listadepresenca'><TbBus size={35}/>LISTA DE PRESENÇA</Link></a>
@@ -114,11 +114,11 @@ function Sidebar(){
             return(<div className="sidebar">
             <img height="15%"  src={LogoMarca} alt="Logo"/>
             <ul className='sidebar_conductor'>
-                <li className='conductor_yellow'>
+                <li>
                     <a><Link to='/condutor/home'><AiFillHome size={35}/>HOME</Link></a>
                 </li>
-                <li>
-                    <a><HiOutlineMap size={35}/>ROTAS</a>
+                <li  className='conductor_yellow'>
+                    <a><Link to='/condutor/rotas'><AiFillHome size={35}/>ROTAS</Link></a>
                 </li>
                 <li>
                     <a><Link to='/condutor/listadepresenca'><TbBus size={35}/>LISTA DE PRESENÇA</Link></a>
@@ -138,7 +138,7 @@ function Sidebar(){
                     <a><Link to='/condutor/home'><AiFillHome size={35}/>HOME</Link></a>
                 </li>
                 <li>
-                    <a><HiOutlineMap size={35}/>ROTAS</a>
+                    <a><Link to='/condutor/rotas'><AiFillHome size={35}/>ROTAS</Link></a>
                 </li>
                 <li>
                     <a><Link to='/condutor/listadepresenca'><TbBus size={35}/>LISTA DE PRESENÇA</Link></a>

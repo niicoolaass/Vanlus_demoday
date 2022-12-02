@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 import { motion } from 'framer-motion'
 
-export function DadosResponsavel2 () {
+export function DadosResponsavel5 () {
     return (
 
         <>
@@ -56,4 +56,4 @@ export function DadosResponsavel2 () {
 
 }
 
-export default DadosResponsavel2;
+export default DadosResponsavel5;

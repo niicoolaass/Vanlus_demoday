@@ -2,10 +2,10 @@ import Logo from '../../../styles/imgs/Logo 3.png'
 import './DadosResponsavel6.css'
 import Crianca from './imgs/crianca.png'
 import { Link } from 'react-router-dom'
+import { FaCheckCircle } from 'react-icons/fa'
 import { motion } from 'framer-motion'
-import concluido from './imgs/concluido.png'
 
-export function DadosResponsavel2 () {
+export function DadosResponsavel6 () {
     return (
 
         <>
@@ -15,26 +15,38 @@ export function DadosResponsavel2 () {
                     <img src={Crianca} alt='Criança Feliz'/>
 
                 </div>
-                <div className='espaco2'></div>
-                <motion.div animate={{ x: 30}} className="LadoEsquerdo2-r">
+                <div className='espaco'></div>
+
+                <motion.div animate={{x: 30}} className="LadoEsquerdo2-r">
 
                     <div className="containerEsquerdo">
                         <img className='cadastro-logo' src={Logo} alt="Vanlus"/>                       
                             
-                            <form id='cadastro-condutor3'>
-                            <div className='h2-cadastro'>
-                                <h2>CADASTRO EFETUADO</h2>
-                                <h3>Em breve você receberá um email de confirmação.</h3>
-                            </div>
-
-                            <img className='cadastro-logo' src={concluido} alt="Vanlus"/>                       
-                                
-                                <div className='proximo'>
-                                <button id='Login2'><Link to='/Login'><b>LOGIN</b></Link></button> 
+                            <div id='cadastro-condutor6'>
+                                <div className='h2-cadastro-r'>
+                                    <h2>Cadastre-se</h2>
                                 </div>
-                            </form>
-                    </div>                                               
-                </motion.div>
+                                <section className='termino'>
+                                    <p>
+                                    Bem-vindo(a) à Vanlus<br/>
+                                    Em breve você receberá um email de confirmação
+                                    </p>
+                                </section>  
+                                <div className='proximo6'>
+                                    <FaCheckCircle size={120} className='next1' />
+                                </div>
+                                <section id='botao-login2'>                                   
+                                    <label className='capa-login2'>
+                                        <button><Link to='/Login'><p>LOGIN</p></Link></button>
+                                    </label>                                       
+                                </section>
+                            </div>
+                            
+                            
+
+                        </div>
+                                                
+                    </motion.div>
             </div>
         </>
 
@@ -43,4 +55,4 @@ export function DadosResponsavel2 () {
 
 }
 
-export default DadosResponsavel2;
+export default DadosResponsavel6;

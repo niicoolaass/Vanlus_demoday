@@ -17,12 +17,16 @@ import DadosResponsavel6 from './Paginas/CadastroResponsavel/Cadastro12/DadosRes
 import HomeResponsavel from './Paginas/HomeResponsavel/HomeResponsavel.js';
 import SeuCondutor from './Paginas/SeuCondutor/SeuCondutor.js';
 import Erro from './Paginas/Erro/Erro';
+<<<<<<< HEAD
+import Cartão from './Paginas/Pagamentos/Cartão/Cartão'
+=======
 import HomeCondutor from './Paginas/HomeCondutor/HomeCondutor.js';
 import Acompanhamento from './Paginas/Acompanhamento/Acompanhamento.js';
 import Parceiro from './Paginas/Parceiros/Parceiro.js';
 import ListaPresenca from './Paginas/Template/components/ListaPresenca/ListaPresenca.js';
 import Rotas from './Paginas/Rotas/Rotas.js';
 
+>>>>>>> 77737d4724859f8b60519666da3d3ec938ac2373
 
 function App () {
 
@@ -54,6 +58,8 @@ function App () {
                 <Route path='condutor/rotas' element={<Rotas/>}/>
                 <Route path='condutor/listadepresenca' element={<ListaPresenca/>}/>
                 <Route path='*' element={<Erro/>}/>
+
+                <Route path='/aa' element={<Cartão/>}/>
             </Routes>
 
         </>

@@ -1,11 +1,11 @@
 import '../../Filter.css';
 import {useState} from 'react';
 import {  BsStarFill, BsStarHalf } from 'react-icons/bs'
-import { MdEmail } from 'react-icons/md'
-import Account from '../../../../../Template/components/Account/Account'
+import ContaCondutores from '../../../../../Template/components/Account/ContaCondutores';
 
 function Conductor(props){
     const [accountVisible, setAccountVisible] = useState(false);
+
     return(
     <> <div className='conductor' onClick={()=>{setAccountVisible(true)}}>
     <div className='first'>
@@ -14,10 +14,6 @@ function Conductor(props){
         <div className='title'>
             <h1>{props.apelido}</h1>
             <p>{props.local}</p>
-        </div>
-    
-        <div className='messages'>
-            <MdEmail size={40} color='#003566' />
         </div>
     
     </div>
@@ -44,8 +40,8 @@ function Conductor(props){
     
    
     </div> {accountVisible ?
-    (<> <div onClick={() => { setAccountVisible(false) }} style={{ backgroundColor: "rgba(0, 0, 0, 0.199)", left: "0",top:"0", width: "100vw", height: "190vh", position: "fixed", zIndex: "99" }}></div>
-    {Account().accountCondutores(props.src, props.nome, props.apelido, props.description)}</>) : null}
+    (<> <div onClick={() => { setAccountVisible(false) }} style={{ backgroundColor: "rgba(0, 0, 0, 0.199)", left: "0",top:"0", width: "100vw", height: "190vh", position: "fixed", zIndex: "10" }}></div>
+    {<ContaCondutores src={props.src} nome_condutor={props.nome} apelido= {props.apelido} description= {props.description}/>}</>) : null}
     <div className='space'></div></>
    )
 }

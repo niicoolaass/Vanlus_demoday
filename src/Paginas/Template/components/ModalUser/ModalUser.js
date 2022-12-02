@@ -4,7 +4,8 @@ import { BsGearFill, BsFillQuestionCircleFill } from "react-icons/bs";
 import { FaWallet } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import Account from '../Account/Account';
+import ContaResponsavel from '../Account/ContaReponsavel';
+
 
 function ModalUser(props) {
     const [accountVisible, setAccountVisible] = useState(false);
@@ -26,8 +27,8 @@ function ModalUser(props) {
                 <Link to="/Login"><button>Sair</button></Link>
             </div>
             {accountVisible ?
-                (<> <div onClick={() => { setAccountVisible(false) }} style={{ backgroundColor: "rgba(0, 0, 0, 0.199)", left: "0",top:"0", width: "100vw", height: "190vh", position: "fixed", zIndex: "99" }}></div>
-                    {Account().accountResposavel()}</>) :
+                (<> <div onClick={() => { setAccountVisible(false) }} style={{ backgroundColor: "rgba(0, 0, 0, 0.199)", left: "0",top:"0", width: "100vw", height: "190vh", position: "fixed", zIndex: "102" }}></div>
+                    <ContaResponsavel/></>) :
                 null}
         </>
 

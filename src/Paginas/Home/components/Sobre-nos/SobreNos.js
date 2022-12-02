@@ -53,7 +53,7 @@ export function SobreNós () {
                         </div>
                     <div id='carrossel' ref={carrossel}>
                      {data.map((item) => {
-                            const {id, name, sobre, image,} = item
+                            const {id, name, sobre, image} = item
                     
                      return   (
                         <div className='item' key={id}>                       

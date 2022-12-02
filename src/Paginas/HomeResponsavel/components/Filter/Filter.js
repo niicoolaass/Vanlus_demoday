@@ -6,6 +6,8 @@ import { BsStar} from 'react-icons/bs'
 import { useState } from 'react';
 import Conductor from './components/Conductor/Conductor';
 
+import BoySmile from './imgs/boysmile.png'
+
 import Rubens from './imgs/tiorubens.jpg'
 import Marcia from './imgs/tiamarcia.jpg'
 import Marcos from './imgs/tiomarcos.jpg'
@@ -20,7 +22,7 @@ function Filter() {
 
             <div className='space_filter'></div>
 
-            <div class="filter" >
+            <div className="filter" >
                 <div className='topics' onClick={() => { setFilter("nenhum") }}>
                     <BiLike color='#41B3F4' size={20} /> <p>RECOMENDADOS</p>
                 </div>
@@ -33,6 +35,10 @@ function Filter() {
                 <div className='topics' >
                     <BsStar color='#FFC300' size={20} /> <p>RANK</p>
                 </div>
+            </div>
+
+            <div className='boy'>
+                <img src={BoySmile}/>
             </div>
 
             <div className='space_first'></div>

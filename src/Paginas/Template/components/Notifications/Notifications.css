@@ -1,7 +1,7 @@
 .div-notifications{
     width:20vw;
     height:85vh;
-    z-index: 1000;
+    z-index: 150;
     position: absolute;
     right:10vw;
     top: 10vh;

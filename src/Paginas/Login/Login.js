@@ -34,7 +34,7 @@ function Login () {
                 </div>
 
                 <section className='enviar'>
-                  <Link to='/home/responsavel'><BsFillArrowRightCircleFill size={65}/></Link>  
+                  <Link to='/responsavel/home'><BsFillArrowRightCircleFill size={65}/></Link>  
                 </section>                
             </form>
 

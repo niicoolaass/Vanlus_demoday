@@ -18,7 +18,7 @@ function Header(props) {
             {notVisible
                 ? (
                     <>
-                    <div onClick={()=>{setNotVisible(false) }} style={{left:"0",width:"100vw", height:"190vh", position:"absolute", zIndex:"99"}}></div>
+                    <div onClick={()=>{setNotVisible(false) }} style={{left:"0",width:"100vw", height:"190vh", position:"absolute", zIndex:"100"}}></div>
                     <Notifications />
                     </>
                 )
@@ -26,7 +26,7 @@ function Header(props) {
             {accountVisible
                 ? (
                     <>
-                    <div onClick={()=>{setAccountVisible(false) }} style={{left:"0",width:"100vw", height:"190vh", position:"absolute", zIndex:"99"}}></div>
+                    <div onClick={()=>{setAccountVisible(false) }} style={{left:"0",width:"100vw", height:"190vh", position:"absolute", zIndex:"100"}}></div>
                     <ModalUser cor={props.cor} userNome="Adriana" />
                     </>
                     

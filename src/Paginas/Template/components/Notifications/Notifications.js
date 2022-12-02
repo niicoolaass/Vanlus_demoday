@@ -19,20 +19,24 @@ function Notifications() {
     </>;
 
     return (
-        <div className="div-notifications">
-            <div className="not-header">
-                <span>Notificações</span>
-                <div className="bar-notifications">
-                    <p onClick={() => setClasseAtiva(!classAtiva)} className={classAtiva ? "ativo" : "desativo"}>Hoje</p>
-                    <p onClick={() => setClasseAtiva(!classAtiva)} className={classAtiva ? "desativo" : "ativo"}>Todas</p>
+            <div className="div-notifications">
+                <div className="not-header">
+                    <span>Notificações</span>
+                    <div className="bar-notifications">
+                        <p onClick={() => setClasseAtiva(!classAtiva)} className={classAtiva ? "ativo" : "desativo"}>Hoje</p>
+                        <p onClick={() => setClasseAtiva(!classAtiva)} className={classAtiva ? "desativo" : "ativo"}>Todas</p>
+                    </div>
                 </div>
-            </div>
             {classAtiva?(
                 TodayNots
             )
             :AllNots}
-        </div>
-    )
-}
+            </div>
+        )
+    
+    }
+
+       
+
 
 export default Notifications;

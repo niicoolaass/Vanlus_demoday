@@ -1,8 +1,10 @@
 import '../Account/Account.css';
 import { AiOutlineCheckSquare, AiOutlineCloseSquare } from 'react-icons/ai'
 import { BiSquare } from 'react-icons/bi'
+import { useState } from 'react';
 
 function ListaPresenca() {
+    const [presenca, setPresenca]=useState(<BiSquare size={35}/>)
     return (
         <>
             <div className="container-a lista-presenca">
@@ -38,12 +40,12 @@ function ListaPresenca() {
 
                     <div className='presence'>
 
-                        <div className='check'>
+                        <div className='check' onClick={()=>{setPresenca( <AiOutlineCheckSquare size={35}/>)}}>
                             <AiOutlineCheckSquare size={60}/>
                         </div>
 
-                        <div className='close'>
-                        <AiOutlineCloseSquare size={60}/>
+                        <div className='close'onClick={()=>{setPresenca( <AiOutlineCloseSquare size={35}/>)}}>
+                        <AiOutlineCloseSquare size={60} />
                         </div>
 
                     </div>
@@ -58,7 +60,7 @@ function ListaPresenca() {
 
                     <div className='list_children_selected'>
                             <p>Mirella Parravano de Neves</p>
-                            <BiSquare size={35}/>
+                            {presenca}
                     </div>
 
 <div className='space_list'></div>

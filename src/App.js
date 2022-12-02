@@ -16,7 +16,7 @@ import DadosResponsavel5 from './Paginas/CadastroResponsavel/Cadastro11/DadosRes
 import DadosResponsavel6 from './Paginas/CadastroResponsavel/Cadastro12/DadosResponsavel6';
 import HomeResponsavel from './Paginas/HomeResponsavel/HomeResponsavel.js';
 import Erro from './Paginas/Erro/Erro';
-
+import Cartão from './Paginas/Pagamentos/Cartão/Cartão'
 
 function App () {
 
@@ -42,6 +42,8 @@ function App () {
                 <Route path='/cadastro12' exact element={<DadosResponsavel6 />} />
                 <Route path='/home/responsavel' element={<HomeResponsavel/>}/>
                 <Route path='*' element={<Erro/>}/>
+
+                <Route path='/aa' element={<Cartão/>}/>
             </Routes>
 
         </>

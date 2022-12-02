@@ -1,0 +1,83 @@
+.foto-cartoes{
+    position: absolute;
+    width: 17vw;
+    margin-left: 15%;
+}
+
+.info-dados{
+    font-size: 1vw;
+    background: #D6DEEF;
+    border-radius: 10px;
+    height: 73%;
+    margin-top: 40%;
+    font-weight: 600;
+}
+
+.info-dados1{
+    padding-top: 38%;
+    margin-left: 4%;
+    display: flex;
+    gap: 17%;
+}
+
+.info-dados2{
+    padding-top: 5%;
+    margin-left: 4%;
+    display: flex;
+    gap: 16%;
+}
+
+.info-dados3{
+    padding-top: 5%;
+    margin-left: 4%;
+    display: flex;
+    gap: 28%;
+}
+
+.info-dados4{
+    padding-top: 5%;
+    margin-left: 4%;
+    display: flex;
+    gap: 45%;
+}
+
+.LateralDados span{
+    color: #545454;
+}
+
+.LateralDados{
+    position: fixed;
+    width: 25%;
+    height: 70vh;
+    margin-left: 67%;
+    margin-top: -42%;
+}
+
+.info-valor{
+    background: #E4EAED;
+    border-radius: 10px;
+    margin-top: 26%;
+    height: 12vh;
+}
+
+.info-valor p{
+    margin-left: 4%;
+}
+
+.info-valor p:nth-child(1){
+    color: #545454;
+    padding-top: 4%;
+    padding-bottom: 2%;
+
+}
+
+.info-valor p:nth-child(2){
+    font-size: 1.50vw;
+    font-weight: 600;
+}
+
+.info-valor p span:nth-child(1){
+    font-size: 1.15vw;
+    color: black;
+}
+

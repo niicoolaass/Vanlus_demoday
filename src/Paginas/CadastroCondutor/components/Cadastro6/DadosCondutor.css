@@ -70,14 +70,13 @@
     transition: all 400ms;
     color: var(--amarelo-fraco-vanlus);
     z-index: 15;
-    margin-top: 15%;
+    margin-top: 3%;
     margin-bottom: 25%;
 }
 
-#next2{
-    color: var(--amarelo-forte-vanlus);
-    border-radius: 100%;
-    cursor: pointer;
+#next3{
+    margin-top: 50px;
+    cursor: default;
 }
 
 #cadastro-condutor6 #botao-login {

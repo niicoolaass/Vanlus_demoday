@@ -13,16 +13,16 @@ import DadosResponsavel2 from './Paginas/CadastroResponsavel/Cadastro8/DadosResp
 import DadosResponsavel3 from './Paginas/CadastroResponsavel/Cadastro9/DadosResponsavel3';
 import DadosResponsavel4 from './Paginas/CadastroResponsavel/Cadastro10/DadosResponsavel4';
 import DadosResponsavel5 from './Paginas/CadastroResponsavel/Cadastro11/DadosResponsavel5';
-import DadosResponsavel6 from './Paginas/CadastroResponsavel/Cadastro12/DadosResponsavel6';
 import HomeResponsavel from './Paginas/HomeResponsavel/HomeResponsavel.js';
 import SeuCondutor from './Paginas/SeuCondutor/SeuCondutor.js';
 import Erro from './Paginas/Erro/Erro';
+import Cartão from './Paginas/Pagamentos/Cartão/Cartão'
+
 import HomeCondutor from './Paginas/HomeCondutor/HomeCondutor.js';
 import Acompanhamento from './Paginas/Acompanhamento/Acompanhamento.js';
 import Parceiro from './Paginas/Parceiros/Parceiro.js';
 import ListaDePresenca from './Paginas/ListaDePresenca/ListaDePresenca'
 import Rotas from './Paginas/Rotas/Rotas.js';
-import Cartão from './Paginas/Pagamentos/Cartão/Cartão';
 
 function App () {
 
@@ -31,7 +31,9 @@ function App () {
         
             <Routes>
                 <Route path='/' element={<Home />}/>
+                
                 <Route path='/Login' element={<Login />}/>
+
                 <Route path='/Cadastro' element={<Cadastro />}/>
                 <Route path='/CadastroCondutor' element={<DadosCondutor1/>}/>
                 <Route  path='/cadastro2' exact element={<DadosCondutor2 />}/>    
@@ -45,16 +47,18 @@ function App () {
                 <Route path='/cadastro9' exact element={<DadosResponsavel3 />} />
                 <Route path='/cadastro10' exact element={<DadosResponsavel4 />} />
                 <Route path='/cadastro11' exact element={<DadosResponsavel5 />} />
-                <Route path='/cadastro12' exact element={<DadosResponsavel6 />} />
+
                 <Route path='/responsavel/home' element={<HomeResponsavel/>}/>
                 <Route path='/responsavel/acompanhamento' element={<Acompanhamento/>}/>
                 <Route path='/responsavel/condutor' element={<SeuCondutor/>}/>
                 <Route path='/responsavel/parceiro' element={<Parceiro/>}/>
-                <Route path='/condutor/home' element={<HomeCondutor/>}/>
-                <Route path='condutor/rotas' element={<Rotas/>}/>
-                <Route path='condutor/listadepresenca' element={<ListaDePresenca/>}/>
-                <Route path='*' element={<Erro/>}/>
 
+                <Route path='condutor/home' element={<HomeCondutor/>}/>
+                <Route path='condutor/rotas' element={<Rotas/>}/>
+                <Route path='condutor/listadepresenca' element={<ListaPresenca/>}/>
+                
+                <Route path='*' element={<Erro/>}/>
+    
                 <Route path='/aa' element={<Cartão/>}/>
             </Routes>
 

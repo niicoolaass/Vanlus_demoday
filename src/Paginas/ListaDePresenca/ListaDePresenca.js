@@ -1,30 +1,28 @@
-import './Rotas.css';
-import GirlSit from './components/img/girlsit.png';
+import './ListaDePresenca.css';
 import Sidebar from '../Template/components/Sidebar/Sidebar';
-
-import Header from '../Template/components/Header/Header';
 import ChatOverlay from '../Template/components/Chat_Overlay/ChatOverlay';
-import Trafego from './components/trajeto';
+import Header from '../Template/components/Header/Header';
+import ListaPresenca from '../Template/components/ListaPresenca/ListaPresenca';
 
-function Rotas() {
+function ListaDePresenca() {
 
     return (
         <>
         <div className="homeR">
-        {Sidebar().rotaCondutor()}
+        {Sidebar().listaP()}
             <div>
                 <Header cor="modal-user yellow" />
                 <div style={{ display: "flex" }}>
-                <Trafego/>
+                <ListaPresenca/>
                 </div>
             </div>
             <ChatOverlay color="var(--amarelo-fraco-vanlus)"/>
         </div>
-        <img alt="sidebar-img" src={GirlSit} height="35%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-1"}}/>
+        <img alt="sidebar-img" height="45%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-3"}}/>
         </>
         
 
     )
 }
 
-export default Rotas;
+export default ListaDePresenca;

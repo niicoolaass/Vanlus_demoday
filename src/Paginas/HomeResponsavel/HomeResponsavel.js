@@ -4,6 +4,8 @@ import Filter from './components/Filter/Filter';
 import  Boy from './img/boy.jpg'
 import ChatOverlay from '../Template/components/Chat_Overlay/ChatOverlay';
 import Header from '../Template/components/Header/Header';
+import ContaResponsavel from '../Template/components/Account/ContaReponsavel'
+import User from '../Template/components/Header/img/adriana.jpg'
 
 function HomeResponsavel() {
 
@@ -12,7 +14,7 @@ function HomeResponsavel() {
         <div className="homeR">
         {Sidebar().homeResponsavel()}
             <div>
-                <Header cor="modal-user blue" />
+                <Header  srcUser={User} typeAccount={<ContaResponsavel/>} cor="modal-user blue" />
                 <div style={{ display: "flex" }}>
                 <Filter/>
                 </div>

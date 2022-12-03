@@ -1,5 +1,5 @@
 import './Account.css'
-import User from '../Header/img/adriana.jpg'
+import User from '../../../HomeResponsavel/components/Filter/imgs/tiorubens.jpg'
 
 function ContaCondutor() {
     return (<>

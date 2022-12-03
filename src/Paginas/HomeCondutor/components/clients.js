@@ -14,7 +14,7 @@ function Clients() {
 
             <div className='space_filter'></div>
 
-            <div class="new_contract" >
+            <div className="new_contract" >
                 <div className='contract_plus'>
                     <AiOutlineUsergroupAdd size={50}/>
                 </div>
@@ -24,8 +24,8 @@ function Clients() {
                 </div>
             </div>
 
-            <div className='right_img_girl'>
-                <img src={GirlStar}/>
+            <div className='right_img_girl' style={{zIndex:"-33"}}>
+                <img  src={GirlStar}/>
             </div>
         
 

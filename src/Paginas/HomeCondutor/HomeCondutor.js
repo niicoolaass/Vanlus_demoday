@@ -1,16 +1,27 @@
 import './HomeCondutor.css';
-import Template from '../Template/Template';
-import BoySearch from './img/boysearch.png'
 import Clients from './components/clients';
 import Sidebar from '../Template/components/Sidebar/Sidebar';
+import Header from '../Template/components/Header/Header';
+import ChatOverlay from '../Template/components/Chat_Overlay/ChatOverlay';
+import ContaCondutor from '../Template/components/Account/ContaCondutor';
+import User from '../HomeResponsavel/components/Filter/imgs/tiorubens.jpg'
 
 
 function HomeCondutor() {
 
     return (
         <>
-        <Template sidebar={Sidebar().homeCondutor()} cor="modal-user yellow" element={<Clients/>}/>
-        <img alt="sidebar-img" src={BoySearch} height="35%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-1"}}/>
+        <div className="homeR">
+        {Sidebar().homeCondutor()}
+            <div>
+                <Header srcUser={User} typeAccount={<ContaCondutor/>} cor="modal-user yellow" />
+                <div style={{ display: "flex" }}>
+                <Clients/>
+                </div>
+            </div>
+            <ChatOverlay color="var(--amarelo-fraco-vanlus)"/>
+        </div>
+        <img alt="sidebar-img" height="45%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-3"}}/>
         </>
         
 

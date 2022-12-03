@@ -1,10 +1,11 @@
 import './SeuCondutor.css';
 import Sidebar from '../Template/components/Sidebar/Sidebar';
 import GirlSleep from './img/girlsleep.png';
-import GirlRead from './img/girlread.png'
 import ContaSeuCondutor from '../Template/components/Account/ContaSeuCondutor';
 import ChatOverlay from '../Template/components/Chat_Overlay/ChatOverlay';
 import Header from '../Template/components/Header/Header';
+import ContaResponsavel from '../Template/components/Account/ContaReponsavel';
+import User from '../Template/components/Header/img/adriana.jpg'
 
 
 function SeuCondutor() {
@@ -14,7 +15,7 @@ function SeuCondutor() {
         <div className="homeR">
         {Sidebar().seuCondutor()}
             <div>
-                <Header cor="modal-user blue" />
+                <Header srcUser={User} typeAccount={<ContaResponsavel/>} cor="modal-user blue" />
                 <div style={{ display: "flex" }}>
                 <ContaSeuCondutor/>
                 </div>

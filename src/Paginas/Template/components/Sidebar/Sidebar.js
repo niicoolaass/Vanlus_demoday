@@ -4,6 +4,7 @@ import { AiFillHome } from "react-icons/ai";
 import { TbBus } from "react-icons/tb";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { HiOutlineMap } from "react-icons/hi";
+import { MdOutlinePlaylistAddCheck } from "react-icons/md";
 import { Link } from 'react-router-dom'
 
 function Sidebar(){
@@ -13,16 +14,16 @@ function Sidebar(){
             <img height="15%"  src={LogoMarca} alt="Logo"/>
             <ul>
                 <li className='selected'>
-                    <a><Link to='/responsavel/home'><AiFillHome size={35}/>HOME</Link></a>
+                     <Link to='/responsavel/home'><AiFillHome size={35}/>HOME</Link> 
                 </li>
                 <li>
-                    <a><Link to='/responsavel/acompanhamento'><HiOutlineMap size={35}/>ACOMPANHAMENTO</Link></a>
+                     <Link to='/responsavel/acompanhamento'><HiOutlineMap size={35}/>ACOMPANHAMENTO</Link> 
                 </li>
                 <li>
-                    <a><Link to='/responsavel/condutor'><TbBus size={35}/>SEU CONDUTOR</Link></a>
+                     <Link to='/responsavel/condutor'><TbBus size={35}/>SEU CONDUTOR</Link> 
                 </li>
                 <li className='parceiros'>
-                <a><Link to='/responsavel/parceiro'><BsFillPeopleFill size={35}/>PARCEIROS</Link></a>
+                 <Link to='/responsavel/parceiro'><BsFillPeopleFill size={35}/>PARCEIROS</Link> 
                 </li>
             </ul>
         </div>)
@@ -34,16 +35,16 @@ function Sidebar(){
                 <img height="15%"  src={LogoMarca} alt="Logo"/>
                 <ul>
                     <li>
-                        <a><Link to='/responsavel/home'><AiFillHome size={35}/>HOME</Link></a>
+                        <Link to='/responsavel/home'><AiFillHome size={35}/>HOME</Link>
                     </li>
                     <li className='selected'>
-                        <a><Link to='/responsavel/acompanhamento'><HiOutlineMap size={35}/>ACOMPANHAMENTO</Link></a>
+                        <Link to='/responsavel/acompanhamento'><HiOutlineMap size={35}/>ACOMPANHAMENTO</Link>
                     </li>
                     <li>
-                        <a><Link to='/responsavel/condutor'><TbBus size={35}/>SEU CONDUTOR</Link></a>
+                        <Link to='/responsavel/condutor'><TbBus size={35}/>SEU CONDUTOR</Link>
                     </li>
                     <li className='parceiros'>
-                        <a><Link to='/responsavel/parceiro'><BsFillPeopleFill size={35}/>PARCEIROS</Link></a>
+                        <Link to='/responsavel/parceiro'><BsFillPeopleFill size={35}/>PARCEIROS</Link>
                     </li>
                 </ul>
             </div>)
@@ -53,16 +54,16 @@ function Sidebar(){
             <img height="15%"  src={LogoMarca} alt="Logo"/>
             <ul>
                 <li >
-                    <a><Link to='/responsavel/home'><AiFillHome size={35}/>HOME</Link></a>
+                    <Link to='/responsavel/home'><AiFillHome size={35}/>HOME</Link>
                 </li>
                 <li>
-                    <a><Link to='/responsavel/acompanhamento'><HiOutlineMap size={35}/>ACOMPANHAMENTO</Link></a>
+                    <Link to='/responsavel/acompanhamento'><HiOutlineMap size={35}/>ACOMPANHAMENTO</Link>
                 </li>
                 <li className="selected">
-                    <a><Link to='/responsavel/condutor'><TbBus size={35}/>SEU CONDUTOR</Link></a>
+                    <Link to='/responsavel/condutor'><TbBus size={35}/>SEU CONDUTOR</Link>
                 </li>
                 <li className='parceiros'>
-                <a><Link to='/responsavel/parceiro'><BsFillPeopleFill size={35}/>PARCEIROS</Link></a>
+                <Link to='/responsavel/parceiro'><BsFillPeopleFill size={35}/>PARCEIROS</Link>
                 </li>
             </ul>
         </div>)
@@ -73,16 +74,16 @@ function Sidebar(){
             <img height="15%"  src={LogoMarca} alt="Logo"/>
             <ul>
                 <li >
-                    <a><Link to='/responsavel/home'><AiFillHome size={35}/>HOME</Link></a>
+                    <Link to='/responsavel/home'><AiFillHome size={35}/>HOME</Link>
                 </li>
                 <li>
-                    <a><Link to='/responsavel/acompanhamento'><HiOutlineMap size={35}/>ACOMPANHAMENTO</Link></a>
+                    <Link to='/responsavel/acompanhamento'><HiOutlineMap size={35}/>ACOMPANHAMENTO</Link>
                 </li>
                 <li>
-                    <a><Link to='/responsavel/condutor'><TbBus size={35}/>SEU CONDUTOR</Link></a>
+                    <Link to='/responsavel/condutor'><TbBus size={35}/>SEU CONDUTOR</Link>
                 </li>
                 <li className='parceiros'>
-                    <a><Link to='/responsavel/parceiro'><BsFillPeopleFill size={35}/>PARCEIROS</Link></a>
+                    <Link to='/responsavel/parceiro'><BsFillPeopleFill size={35}/>PARCEIROS</Link>
                 </li>
             </ul>
         </div>)
@@ -95,16 +96,16 @@ function Sidebar(){
             <img height="15%"  src={LogoMarca} alt="Logo"/>
             <ul className='sidebar_conductor'>
                 <li className='conductor_yellow'>
-                    <a><Link to='/condutor/home'><AiFillHome size={35}/>HOME</Link></a>
+                     <Link to='/condutor/home'><AiFillHome size={35}/>HOME</Link> 
                 </li>
                 <li>
-                    <a><Link to='/condutor/rotas'><AiFillHome size={35}/>ROTAS</Link></a>
+                     <Link to='/condutor/rotas'><TbBus size={35}/>ROTAS</Link> 
                 </li>
                 <li>
-                    <a><Link to='/condutor/listadepresenca'><TbBus size={35}/>LISTA DE PRESENÇA</Link></a>
+                     <Link to='/condutor/listadepresenca'><MdOutlinePlaylistAddCheck size={35}/>LISTA DE PRESENÇA</Link> 
                 </li>
-                <li className='renda_extra'>
-                    <a style={{color:"var(--azul-claro-vanlus"}}><BsFillPeopleFill size={35}/>RENDA EXTRA?</a>
+                <li className='renda_extra' style={{color:"var(--azul-claro-vanlus"}}>
+                    <BsFillPeopleFill size={35}/>RENDA EXTRA?
                 </li>
             </ul>
         </div>)
@@ -115,16 +116,16 @@ function Sidebar(){
             <img height="15%"  src={LogoMarca} alt="Logo"/>
             <ul className='sidebar_conductor'>
                 <li>
-                    <a><Link to='/condutor/home'><AiFillHome size={35}/>HOME</Link></a>
+                     <Link to='/condutor/home'><AiFillHome size={35}/>HOME</Link> 
                 </li>
                 <li  className='conductor_yellow'>
-                    <a><Link to='/condutor/rotas'><AiFillHome size={35}/>ROTAS</Link></a>
+                     <Link to='/condutor/rotas'><TbBus size={35}/>ROTAS</Link> 
                 </li>
                 <li>
-                    <a><Link to='/condutor/listadepresenca'><TbBus size={35}/>LISTA DE PRESENÇA</Link></a>
+                     <Link to='/condutor/listadepresenca'><MdOutlinePlaylistAddCheck size={35}/>LISTA DE PRESENÇA</Link> 
                 </li>
-                <li className='renda_extra'>
-                    <a style={{color:"var(--azul-claro-vanlus"}}><BsFillPeopleFill size={35}/>RENDA EXTRA?</a>
+                <li className='renda_extra' style={{color:"var(--azul-claro-vanlus"}}>
+                     <BsFillPeopleFill size={35}/>RENDA EXTRA? 
                 </li>
             </ul>
         </div>)
@@ -134,17 +135,17 @@ function Sidebar(){
             return(<div className="sidebar">
             <img height="15%"  src={LogoMarca} alt="Logo"/>
             <ul className='sidebar_conductor'>
+                <li >
+                     <Link to='/condutor/home'><AiFillHome size={35}/>HOME</Link> 
+                </li>
+                <li>
+                     <Link to='/condutor/rotas'><TbBus size={35}/>ROTAS</Link> 
+                </li>
                 <li className='conductor_yellow'>
-                    <a><Link to='/condutor/home'><AiFillHome size={35}/>HOME</Link></a>
+                     <Link to='/condutor/listadepresenca'><MdOutlinePlaylistAddCheck size={35}/>LISTA DE PRESENÇA</Link> 
                 </li>
-                <li>
-                    <a><Link to='/condutor/rotas'><AiFillHome size={35}/>ROTAS</Link></a>
-                </li>
-                <li>
-                    <a><Link to='/condutor/listadepresenca'><TbBus size={35}/>LISTA DE PRESENÇA</Link></a>
-                </li>
-                <li className='renda_extra'>
-                    <a style={{color:"var(--azul-claro-vanlus"}}><BsFillPeopleFill size={35}/>RENDA EXTRA?</a>
+                <li className='renda_extra' style={{color:"var(--azul-claro-vanlus"}}>
+                     <BsFillPeopleFill size={35}/>RENDA EXTRA? 
                 </li>
             </ul>
         </div>)

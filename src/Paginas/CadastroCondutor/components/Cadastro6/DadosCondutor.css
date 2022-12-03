@@ -74,10 +74,10 @@
     margin-bottom: 25%;
 }
 
-.next1{
-    color: var(--amarelo-fraco-vanlus);
+#next3{
+    margin-top: 50px;
+    cursor: default;
 }
-
 
 #cadastro-condutor6 #botao-login {
     display: flex;

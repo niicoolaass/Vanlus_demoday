@@ -33,7 +33,7 @@ export function DadosCondutor6 () {
                                     </p>
                                 </section>  
                                 <div className='proximo6'>
-                                    <Link to='/cadastro6'><FaCheckCircle size={120} id='next1' /></Link>
+                                    <Link to='/cadastro6'><FaCheckCircle size={120} id='next3' /></Link>
                                 </div>
                                 <section id='botao-login'>                                   
                                     <label className='capa-login'>

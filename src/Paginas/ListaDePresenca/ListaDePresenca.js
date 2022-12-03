@@ -3,6 +3,8 @@ import Sidebar from '../Template/components/Sidebar/Sidebar';
 import ChatOverlay from '../Template/components/Chat_Overlay/ChatOverlay';
 import Header from '../Template/components/Header/Header';
 import ListaPresenca from '../Template/components/ListaPresenca/ListaPresenca';
+import User from '../HomeResponsavel/components/Filter/imgs/tiorubens.jpg'
+import ContaCondutor from '../Template/components/Account/ContaCondutor';
 
 function ListaDePresenca() {
 
@@ -11,7 +13,7 @@ function ListaDePresenca() {
         <div className="homeR">
         {Sidebar().listaP()}
             <div>
-                <Header cor="modal-user yellow" />
+                <Header srcUser={User} typeAccount={<ContaCondutor/>} cor="modal-user yellow" />
                 <div style={{ display: "flex" }}>
                 <ListaPresenca/>
                 </div>

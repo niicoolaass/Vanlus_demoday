@@ -55,7 +55,7 @@ function App () {
 
                 <Route path='condutor/home' element={<HomeCondutor/>}/>
                 <Route path='condutor/rotas' element={<Rotas/>}/>
-                <Route path='condutor/listadepresenca' element={<ListaPresenca/>}/>
+                <Route path='condutor/listadepresenca' element={<ListaDePresenca/>}/>
                 
                 <Route path='*' element={<Erro/>}/>
     

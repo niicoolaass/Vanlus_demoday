@@ -5,6 +5,8 @@ import Sidebar from '../Template/components/Sidebar/Sidebar';
 import Header from '../Template/components/Header/Header';
 import ChatOverlay from '../Template/components/Chat_Overlay/ChatOverlay';
 import Trafego from './components/trajeto';
+import User from '../HomeResponsavel/components/Filter/imgs/tiorubens.jpg'
+import ContaCondutor from '../Template/components/Account/ContaCondutor';
 
 function Rotas() {
 
@@ -13,7 +15,7 @@ function Rotas() {
         <div className="homeR">
         {Sidebar().rotaCondutor()}
             <div>
-                <Header cor="modal-user yellow" />
+                <Header srcUser={User} typeAccount={<ContaCondutor/>} cor="modal-user yellow" />
                 <div style={{ display: "flex" }}>
                 <Trafego/>
                 </div>

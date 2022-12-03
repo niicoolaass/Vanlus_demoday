@@ -24,7 +24,7 @@ export function DadosCondutor6 () {
                             
                             <div id='cadastro-condutor6'>
                                 <div className='h2-cadastro6'>
-                                    <h2>Cadastre-se</h2>
+                                    <h2>Cadastrado</h2>
                                 </div>
                                 <section className='termino'>
                                     <p>
@@ -33,7 +33,7 @@ export function DadosCondutor6 () {
                                     </p>
                                 </section>  
                                 <div className='proximo6'>
-                                    <Link to='/cadastro6'><FaCheckCircle size={120} id='next2' /></Link>
+                                    <Link to='/cadastro6'><FaCheckCircle size={120} id='next1' /></Link>
                                 </div>
                                 <section id='botao-login'>                                   
                                     <label className='capa-login'>

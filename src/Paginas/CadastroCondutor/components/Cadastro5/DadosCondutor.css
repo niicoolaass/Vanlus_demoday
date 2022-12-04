@@ -90,10 +90,11 @@
 }
 
 #next1{
+    margin-top: 60px;
     cursor: pointer;
 }
 
-.LadoEsquerdo5 .proximo .enviar:hover {
+#next1:hover {
     color: var(--amarelo-forte-vanlus);
 }
 

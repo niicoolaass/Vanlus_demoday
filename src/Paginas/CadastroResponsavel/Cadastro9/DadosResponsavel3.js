@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 import { motion } from 'framer-motion'
 
-export function DadosResponsavel2 () {
+export function DadosResponsavel3 () {
     return (
 
         <>
@@ -17,7 +17,8 @@ export function DadosResponsavel2 () {
                 </div>
                 <div className='espaco2'></div>
                 <motion.div animate={{ x: 30}} className="LadoEsquerdo2-r">
-
+                
+                <div className='c9'>
                     <div className="containerEsquerdo">
                         <img className='cadastro-logo' src={Logo} alt="Vanlus"/>                       
                             
@@ -82,7 +83,8 @@ export function DadosResponsavel2 () {
                                   <div className='nivel'><small></small></div>
                             </div>
 
-                    </div>                                               
+                    </div>     
+                    </div>                                          
                 </motion.div>
             </div>
         </>
@@ -92,4 +94,4 @@ export function DadosResponsavel2 () {
 
 }
 
-export default DadosResponsavel2;
+export default DadosResponsavel3;

@@ -1,8 +1,8 @@
 // criação da estrutura do componente second-content 'O que ofereceomos?'
 import './SecondContent.css'
-import ImagemLocal from './imgs/local.png';
 import ImagemMoedinha from './imgs/moeda.png';
 import ImagemVan from './imgs/van.png';
+import ImagemWorld from './imgs/world.png';
 
 export function SegundoConteudo () {
     return(
@@ -22,7 +22,7 @@ export function SegundoConteudo () {
 
                     <div>
                         <div className='funcionalidades'>
-                            <img alt="função" style={{borderRadius:"30px"}} width="100%" height="100%" src={ImagemLocal}/>
+                        <img alt="função" style={{borderRadius:"30px", marginTop:"30px"}} width="100%"  src={ImagemWorld}/>
                         </div>
 
                         <h1>Geolocalizção</h1>

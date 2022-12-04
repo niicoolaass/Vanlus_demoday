@@ -41,6 +41,14 @@
     top: 50px;
 }
 
+.suggestions .boy {
+    display: flex;
+    flex-direction: column;
+    top: 180px;
+    position: fixed;
+    right: 0;
+}
+
 /*Condutores*/
 .space_first {
     padding: 80px;
@@ -77,7 +85,6 @@
 
 .messages {
     margin-left: 10vw;
-    z-index:2;
 }
 
 .conductor .first .img_conductor {

@@ -90,7 +90,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 18%;
+    margin-top: 3%;
     margin-bottom: 2%;
     transition: all 400ms;
     color: var(--amarelo-fraco-vanlus);
@@ -101,7 +101,7 @@
     cursor: pointer;
 }
 
-.LadoEsquerdo3 .proximo .enviar:hover {
+.LadoEsquerdo3 .proximo #next1:hover {
     color: var(--amarelo-forte-vanlus);
 }
 

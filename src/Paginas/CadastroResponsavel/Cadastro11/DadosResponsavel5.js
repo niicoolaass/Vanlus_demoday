@@ -2,10 +2,10 @@ import Logo from '../../../styles/imgs/Logo 3.png'
 import './DadosResponsavel5.css'
 import Crianca from './imgs/crianca.png'
 import { Link } from 'react-router-dom'
-import { BsFillArrowRightCircleFill } from 'react-icons/bs'
+import { FaCheckCircle } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 
-export function DadosResponsavel2 () {
+export function DadosResponsavel5 () {
     return (
 
         <>
@@ -15,39 +15,38 @@ export function DadosResponsavel2 () {
                     <img src={Crianca} alt='Criança Feliz'/>
 
                 </div>
-                <div className='espaco2'></div>
-                <motion.div animate={{ x: 30}} className="LadoEsquerdo2-r">
+                <div className='espaco'></div>
+
+                <motion.div animate={{x: 30}} className="LadoEsquerdo2-r">
 
                     <div className="containerEsquerdo">
                         <img className='cadastro-logo' src={Logo} alt="Vanlus"/>                       
                             
-                            <form id='cadastro-condutor2'>
-                            <div className='h2-cadastro'>
-                                <h2>Forma de pagamento</h2>
+                            <div id='cadastro-condutor6'>
+                                <div className='h2-cadastro6'>
+                                    <h2>Cadastrado</h2>
+                                </div>
+                                <section className='termino'>
+                                    <p>
+                                    Bem-vindo(a) à Vanlus<br/>
+                                    Em breve você receberá um email de confirmação
+                                    </p>
+                                </section>  
+                                <div className='proximo6'>
+                                    <FaCheckCircle size={120} className='next1' />
+                                </div>
+                                <section id='botao-login2'>                                   
+                                    <label className='capa-login2'>
+                                        <button><Link to='/Login'><p>LOGIN</p></Link></button>
+                                    </label>                                       
+                                </section>
                             </div>
-
-                                <input type="text" name="cpf"
-                                  placeholder= '*CVV'
-                                  pattern="\d{3}\.\d{3}\.-\d{2}"/>
-                                <input type="text" name="Nome Completo" placeholder= "*Data de validade"/>
-                                <input type="text" name="endereço" placeholder= "*Número do cartão"/>                                
-                                    <div className='proximo'>
-                                    <Link to='/cadastro12'><BsFillArrowRightCircleFill size={65} id='next2' /></Link>
-                                    </div>
-                            </form>
                             
-                            <div className='linha-progressao2'>
-                                <div id='progressao5-r'></div>
-                                  <div className='nivel'><small></small></div>
-                                  <div className='nivel'><small></small></div> 
-                                  <div className='nivel'><small></small></div> 
-                                  <div className='nivel'><small></small></div> 
-                                  <div className='nivel'><small></small></div> 
-                                  <div className='nivel'><small></small></div>
-                            </div>
+                            
 
-                    </div>                                               
-                </motion.div>
+                        </div>
+                                                
+                    </motion.div>
             </div>
         </>
 
@@ -56,4 +55,4 @@ export function DadosResponsavel2 () {
 
 }
 
-export default DadosResponsavel2;
+export default DadosResponsavel5;

@@ -114,7 +114,7 @@
 #progressao-r {
     position: absolute;
     height: 100%;
-    width: 16.6%;
+    width: 20%;
     background: var(--azul-vanlus);
     border-radius: 10px;
     transition: 1s ease-in;

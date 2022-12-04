@@ -5,14 +5,13 @@ import ChatCard from './components/ChatCard/ChatCard'
 import ChatBot from './img/chat-bot.jpeg';
 import TiaMarcia from '../../../HomeResponsavel/components/Filter/imgs/tiamarcia.jpg'
 import TioRubens from '../../../HomeResponsavel/components/Filter/imgs/tiorubens.jpg'
-import TioMarcos from '../../../HomeResponsavel/components/Filter/imgs/tiomarcos.jpg'
 
-function ChatOverlay(){
+function ChatOverlay(props){
     const [heightOverlay, setHeight]=useState(false);
     return(
     
-        <div  style={{width:"20vw", height:heightOverlay ? "80vh":"8vh", backgroundColor:"var(--background-main)", zIndex:"105", position:"fixed",bottom:"0", right:"10px", borderRadius:"20px 20px 0 0", boxShadow:"0px -1px 14px 0px rgba(0,0,0,0.33)", transition:"all .3s ease-in-out"}}>
-            <div className="header-chat-overlay">
+        <div  style={{width:"20vw", height:heightOverlay ? "80vh":"8vh", backgroundColor:"var(--background-main)", position:"fixed",bottom:"0", right:"10px", borderRadius:"20px 20px 0 0", boxShadow:"0px -1px 14px 0px rgba(0,0,0,0.33)", transition:"all .3s ease-in-out"}}>
+            <div className="header-chat-overlay" style={{backgroundColor:props.color, color:props.color=="var(--amarelo-fraco-vanlus)"?"var(--amarelo-escuro-vanlus)":"white"}} >
                 <span>Mensagens</span>
                 <div onClick={()=>{setHeight(!heightOverlay)}} style={{transform:heightOverlay?"rotate(0)":"rotate(180deg)"}}><IoIosArrowDown size={30}/></div>
             </div>

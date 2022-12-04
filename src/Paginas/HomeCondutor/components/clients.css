@@ -1,0 +1,43 @@
+.clients {
+    width: 60vw;
+    margin-left: 50%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.space_first {
+    padding: 90px;
+}
+
+.new_contract {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    grid-gap: 40px;
+    position: fixed;
+    top: 100px;
+    background-color: var(--amarelo-fraco-vanlus);
+    width: 650px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.new_contract {
+    align-items: center;
+    text-align: center;
+}
+
+.new_contract .text_contract {
+    font-size: 30px;
+}
+
+.right_img_girl {
+    display: flex;
+    flex-direction: column;
+    top: 190px;
+    position: fixed;
+    right: 0;
+}

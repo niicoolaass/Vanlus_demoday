@@ -15,8 +15,8 @@ export function Footer () {
 
                     <h2>Contato</h2>
 
-                    <p>Rua, número, CEP</p>
-                    <p>(11) 99999-9999</p>
+                    <p>R. Tito, 54 - Vila Romana, São Paulo - SP, 05051-000</p>
+                    <p>(11) 2888-5500</p>
 
                 </div>
 

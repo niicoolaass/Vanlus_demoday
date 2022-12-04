@@ -25,8 +25,8 @@ function Chat(props) {
     }
     return (
         <div className="chat-janela">
-            <div className="chat-janela-header">
-                <img src={props.src}></img>
+            <div className="chat-janela-header" style={{backgroundColor:props.color, color:props.color==="var(--amarelo-fraco-vanlus)"?"var(--amarelo-escuro-vanlus)":"white"}}>
+                <img alt="user" src={props.src}></img>
                 <span>{props.apelido}</span>
                 <div>
                     <TbHeartHandshake size={25} />

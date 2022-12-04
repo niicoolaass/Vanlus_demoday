@@ -8,7 +8,7 @@ function ChatCard(props) {
     return (
         <>
             <div onClick={() => { setChatVisible(true) }} className='conversation-card'>
-                <img src={props.src}></img>
+                <img alt="user" src={props.src}></img>
                 <div>
                     <span>{props.apelido}</span>
                     <span>{props.mensagem}</span>
@@ -18,7 +18,7 @@ function ChatCard(props) {
                 ? (
                     <>
                         <div onClick={() => { setChatVisible(false) }} style={{top: "0", left: "0", width: "100vw", height: "190vh", position: "fixed" }}></div>
-                        <Chat src={props.src} apelido={props.apelido} mensagem={props.mensagem}/>
+                        <Chat color={props.color} src={props.src} apelido={props.apelido} mensagem={props.mensagem}/>
                     </>
                 )
                 : null

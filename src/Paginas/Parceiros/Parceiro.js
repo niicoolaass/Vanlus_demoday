@@ -19,7 +19,7 @@ function Parceiro() {
                 <Discount/>
                 </div>
             </div>
-            <ChatOverlay/>
+            <ChatOverlay color="var(--azul-vanlus)"/>
         </div>
         <img alt="sidebar-img" src={BoySoccer} height="40%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-3"}}/>
         </>

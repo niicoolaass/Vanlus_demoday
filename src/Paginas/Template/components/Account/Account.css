@@ -250,15 +250,15 @@
 }
 
 .container-b .children h2 {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .container-b .contact h3 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .container-b .contact p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .container-b .contact .square_white {
@@ -291,6 +291,10 @@
 
 /*Lado direito - lista de presença*/
 
+.container-a.lista-presenca .container-c h1{
+    font-size:25px;
+}
+
 .container-c .list_children_selected {
     padding: 10px;
     justify-content: space-between;
@@ -303,11 +307,11 @@
 }
 
 .container-c .all_list .space_list {
-    padding: 6px;
+    padding: 3px;
 }
 
 .container-c .list_children p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .container-c .list_children_selected p {

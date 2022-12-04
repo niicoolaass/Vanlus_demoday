@@ -4,7 +4,6 @@ import { FaWallet } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import ModalSuporte from '../ModalSuporte/ModalSuporte';
-import Cartão from '../../../Pagamentos/Cartão/Cartão';
 import Payment from '../Payment/Payment';
 
 
@@ -23,7 +22,7 @@ function ModalUser(props) {
                 </div>
                 <div>
                     <FaWallet />
-                    {props.cor=="modal-user blue"?
+                    {props.cor==="modal-user blue"?
                     <Link to="/aa"> <span>Pagamento</span></Link>
                 :<span onClick={()=>{setPaymentPage(true)}}>Pagamento</span>}
                    
@@ -42,7 +41,7 @@ function ModalUser(props) {
             <Payment/></>) :
         null}
              {supportVisible ?
-                (<> <div onClick={() => { setSupportVisible(false) }} style={{ backgroundColor: "rgba(0, 0, 0, 0.199)", left: "0",top:"0", width: "100vw", height: "190vh", position: "fixed", zIndex: "102" }}></div>
+                (<> <div onClick={() => { setSupportVisible(false) }} style={{ left: "0",top:"0", width: "100vw", height: "190vh", position: "fixed", zIndex: "102" }}></div>
                     <ModalSuporte cor={props.cor}/></>) :
                 null}
         </>

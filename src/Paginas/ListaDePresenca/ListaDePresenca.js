@@ -5,6 +5,7 @@ import Header from '../Template/components/Header/Header';
 import ListaPresenca from '../Template/components/ListaPresenca/ListaPresenca';
 import User from '../HomeResponsavel/components/Filter/imgs/tiorubens.jpg'
 import ContaCondutor from '../Template/components/Account/ContaCondutor';
+import Girlsit from '../Rotas/components/img/girlsit.png';
 
 function ListaDePresenca() {
 
@@ -20,7 +21,7 @@ function ListaDePresenca() {
             </div>
             <ChatOverlay color="var(--amarelo-fraco-vanlus)"/>
         </div>
-        <img alt="sidebar-img" height="45%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-3"}}/>
+        <img alt="sidebar-img" src={Girlsit} height="45%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-3"}}/>
         </>
         
 

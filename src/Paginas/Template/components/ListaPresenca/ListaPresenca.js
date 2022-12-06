@@ -41,11 +41,11 @@ function ListaPresenca() {
                     <div className='presence'>
 
                         <div className='check' onClick={()=>{setPresenca( <AiOutlineCheckSquare size={35}/>)}}>
-                            <AiOutlineCheckSquare size={60}/>
+                            <AiOutlineCheckSquare size={45}/>
                         </div>
 
                         <div className='close'onClick={()=>{setPresenca( <AiOutlineCloseSquare size={35}/>)}}>
-                        <AiOutlineCloseSquare size={60} />
+                        <AiOutlineCloseSquare size={45} />
                         </div>
 
                     </div>

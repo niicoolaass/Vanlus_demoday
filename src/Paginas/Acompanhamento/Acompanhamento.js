@@ -19,7 +19,7 @@ function Acompanhamento() {
                 <Map/>
                 </div>
             </div>
-            <ChatOverlay/>
+            <ChatOverlay color="var(--azul-vanlus)"/>
         </div>
         <img alt="sidebar-img" src={BoyLook} height="35%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-1"}}/>
         </>

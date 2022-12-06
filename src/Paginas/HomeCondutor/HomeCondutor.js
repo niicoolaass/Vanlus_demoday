@@ -4,7 +4,8 @@ import Sidebar from '../Template/components/Sidebar/Sidebar';
 import Header from '../Template/components/Header/Header';
 import ChatOverlay from '../Template/components/Chat_Overlay/ChatOverlay';
 import ContaCondutor from '../Template/components/Account/ContaCondutor';
-import User from '../HomeResponsavel/components/Filter/imgs/tiorubens.jpg'
+import User from '../HomeResponsavel/components/Filter/imgs/tiorubens.jpg';
+import Girlsit from '../Rotas/components/img/girlsit.png';
 
 
 function HomeCondutor() {
@@ -21,7 +22,7 @@ function HomeCondutor() {
             </div>
             <ChatOverlay color="var(--amarelo-fraco-vanlus)"/>
         </div>
-        <img alt="sidebar-img" height="45%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-3"}}/>
+        <img alt="sidebar-img" src={Girlsit} height="45%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-3"}}/>
         </>
         
 

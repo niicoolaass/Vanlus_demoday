@@ -4,6 +4,7 @@ import ChatOverlay from '../Template/components/Chat_Overlay/ChatOverlay';
 import User from '../HomeResponsavel/components/Filter/imgs/tiorubens.jpg'
 import ContaCondutor from '../Template/components/Account/ContaCondutor';
 import Girlsit from '../Rotas/components/img/girlsit.png';
+import Discount from './components/Discount';
 
 function RendaExtra() {
 
@@ -14,6 +15,7 @@ function RendaExtra() {
             <div>
                 <Header srcUser={User} typeAccount={<ContaCondutor/>} cor="modal-user yellow"  />
                 <div style={{ display: "flex" }}>
+                    <Discount/>
                 </div>
             </div>
             <ChatOverlay color="var(--amarelo-fraco-vanlus)"/>

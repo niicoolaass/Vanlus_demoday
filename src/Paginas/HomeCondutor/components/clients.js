@@ -2,7 +2,10 @@ import './clients.css';
 import { useState } from 'react';
 import Conductor from '../../HomeResponsavel/components/Filter/components/Conductor/Conductor';
 import Mirella from './imgs/mirella3x4.jpg'
-import GirlStar from './imgs/girlstar.png'
+import Erica from './imgs/erica.jpg';
+import Patricia from './imgs/patricia.jpg';
+import Margarida from './imgs/margarida.jpg'
+import GirlStar from './imgs/girlstar.png';
 import { AiOutlineUsergroupAdd } from 'react-icons/ai';
 
 
@@ -34,49 +37,43 @@ function Clients() {
             {filter === "nenhum" ?
                 (<>
                     <Conductor
-                        src={Mirella}
+                        src={Margarida}
                         nome="Margarida dos Anjos Alves Santos"
                         apelido="Margarida"
-                        local="Responsável por Mirella Alves"
-                        description="Olá, sou o tio Rubens. Trabalho como condutor de van escolar desde 2010..."
+                        description="Responsável por Mirella Alves"
 
                     />
 
 
                     <Conductor
-                        src={Mirella}
+                        src={Erica}
                         nome="Erica de Souza"
                         apelido="Erica"
-                        local="Responsável por Cristhian de Souza"
-                        description="Olá, sou a tia Marcia. Sou uma condutora dedicada que amo meus anjinhos... "
+                        description="Responsável por Cristhian de Souza"
+
+                    />
+
+                    <Conductor
+                        src={Patricia}
+                        nome="Patricia Melo"
+                        apelido="Patricia Melo"
+                        description="Responsável por Kauã Melo"
 
                     />
 
                     <Conductor
                         src={Mirella}
-                        nome="Marcos Avelar Figueired"
-                        apelido="Tio Marcos"
-                        local="Atende em Colégio Bellatrix"
-                        description="Eae rapaziada, sou o tio Marcos ao seu favor. Desde 2007, trabalho em escolas..."
+                        nome="Sebastião dos Anjos"
+                        apelido="Sebastião"
+                        description="Responsável por Maria Luiza dos Anjos"
 
                     />
 
                     <Conductor
                         src={Mirella}
-                        nome="Edson Sebastião"
-                        apelido="Tio Edson"
-                        local="Atende em Colégio Vila Romana"
-                        description="Olá, tudo bem? Eu sou o Edson, tenho 32 anos e trabalho como condutor faz 3 anos..."
-
-                    />
-
-                    <Conductor
-                        src={Mirella}
-                        nome="Vitória Sabugueiro"
-                        apelido="Tia Vivi"
-                        local="Atende em Colégio Saberes"
-                        description="Olá, tudo bem? Eu sou a Vivi, junto com o meu parceiro, nós trabalhamos há 9 anos..."
-                        price="R$ 140,00"
+                        nome="Josefa Ribeiro"
+                        apelido="Josefa"
+                        description="Responsável por Gilda Ribeiro"
                     /></>)
                 : filter === "price" ? (<>
                     <Conductor

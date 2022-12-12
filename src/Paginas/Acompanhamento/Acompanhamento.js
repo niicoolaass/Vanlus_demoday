@@ -1,11 +1,12 @@
 import './Acompanhamento.css';
 import BoyLook from './img/boylooking.png'
 import Sidebar from '../Template/components/Sidebar/Sidebar';
-import Map from './components/Mapa/Mapa';
+import Mapa from './components/Mapa/Mapa';
 import Header from '../Template/components/Header/Header';
 import ChatOverlay from '../Template/components/Chat_Overlay/ChatOverlay';
 import ContaResponsavel from '../Template/components/Account/ContaReponsavel';
 import User from '../Template/components/Header/img/adriana.jpg'
+
 
 function Acompanhamento() {
 
@@ -16,7 +17,7 @@ function Acompanhamento() {
             <div>
                 <Header srcUser={User} typeAccount={<ContaResponsavel/>} cor="modal-user blue" />
                 <div style={{ display: "flex" }}>
-                <Map/>
+                <Mapa />
                 </div>
             </div>
             <ChatOverlay color="var(--azul-vanlus)"/>

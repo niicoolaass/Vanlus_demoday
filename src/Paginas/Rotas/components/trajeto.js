@@ -6,12 +6,13 @@ import Place from './img/location.png';
 import { BsInfoSquare } from 'react-icons/bs'
 import { BiWorld, BiTimer } from 'react-icons/bi'
 import {  BsStarFill, BsStarHalf } from 'react-icons/bs'
+import Rotas from './ApiMaps';
 
 function Trafego() {
     return(
         <div className='follow'>
             <div className='map'>
-                <img src={Mapinha}/>
+                <Rotas />
             </div>
 
         <div className='right_side_yellow'>

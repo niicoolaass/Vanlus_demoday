@@ -23,7 +23,7 @@ function Discount() {
 <div className='space_discount'></div>
 
             <div className='novo_olhar'>
-                <img src={NovoOlhar}/>
+                <img style={{borderRadius:"20px", border:"1px solid #e882a0"}}  src={NovoOlhar}/>
             </div>
 
             <div className='right_img'>

@@ -1,0 +1,24 @@
+.conversation-card{
+    width:100%;
+    height: 15%;
+    border-bottom: 1px black solid;
+    display:flex;
+    padding: 10px 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.conversation-card img{
+    border-radius: 50%;
+}
+
+.conversation-card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.conversation-card span:nth-child(1){
+    font-weight: bold;
+}

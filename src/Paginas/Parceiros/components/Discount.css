@@ -1,0 +1,23 @@
+.partner {
+    width: 60vw;
+    height: 700px;
+    margin-left: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.space_discount {
+    padding: 1%;
+}
+
+.right_img {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 22vh;
+    position: fixed;
+    right: 0;
+    z-index: -1;
+}

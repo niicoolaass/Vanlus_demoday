@@ -1,0 +1,114 @@
+.espaco {
+    display: flex;
+    flex-direction: row;
+    width: clamp(5px, 10%, 100vw);
+    color: #ffad06;
+    height: 100%;
+    
+}
+
+.LadoEsquerdo {  /*Lado Esquerdo*/
+    width: clamp(30%, 360px, 100vw);
+    height: min(100%, 360px, 100vh);
+    margin-top: min(5vh,360px);
+    display: flex;
+    z-index: 5;
+}
+
+.LadoEsquerdo .containerEsquerdo6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 8px 13px 15px 5px var(--amarelo-fraco-vanlus);
+    z-index: 10;
+    padding: 10px;
+    transition: all 0.5s;
+    text-align: center;
+    align-items: center;
+}
+
+#cadastro-condutor6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#cadastro-condutor6 .termino {
+    width: 80%;
+    margin-top: 2%;
+    align-self: center;
+}
+
+#cadastro-condutor6 .termino p {
+    color: var(--azul-vanlus);
+    font-family: 'titulo';
+}
+
+
+.cadastro-logo {
+    width: 100px;
+    height: 100px;    
+}
+
+.h2-cadastro6 {
+    z-index: 10;
+    color: var(--azul-vanlus);
+}
+
+                                /*Dados necessários*/
+
+.LadoEsquerdo .proximo6 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    transition: all 400ms;
+    color: var(--amarelo-fraco-vanlus);
+    z-index: 15;
+    margin-top: 3%;
+    margin-bottom: 25%;
+}
+
+#next3{
+    margin-top: 50px;
+    cursor: default;
+}
+
+#cadastro-condutor6 #botao-login {
+    display: flex;
+    width: 100%;
+}
+
+#botao-login .capa-login {
+    width: 70%;
+    height: 40px;
+    border-radius: 8px;
+    margin: auto;
+    background: var(--amarelo-forte-vanlus);
+}
+
+#botao-login .capa-login:hover{
+    background: var(--amarelo-fraco-vanlus);
+}
+
+#botao-login .capa-login button {
+    color: transparent;
+    background: none;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+#botao-login .capa-login button p {
+    color: rgba(0, 0, 0, 0.719);
+    font-family: 'Titulo';
+    font-size: large;
+}
+
+
+

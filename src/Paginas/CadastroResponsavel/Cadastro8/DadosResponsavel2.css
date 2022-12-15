@@ -1,0 +1,57 @@
+
+.LadoEsquerdo2-r {  /*Lado Esquerdo*/
+    width: clamp(30%, 360px, 100vw);
+    height: min(100%, 360px, 100vh);
+    margin-top: min(5vh,360px);
+    display: flex;
+    z-index: 5;
+}
+
+.LadoEsquerdo2-r .containerEsquerdo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 8px 13px 15px 5px var(--azul-vanlus);
+    z-index: 10;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+                                /*Dados necessários*/
+
+
+#cadastro-condutor2 input:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+#cadastro-condutor2 input:focus {
+    outline: 0;
+    font-size: 16px;
+}
+
+.LadoEsquerdo2-r .proximo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 18%;
+    margin-bottom: 2%;
+    transition: all 400ms;
+    color: var(--amarelo-fraco-vanlus);
+    z-index: 15;
+}
+
+
+/**/
+
+#progressao2-r {
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    background: var(--azul-vanlus);
+    border-radius: 10px;
+    z-index: 15;
+}

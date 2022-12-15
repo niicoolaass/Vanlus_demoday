@@ -1,0 +1,71 @@
+#containerCadastro {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url(./imgs/menino1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#containerCadastro #left {
+    width: 50%;
+    height: 100%;
+}
+
+#containerCadastro #left .left Link{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+
+#containerCadastro #logo {
+    width: 6%;
+    position: fixed;
+    margin-top: 1%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+#containerCadastro #left #CadastroPais{
+    margin-top: 5%;
+    margin-left: 32%;
+    width: 45%;
+    object-fit: cover;
+    box-shadow: 30px 20px 50px #003566;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#containerCadastro #left #CadastroPais:hover{
+    box-shadow: 0 0 0 transparent;
+}
+
+/*Lado Direito*/
+
+#containerCadastro #right{
+    width: 50%;
+    height: 100%
+}
+
+#containerCadastro #right .right Link{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+#containerCadastro #right #CadastroCondutor{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 45%;
+    object-fit: cover;
+    box-shadow: 30px 20px 50px #FFD60A;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#containerCadastro #right #CadastroCondutor:hover{
+    box-shadow: 0 0 0 transparent;
+}

@@ -1,0 +1,9 @@
+#progressao4-r {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    background: var(--azul-vanlus);
+    border-radius: 10px;
+    z-index: 15;
+}
+

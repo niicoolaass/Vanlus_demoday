@@ -1,0 +1,115 @@
+.chat-janela{
+    width: 30vw;
+    height: 80vh;
+    position:fixed;
+    background-color: var(--background-main);
+    bottom:0;
+    right: 22vw;
+    box-shadow: 0px -1px 14px 0px rgba(0,0,0,0.33);
+    border-radius: 15px 15px 0 0;
+    color:white;
+    z-index:100;
+}
+
+.chat-janela .chat-janela-header{
+    width: 100%;
+    height: 10%;
+    border-radius: 15px 15px 0 0;
+    display:flex;
+    padding: 8px 10px;
+}
+
+.chat-janela .chat-janela-header img{
+    border-radius: 50%;
+}
+
+.chat-janela .chat-janela-header span, .chat-janela .chat-janela-header div{
+    height:100%;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.chat-janela .chat-janela-header div{
+    justify-content: flex-end;  
+}
+
+.chat-janela .chat-janela-header div svg{
+    margin-right: 5px;
+}
+
+.chat-janela .chat-janela-conversation{
+    width:100%;
+    height:90%;
+    padding: 10px;
+    background-color: var(--background-main);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-janela .chat-janela-conversation .message.condutor{
+    max-width: 70%;
+    height: auto;
+    background-color: var(--prata-vanlus);
+    padding: 5px 10px;
+    color:black;
+    border-radius: 0 5px 5px 0;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chat-janela .chat-janela-conversation .message.responsavel{
+    max-width: 70%;
+    height: auto;
+    background-color: var(--azul-claro-vanlus);
+    padding: 5px 10px;
+    color:black;
+    border-radius: 5px 0 0 5px;
+    margin-bottom: 5px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-janela .chat-janela-conversation .message div{
+    align-self:flex-end;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+}
+
+.chat-janela .send-message{
+    width:100%;
+    height:10%;
+    background-color: var(--background-main);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.chat-janela .send-message input[type="text"]{
+    width:90%;
+    height: 100%;
+    background-color: var(--prata-vanlus);
+    border-radius: 5px 0 0 5px;
+    padding: 10px 20px;
+    outline: 0;
+}
+
+.chat-janela .send-message div{
+    width:10%;
+    height: 100%;
+    background-color: var(--prata-vanlus);
+    border-radius:0 5px 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

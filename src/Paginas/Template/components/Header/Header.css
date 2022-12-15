@@ -1,0 +1,24 @@
+.homeR .headerR{
+    width: 80vw;
+    height:10vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding:25px;
+    z-index: 5;
+    position: fixed;
+    right: 0;
+    background: var(--background-main);
+}
+
+.notifications{
+    width:20vw;
+    height:80vh;
+    color:red;
+    background-color: black;
+    right:135px;
+    position: absolute;
+    top:40px;
+    border-radius: 25px;
+}

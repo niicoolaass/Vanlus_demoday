@@ -1,0 +1,141 @@
+#container-geral {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 5;
+}
+
+.espaco {
+    display: flex;
+    flex-direction: row;
+    width: clamp(5px, 10%, 100vw);
+    color: #ffad06;
+    height: 100%;
+    
+}
+
+.LadoEsquerdo {  /*Lado Esquerdo*/
+    width: clamp(30%, 360px, 100vw);
+    height: min(100%, 360px, 100vh);
+    margin-top: min(5vh,360px);
+    display: flex;
+    z-index: 5;
+}
+
+.LadoEsquerdo .containerEsquerdo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 8px 13px 15px 5px var(--amarelo-fraco-vanlus);
+    z-index: 10;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+
+.cadastro-logo {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.h2-cadastro {
+    margin-left: 10%;
+    z-index: 10;
+}
+
+                                /*Dados necessários*/
+
+
+#cadastro-condutor1 input{
+    background-color: var(--prata-vanlus);
+    width: 80%;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 10%;
+    border: none;
+    border-radius: 5px;
+    transition: all 400ms;
+    z-index: 10;
+}
+
+#cadastro-condutor1 input:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+#cadastro-condutor1 input:focus {
+    outline: 0;
+    font-size: 16px;
+}
+
+.LadoEsquerdo .proximo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    transition: all 400ms;
+    color: var(--amarelo-fraco-vanlus);
+    z-index: 15;
+}
+
+#next1{
+    cursor: pointer;
+    color: var(--amarelo-fraco-vanlus);
+}
+
+.LadoEsquerdo .proximo #next1:hover {
+    color: var(--amarelo-forte-vanlus);
+}
+
+/**/
+
+.linha-progressao {
+    display: flex;
+    width: 100%;
+    height: 10px;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    background: var(--prata-vanlus);
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.nivel {
+    color: var(--amarelo-fraco-vanlus);
+    width: 15%;
+    text-align: center;
+    position: relative; 
+    z-index: 10;
+}
+
+#progressao {
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    background: var(--amarelo-fraco-vanlus);
+    border-radius: 10px;
+    z-index: 15;
+}
+
+#progressao::after {
+    content: '';
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 0;
+    border-left: 20px solid #ffad06;
+
+}
+

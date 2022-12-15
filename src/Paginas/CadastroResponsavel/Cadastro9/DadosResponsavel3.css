@@ -1,0 +1,80 @@
+
+.h3-cadastro{
+    margin-left: 10%;
+}
+
+.p-cadastro{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.opcoes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 50px;
+}
+
+.idavolta{
+    display: flex;
+}
+
+.idavolta p{
+    margin-top: 28px;
+    margin-left: -35px;
+}
+
+.radio1{
+    width: 25%;
+    margin-left: 25px;
+}
+
+/* */
+
+.ida{
+    display: flex;
+}
+
+.ida p{
+    margin-top: 28px;
+    margin-left: -35px;
+}
+
+.radio2{
+    width: 25%;
+    margin-left: 25px;
+}
+
+/* */
+
+.volta{
+    display: flex;
+}
+
+.volta p{
+    margin-top: 28px;
+    margin-left: -35px;
+}
+
+.radio3{
+    width: 25%;
+    margin-left: 25px;
+}
+
+
+
+/**/
+
+.c9{
+    margin-bottom: 10vh;
+}
+
+#progressao3-r {
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    background: var(--azul-vanlus);
+    border-radius: 10px;
+    z-index: 15;
+}
+
+

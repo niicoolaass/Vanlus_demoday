@@ -1,0 +1,385 @@
+/* geral */
+.container-a {
+    width: 60vw;
+    height: 85vh;
+    background-color: var(--background-main);
+    left: 20vw;
+    top: 10vh;
+    position: fixed;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 2px 4px 6px 0px rgba(173, 173, 173, 0.418);
+}
+
+.container-a.animation {
+    animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.container-a.container-responsavel, .container-a.container-condutor {
+    z-index: 103;
+}
+
+.container-a.container-responsavel .container-b {
+    background-color: var(--azul-vanlus);
+}
+
+.container-a .container-b {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.31);
+    padding: 20px;
+}
+
+.container-a .container-b .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--azul-vanlus);
+}
+
+.container-a .container-b form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    color: white;
+}
+
+.container-a .container-b form span,
+.account .info-add form span {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.container-a .container-b form input,
+.account .info-add form input {
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.container-a .container-b form input:disabled {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.438);
+}
+
+.container-a .container-c {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+.container-a .container-c form {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    color: white;
+}
+
+.container-a .container-c h2 {
+    font-size: 20px;
+    color: var(--azul-vanlus);
+}
+
+.container-a .container-c span {
+    color: var(--azul-vanlus);
+}
+
+.container-a .container-c form span,
+.container-a .container-c form span {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.container-a .container-c form input,
+.container-a .container-c form input {
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.container-a .container-c form input,
+.container-a .container-c div.commit {
+    background-color: var(--prata-vanlus);
+}
+
+.container-a.container-condutor .container-b {
+    background-color: var(--amarelo-fraco-vanlus);
+}
+
+.container-a.container-condutor .container-b form span {
+    color: black;
+}
+
+.container-a.container-condutor .container-b form input {
+    color: rgba(0, 0, 0, 0.651);
+}
+
+.container-a.container-condutor .container-b .header {
+    background-color: var(--amarelo-fraco-vanlus);
+}
+
+.container-a.container-condutor .container-c span,
+.container-a.container-condutor .container-c h2 {
+    color: black;
+}
+
+.container-a.container-seu-condutor .container-b{
+    padding:0;
+    background-color: var(--prata-vanlus);
+}
+
+.container-a.container-seu-condutor .container-ba, .container-a.container-seu-condutor .header{
+    background-color: var(--azul-vanlus);
+    width:100%;
+    border-radius:20px;
+}
+
+.container-a.container-seu-condutor .container-ba{
+    height: 80%;
+}
+
+.container-a.container-seu-condutor .container-b .container-ba{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.container-a.container-seu-condutor .container-b .container-ba .span1{
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.container-a.container-seu-condutor .container-b .container-ba .span2{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.container-a.container-seu-condutor .container-b .container-ba .span3{
+    text-align: center;
+    margin:45px 0;
+}
+
+.container-a.container-seu-condutor .container-b .container-ba .span4{
+    text-align: center;
+    margin-top:4px;
+}
+
+.container-a.container-seu-condutor .container-b .container-ba .icones{
+    height: 20%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-a.container-seu-condutor .container-b .container-bb{
+    width:100%;
+    height:20%;
+    display: flex;
+    padding:20px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.container-a.container-seu-condutor .container-b .container-bb div{
+    width: 33%;
+    text-align: center;  
+}
+
+.container-a.container-seu-condutor .container-b .container-bb div p:first-child{
+    font-size: 16px;
+}
+
+.container-a.container-seu-condutor .container-c{
+    position: relative;
+}
+
+.container-a.container-seu-condutor .container-c .commit{
+    padding: 10px;
+    width:100%;
+    margin-bottom: 10px;
+    border-radius: 16px;
+    
+}
+
+.container-a.container-seu-condutor .container-c .comentario{
+    width:95%;
+    height:10%;
+    background-color: var(--background-main);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+
+.container-a.container-seu-condutor .container-c .comentario input[type="text"]{
+    width:90%;
+    background-color: var(--prata-vanlus);
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+    outline: 0;
+}
+
+.container-a.container-seu-condutor .container-c .comentario div{
+    width:10%;
+    height:37px;
+    background-color: var(--prata-vanlus);
+    border-radius:0 5px 5px 0;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* lista de presença */
+.container-a.lista-presenca .container-b{
+    background-color:var(--amarelo-fraco-vanlus);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-b .children h2 {
+    font-size: 24px;
+}
+
+.container-b .contact h3 {
+    font-size: 20px;
+}
+
+.container-b .contact p {
+    font-size: 20px;
+}
+
+.container-b .contact .square_white {
+    margin-left: 15%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container-b .presence {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container-c .list_children {
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 28vw;
+    height: 40px;
+    background-color: var(--prata-vanlus);
+    border-radius: 10px;
+}
+
+/*Lado direito - lista de presença*/
+
+.container-a.lista-presenca .container-c h1{
+    font-size:25px;
+}
+
+.container-c .list_children_selected {
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 28vw;
+    height: 40px;
+    background-color: var(--amarelo-fraco-vanlus);
+    border-radius: 10px;
+}
+
+.container-c .all_list .space_list {
+    padding: 3px;
+}
+
+.container-c .list_children p {
+    font-size: 18px;
+}
+
+.container-c .list_children_selected p {
+    font-size: 20px;
+}
+
+/* Tela de pagamento-condutor */
+
+.container-a.pagamento{
+    z-index:103;
+}
+
+.container-a.pagamento .container-b{
+    background-color: var(--amarelo-fraco-vanlus);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-a.pagamento .container-b .informations{
+    border:1px solid black;
+    padding:10px;
+    border-radius: 16px;
+    height: 100%;
+}
+
+.container-a.pagamento .container-b .informations p{
+    width:100%;
+    padding:10px;
+    background-color: white;
+    margin:10px 0px;
+    border-radius: 5px;
+}
+
+.container-a.pagamento .container-b .informations h4{
+    margin-top: 30px;
+}
+
+.container-a.pagamento .container-c{
+    padding: 40px 20px;
+}
+
+.container-a.pagamento .container-c form p{
+    padding:2px;
+}
+
+.container-a.pagamento .container-c form input{
+    max-width: auto;
+}
+
+.container-a.pagamento .container-c form input[type="radio"]{
+ width:auto;
+ margin-right: 5px;
+ background-color: var(--prata-vanlus);
+}
+
+.container-a.pagamento .container-c form div{
+    display:flex;
+}
+
+.container-a.pagamento .container-c form span, .container-a.pagamento .container-c form label{
+    color:black;
+}
+
+.container-a.pagamento .container-c form div.typeAccount{
+ flex-direction: column;
+}
+
+.container-a.pagamento .container-c form div.typeAccount p{
+    padding:7px;
+}

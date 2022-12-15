@@ -1,0 +1,26 @@
+#infos{
+    width:30vw;
+    max-height: 90vh;
+    height:auto;
+    background-color: var(--background-main);
+    border-radius: 50px;
+    z-index:1000;
+    position: fixed;
+    bottom:5vh;
+    left:35vw;
+    padding: 30px 20px;
+    overflow-y: scroll;
+}
+
+#infos::-webkit-scrollbar {width: 0! important;}
+
+#infos h2{
+    margin-top:10px;
+    margin-bottom: 30px;
+}
+#infos span{
+max-width:70vh;
+}
+#infos p{
+    margin: 20px 0;
+}

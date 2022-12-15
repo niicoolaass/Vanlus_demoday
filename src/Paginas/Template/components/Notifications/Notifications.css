@@ -1,0 +1,52 @@
+.div-notifications{
+    width:20vw;
+    height:85vh;
+    z-index: 150;
+    position: absolute;
+    right:10vw;
+    top: 10vh;
+    border-radius: 25px;
+    background-color: var(--background-main);
+    box-shadow: 2px 4px 6px 0px rgba(173, 173, 173, 0.418);
+}
+
+.div-notifications .not-header{
+    height: auto;
+    box-shadow: 0px 4px 6px 0px rgba(173,173,173,0.418);
+    border-radius: 25px 25px 0px 0px;
+    display:flex;
+    flex-direction: column;
+    padding: 15px 0 0 20px ;
+}
+
+.div-notifications .not-header span{
+    color:var(--azul-vanlus);
+    margin:0 0 10px 0;
+    font-size: 20px;
+}
+
+.div-notifications .not-header .bar-notifications{
+    display:flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.div-notifications .not-header .bar-notifications p{
+    cursor:pointer;
+    padding: 5px;
+}
+
+.div-notifications .not-header .bar-notifications p.ativo{
+    border-bottom: 2px black solid;
+}
+
+.div-notifications .not-header .bar-notifications p.desativo{
+    color: rgba(0, 0, 0, 0.301);
+}
+
+.div-notifications .notification{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}

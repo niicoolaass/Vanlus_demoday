@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
     font-family: 'Hitmo2.0';
     border: none;
     border-bottom: none;
@@ -22,16 +21,28 @@
     
 }
 
+@font-face {
+    font-family: 'sub-titulo';
+    src: url('Hitmo2.0-Light.ttf') format('truetype');
+}
+
 html, body, #root {
+    
     max-width: 100vw;
-    max-height: 100vh;
+    max-height: auto;
 
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 html {
     background: var(--background-main);
+        scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
 }
 
 :root {
@@ -41,4 +52,5 @@ html {
     --prata-vanlus: #d6d6d6;
     --amarelo-forte-vanlus: #ffc300;
     --amarelo-fraco-vanlus: #ffd60a;
+    --amarelo-escuro-vanlus:#73620C;
 }

@@ -1,0 +1,78 @@
+.homeR .sidebar{
+    width: 20vw;
+    height: 100vh;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+}
+
+.homeR .sidebar ul{
+    list-style: none;
+    padding: 0;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:30px;
+}
+
+.homeR .sidebar ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #003566;
+}
+
+.homeR .sidebar ul li{
+    border-radius:20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+
+.homeR .sidebar ul li.selected{
+    background-color: #A2D6F9;
+}
+
+.homeR .sidebar ul li.parceiros{
+    background-color: #FFC300;
+}
+
+.homeR .sidebar ul li.parceiros a{
+   color:#73620C;
+}
+
+.homeR .sidebar ul li a svg{
+    margin-right: 10px;
+ }
+
+/*Condutor*/
+
+ .homeR .sidebar .conductor_yellow {
+    background-color: var(--amarelo-fraco-vanlus);
+ }
+
+ .homeR .sidebar .sidebar_conductor li a{
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #73620C;
+}
+
+ .homeR .sidebar ul .renda_extra {
+    background-color: var(--azul-vanlus);
+ }
+
+ .homeR .sidebar ul li a svg{
+    margin-right: 10px;
+ }
+
+
+
+

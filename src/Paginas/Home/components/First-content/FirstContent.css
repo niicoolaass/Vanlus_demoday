@@ -1,0 +1,51 @@
+/* parte gráfica e visual do first-content */
+
+.ConteudoPrincipal {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    column-gap: 2%;
+}
+
+.ConteudoPrincipal .PrimeiroConteudo {
+    width: 40%;  
+}
+
+.ConteudoPrincipal .PrimeiroConteudo div{
+    padding-left: 17%;
+    padding-top: 5%;
+    width: 100%;
+    margin-top: 5%;
+
+}
+
+.ConteudoPrincipal .PrimeiroConteudo h1{
+    color: #003566;
+    font-family:'Hitmo2.0';
+    padding-left: 15%;
+    
+}
+
+.ConteudoPrincipal .PrimeiroConteudo h2{
+    padding-top: 2%;
+    padding-left: 15%;
+    width: 80%;
+    font-weight: 400;
+    font-family: 'Hitmo2.0';
+}
+/*Imagem */
+
+.ConteudoPrincipal .SegundoConteudo {
+    width: 55%;
+    height: 100%;
+    margin-left: -100px;
+}
+
+.ConteudoPrincipal .SegundoConteudo img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25%;
+    
+}
+

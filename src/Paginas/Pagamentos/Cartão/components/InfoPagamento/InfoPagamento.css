@@ -1,0 +1,114 @@
+.cartao-h2{
+    margin-top: 5%;
+}
+
+.numero-cartao{
+    position: relative;
+}
+
+
+.numero-cartao input{
+    background-color: var(--prata-vanlus);
+    width: 37%;
+    height: 55px;
+    margin-top: 1%;
+    font-size: 1.25vw;
+    padding-left: 4%;
+    margin-left: 18%;
+    border: none;
+    border-radius: 5px;
+    transition: all 400ms;
+}
+
+.numero-cartao input:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.numero-cartao input:focus{
+    outline: 0;
+    font-size: 1.50vw;
+}
+
+.numero-cartao i{
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 1.60%;
+}
+
+
+.numero-cvv{
+    display: flex;
+    margin-top: 4vw;
+    gap: 11%;
+}
+
+.numero-cvv-op{
+    display: flex;
+    gap: 3%;
+}
+
+.numero-cvv-op h2{
+    font-size: 2vw;
+    margin-left: 40px;
+}
+
+.numero-cvv h2{
+    margin-top: 20px;
+}
+
+.numero-cvv input{
+    background-color: var(--prata-vanlus);
+    width: 5vw;
+    height: 55px;
+    font-size: 1.25vw;
+    padding-left: 27%;
+    margin-top: 5%;
+    margin-left: 40%;
+    border-color: var(--azul-escuro-vanlus);
+    border-radius: 20px;
+    transition: all 400ms;
+}
+
+.numero-cvv input:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.numero-cvv input:focus{
+    outline: 0;
+    font-size: 1.50vw;
+}
+
+.InfoPagamento h2{
+    margin-left: 18%;
+    font-size: 1.25vw;
+
+}
+
+.data-validade2 input{
+    border: solid;
+    border-width: 1px;
+    border-color: #A2D6F9;
+    background-color: rgb(162, 214, 249, 24%);
+}
+
+.data-validade2 input:hover{
+    background-color: var(--azul-claro-vanlus);
+
+}
+
+.pagar{
+    cursor: pointer;
+    margin-left: 19vw;
+    margin-top: 5%;
+    padding: 1% 15%;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--azul-vanlus);
+    transition: all 400ms;
+    font-size: 1.25vw;
+    font-weight: 400;
+}
+
+.pagar:hover{
+    background-color: var(--azul-claro-vanlus);
+}

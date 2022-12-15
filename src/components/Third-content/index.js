@@ -1,1 +1,0 @@
-// criação da estrutura do componente Third-component

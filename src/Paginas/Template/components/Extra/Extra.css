@@ -1,0 +1,8 @@
+.extra{
+    width:20vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+}

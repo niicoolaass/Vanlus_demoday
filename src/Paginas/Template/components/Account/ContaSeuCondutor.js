@@ -6,6 +6,7 @@ import { HiOutlinePaperAirplane } from "react-icons/hi";
 import { useState } from 'react';
 import User from '../../../HomeResponsavel/components/Filter/imgs/tiorubens.jpg';
 import Chat from '../Chat/Chat';
+import { Link } from 'react-router-dom'
 
 function ContaSeuCondutor() {
     const [chatVisible, setChatVisibility] = useState(false);
@@ -36,7 +37,7 @@ function ContaSeuCondutor() {
                         <span className='span3'><p>Com a Vanlus desde:</p><p>22/11/2022</p></span>
                         <div className='icones'>
                             <div onClick={() => { setChatVisibility(true) }}> <FaEnvelope color="var(--azul-claro-vanlus)" size={50} /></div>
-                            <BsCash color="var(--azul-claro-vanlus)" size={50} />
+                            <Link to='/pagamentos/cartao' ><BsCash color="var(--azul-claro-vanlus)" size={50} /></Link>
                             <AiOutlineStar color="var(--azul-claro-vanlus)" size={50} />
                         </div>
                     </div>

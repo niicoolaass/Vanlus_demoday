@@ -59,7 +59,7 @@ function App () {
                 
                 <Route path='*' element={<Erro/>}/>
     
-                <Route path='/aa' element={<Cartão/>}/>
+                <Route path='/pagamentos/cartao' element={<Cartão/>}/>
             </Routes>
 
         </>

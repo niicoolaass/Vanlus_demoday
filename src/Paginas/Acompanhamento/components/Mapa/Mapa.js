@@ -1,17 +1,19 @@
 import './Mapa.css'
-import Mapinha from './img/mapa.png';
 import Tio from './img/tiorubens.jpg';
 import Place from './img/location.png';
-
 import { BsInfoSquare } from 'react-icons/bs'
 import { BiWorld, BiTimer } from 'react-icons/bi'
 import {  BsStarFill, BsStarHalf } from 'react-icons/bs'
+import MapPage from '../MapsApi';
 
-function Map() {
+function Mapa() {
     return(
         <div className='follow'>
+
             <div className='map'>
-                <img src={Mapinha}/>
+
+                <MapPage />
+
             </div>
 
         <div className='right_side'>
@@ -66,4 +68,4 @@ function Map() {
     )
 }
 
-export default Map;
+export default Mapa;

@@ -1,6 +1,6 @@
 import './Discount.css';
-import Americanas from './imgs/americanas.png'
-import Kalunga from './imgs/kalunga.png'
+import CartaoPan from './imgs/cartao.png'
+import Salve from './imgs/salve.png'
 import NovoOlhar from './imgs/novoolhar.png'
 import Shop from './imgs/shop.png'
 
@@ -11,19 +11,19 @@ function Discount() {
             <h2></h2>
 
             <div className='americanas'>
-                <img src={Americanas}/>
+                <img width="700px" style={{borderRadius:"20px"}} src={CartaoPan}/>
             </div>
 
 <div className='space_discount'></div>
 
             <div className='kalunga'>
-                <img src={Kalunga}/>
+                <img width="700px" style={{borderRadius:"20px"}} src={Salve}/>
             </div>
 
 <div className='space_discount'></div>
 
             <div className='novo_olhar'>
-                <img style={{borderRadius:"20px", border:"1px solid #e882a0"}}  src={NovoOlhar}/>
+                <img width="700px" style={{borderRadius:"20px", border:"1px solid #e882a0"}} src={NovoOlhar}/>
             </div>
 
             <div className='right_img'>

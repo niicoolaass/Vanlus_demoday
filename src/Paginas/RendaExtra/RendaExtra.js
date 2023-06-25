@@ -1,31 +1,30 @@
-import './ListaDePresenca.css';
 import Sidebar from '../Template/components/Sidebar/Sidebar';
-import ChatOverlay from '../Template/components/Chat_Overlay/ChatOverlay';
 import Header from '../Template/components/Header/Header';
-import ListaPresenca from '../Template/components/ListaPresenca/ListaPresenca';
+import ChatOverlay from '../Template/components/Chat_Overlay/ChatOverlay';
 import User from '../HomeResponsavel/components/Filter/imgs/tiorubens.jpg'
 import ContaCondutor from '../Template/components/Account/ContaCondutor';
 import Girlsit from '../Rotas/components/img/girlsit.png';
+import Discount from './components/Discount';
 
-function ListaDePresenca() {
+function RendaExtra() {
 
     return (
         <>
         <div className="homeR">
-        {Sidebar().listaP()}
+        {Sidebar().rendaExtra()}
             <div>
-                <Header srcUser={User} typeAccount={<ContaCondutor/>} cor="modal-user yellow" />
+                <Header srcUser={User} typeAccount={<ContaCondutor/>} cor="modal-user yellow"  />
                 <div style={{ display: "flex" }}>
-                <ListaPresenca/>
+                    <Discount/>
                 </div>
             </div>
             <ChatOverlay color="var(--amarelo-fraco-vanlus)"/>
         </div>
-        <img alt="sidebar-img" src={Girlsit} height="45%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-3"}}/>
+        <img alt="sidebar-img" src={Girlsit} height="40%" style={{position:"fixed", bottom:"0", left:"0", zIndex:"-3"}}/>
         </>
         
 
     )
 }
 
-export default ListaDePresenca;
+export default RendaExtra;

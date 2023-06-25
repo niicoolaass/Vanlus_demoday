@@ -250,15 +250,15 @@
 }
 
 .container-b .children h2 {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .container-b .contact h3 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .container-b .contact p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .container-b .contact .square_white {
@@ -291,6 +291,10 @@
 
 /*Lado direito - lista de presença*/
 
+.container-a.lista-presenca .container-c h1{
+    font-size:25px;
+}
+
 .container-c .list_children_selected {
     padding: 10px;
     justify-content: space-between;
@@ -303,13 +307,79 @@
 }
 
 .container-c .all_list .space_list {
-    padding: 6px;
+    padding: 3px;
 }
 
 .container-c .list_children p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .container-c .list_children_selected p {
     font-size: 20px;
+}
+
+/* Tela de pagamento-condutor */
+
+.container-a.pagamento{
+    z-index:103;
+}
+
+.container-a.pagamento .container-b{
+    background-color: var(--amarelo-fraco-vanlus);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-a.pagamento .container-b .informations{
+    border:1px solid black;
+    padding:10px;
+    border-radius: 16px;
+    height: 100%;
+}
+
+.container-a.pagamento .container-b .informations p{
+    width:100%;
+    padding:10px;
+    background-color: white;
+    margin:10px 0px;
+    border-radius: 5px;
+}
+
+.container-a.pagamento .container-b .informations h4{
+    margin-top: 30px;
+}
+
+.container-a.pagamento .container-c{
+    padding: 40px 20px;
+}
+
+.container-a.pagamento .container-c form p{
+    padding:2px;
+}
+
+.container-a.pagamento .container-c form input{
+    max-width: auto;
+}
+
+.container-a.pagamento .container-c form input[type="radio"]{
+ width:auto;
+ margin-right: 5px;
+ background-color: var(--prata-vanlus);
+}
+
+.container-a.pagamento .container-c form div{
+    display:flex;
+}
+
+.container-a.pagamento .container-c form span, .container-a.pagamento .container-c form label{
+    color:black;
+}
+
+.container-a.pagamento .container-c form div.typeAccount{
+ flex-direction: column;
+}
+
+.container-a.pagamento .container-c form div.typeAccount p{
+    padding:7px;
 }

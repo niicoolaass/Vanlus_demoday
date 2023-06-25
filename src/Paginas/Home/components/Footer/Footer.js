@@ -1,8 +1,15 @@
 import './Footer.css'
 import Logo from './imgs/Logotipo.png'
 import { SiLinkedin, SiInstagram,SiGithub, SiGmail } from "react-icons/si";
+import { useState } from 'react';
+import Termos from '../../../Template/components/Informations/Termos';
+import Privacidade from '../../../Template/components/Informations/Privacidade';
+import Cookies from '../../../Template/components/Informations/Cookies';
 
 export function Footer () {
+    const [termos, setTermos]=useState(false);
+    const [privacidade, setPrivacidade]=useState(false);
+    const [cookies, setCookies]=useState(false);
     return (
         <>
         
@@ -25,11 +32,11 @@ export function Footer () {
 
                     <h2>Links Rápidos</h2>
 
-                    <p>Termos e Condições</p>
+                    <p onClick={()=>{setTermos(true)}}>Termos e Condições</p>
 
-                    <p>Política de Privacidade</p>
+                    <p onClick={()=>{setPrivacidade(true)}}>Política de Privacidade</p>
 
-                    <p>Política de Cookies</p>
+                    <p onClick={()=>{setCookies(true)}}>Política de Cookies</p>
                     
                 </div>
 
@@ -51,7 +58,26 @@ export function Footer () {
 
             </section>
         
-        
+        {termos?
+        <>
+        <div onClick={() => { setTermos(false) }} style={{ backgroundColor: "rgba(0, 0, 0, 0.199)", left: "0",top:"0", width: "100vw", height: "190vh", position: "fixed", zIndex: "10" }}></div>
+        <Termos/>
+        </>:
+        null}
+
+{privacidade?
+        <>
+        <div onClick={() => { setPrivacidade(false) }} style={{ backgroundColor: "rgba(0, 0, 0, 0.199)", left: "0",top:"0", width: "100vw", height: "190vh", position: "fixed", zIndex: "10" }}></div>
+        <Privacidade/>
+        </>:
+        null}
+
+{cookies?
+        <>
+        <div onClick={() => { setCookies(false) }} style={{ backgroundColor: "rgba(0, 0, 0, 0.199)", left: "0",top:"0", width: "100vw", height: "190vh", position: "fixed", zIndex: "10" }}></div>
+        <Cookies/>
+        </>:
+        null}
         </>
     )
 }

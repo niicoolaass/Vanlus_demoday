@@ -104,8 +104,8 @@ function Sidebar(){
                 <li>
                      <Link to='/condutor/listadepresenca'><MdOutlinePlaylistAddCheck size={35}/>LISTA DE PRESENÇA</Link> 
                 </li>
-                <li className='renda_extra' style={{color:"var(--azul-claro-vanlus"}}>
-                    <BsFillPeopleFill size={35}/>RENDA EXTRA?
+                <li className='renda_extra' >
+                    <Link to="/condutor/rendaextra" style={{color:"var(--azul-claro-vanlus"}}><BsFillPeopleFill size={35}/>RENDA EXTRA?</Link>
                 </li>
             </ul>
         </div>)
@@ -124,8 +124,8 @@ function Sidebar(){
                 <li>
                      <Link to='/condutor/listadepresenca'><MdOutlinePlaylistAddCheck size={35}/>LISTA DE PRESENÇA</Link> 
                 </li>
-                <li className='renda_extra' style={{color:"var(--azul-claro-vanlus"}}>
-                     <BsFillPeopleFill size={35}/>RENDA EXTRA? 
+                <li className='renda_extra' >
+                <Link to="/condutor/rendaextra" style={{color:"var(--azul-claro-vanlus"}}><BsFillPeopleFill size={35}/>RENDA EXTRA?</Link>
                 </li>
             </ul>
         </div>)
@@ -144,12 +144,32 @@ function Sidebar(){
                 <li className='conductor_yellow'>
                      <Link to='/condutor/listadepresenca'><MdOutlinePlaylistAddCheck size={35}/>LISTA DE PRESENÇA</Link> 
                 </li>
-                <li className='renda_extra' style={{color:"var(--azul-claro-vanlus"}}>
-                     <BsFillPeopleFill size={35}/>RENDA EXTRA? 
+                <li className='renda_extra' >
+                <Link to="/condutor/rendaextra" style={{color:"var(--azul-claro-vanlus"}}><BsFillPeopleFill size={35}/>RENDA EXTRA?</Link>
+                </li>
+            </ul>
+        </div>)
+        },
+        rendaExtra() {
+            return(<div className="sidebar">
+            <img height="15%"  src={LogoMarca} alt="Logo"/>
+            <ul className='sidebar_conductor'>
+                <li >
+                     <Link to='/condutor/home'><AiFillHome size={35}/>HOME</Link> 
+                </li>
+                <li>
+                     <Link to='/condutor/rotas'><TbBus size={35}/>ROTAS</Link> 
+                </li>
+                <li>
+                     <Link to='/condutor/listadepresenca'><MdOutlinePlaylistAddCheck size={35}/>LISTA DE PRESENÇA</Link> 
+                </li>
+                <li className='renda_extra' >
+                <Link to="/condutor/rendaextra" style={{color:"var(--azul-claro-vanlus"}}><BsFillPeopleFill size={35}/>RENDA EXTRA?</Link>
                 </li>
             </ul>
         </div>)
         }
+        
 
         
     }

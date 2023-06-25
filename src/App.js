@@ -23,6 +23,7 @@ import Acompanhamento from './Paginas/Acompanhamento/Acompanhamento.js';
 import Parceiro from './Paginas/Parceiros/Parceiro.js';
 import ListaDePresenca from './Paginas/ListaDePresenca/ListaDePresenca'
 import Rotas from './Paginas/Rotas/Rotas.js';
+import RendaExtra from './Paginas/RendaExtra/RendaExtra.js';
 
 function App () {
 
@@ -53,9 +54,10 @@ function App () {
                 <Route path='/responsavel/condutor' element={<SeuCondutor/>}/>
                 <Route path='/responsavel/parceiro' element={<Parceiro/>}/>
 
-                <Route path='condutor/home' element={<HomeCondutor/>}/>
-                <Route path='condutor/rotas' element={<Rotas/>}/>
-                <Route path='condutor/listadepresenca' element={<ListaDePresenca/>}/>
+                <Route path='/condutor/home' element={<HomeCondutor/>}/>
+                <Route path='/condutor/rotas' element={<Rotas/>}/>
+                <Route path='/condutor/listadepresenca' element={<ListaDePresenca/>}/>
+                <Route path='/condutor/rendaextra' element={<RendaExtra/>}/>
                 
                 <Route path='*' element={<Erro/>}/>
     

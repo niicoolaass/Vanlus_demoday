@@ -22,7 +22,7 @@ export function SegundoConteudo () {
 
                     <div>
                         <div className='funcionalidades'>
-                        <img alt="função" style={{borderRadius:"30px", marginTop:"30px"}} width="100%"  src={ImagemWorld}/>
+                        <img alt="função" style={{borderRadius:"30px", marginTop:"30px", marginLeft:"20px"}} width="85%"  src={ImagemWorld}/>
                         </div>
 
                         <h1>Geolocalizção</h1>

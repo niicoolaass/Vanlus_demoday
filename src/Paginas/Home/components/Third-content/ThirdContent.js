@@ -19,7 +19,7 @@ export function TerceiroConteudo () {
 
                     <div>
                         <div className='funcionalidades'>
-                       <img style={{marginTop:"40px"}} width="100%" src={Engrenagem} alt='engrenagem'/>
+                       <img style={{marginTop:"40px", marginLeft:"10px"}} width="90%" src={Engrenagem} alt='engrenagem'/>
                         </div>
 
                         <h1> Mecânicos parceiros</h1>

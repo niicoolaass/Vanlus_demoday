@@ -37,7 +37,7 @@ export function DadosResponsavel5 () {
                                 </div>
                                 <section id='botao-login2'>                                   
                                     <label className='capa-login2'>
-                                        <button><Link to='/Login'><p>LOGIN</p></Link></button>
+                                        <button><Link to='/responsavel/home'><p>LOGIN</p></Link></button>
                                     </label>                                       
                                 </section>
                             </div>

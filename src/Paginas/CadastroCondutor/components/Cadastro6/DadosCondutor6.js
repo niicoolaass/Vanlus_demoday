@@ -37,7 +37,7 @@ export function DadosCondutor6 () {
                                 </div>
                                 <section id='botao-login'>                                   
                                     <label className='capa-login'>
-                                        <button><Link to='/Login'><p>LOGIN</p></Link></button>
+                                        <button><Link to='/condutor/home'><p>LOGIN</p></Link></button>
                                     </label>                                       
                                 </section>
                             </div>
